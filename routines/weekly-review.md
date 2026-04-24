@@ -35,7 +35,8 @@ STEP 3 — Compute the week's metrics:
 - Starting portfolio (Monday AM equity)
 - Ending portfolio (today's equity)
 - Week return ($ and %)
-- S&P 500 week return:
+- S&P 500 week return: use /finance-market-analysis:yfinance-data to pull
+  SPY weekly return; fall back to
   bash scripts/perplexity.sh "S&P 500 weekly performance week ending $DATE"
 - Trades taken (W/L/open)
 - Win rate (closed trades only)
@@ -52,7 +53,13 @@ STEP 4 — Append full review section to memory/WEEKLY-REVIEW.md:
 - Adjustments for next week
 - Overall letter grade (A-F)
 
-STEP 5 — If a rule needs to change (proven out for 2+ weeks, or failed
+STEP 5 — SEPA watchlist for next week. For 3-5 names showing momentum or
+with upcoming catalysts, run /finance-market-analysis:sepa-strategy. List
+pass/fail in the review's "Next Week Watchlist" section.
+For any position held >2 weeks, run /finance-market-analysis:estimate-analysis
+to check analyst revision trend — deteriorating estimates = weakening thesis.
+
+STEP 5b — If a rule needs to change (proven out for 2+ weeks, or failed
 badly), also update memory/TRADING-STRATEGY.md and call out the change
 in the review.
 

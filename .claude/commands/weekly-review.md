@@ -21,12 +21,19 @@ STEP 3 — Compute metrics:
 - Starting portfolio (Monday AM equity)
 - Ending portfolio (today's equity)
 - Week return ($ and %)
-- S&P 500 week return via Perplexity
+- S&P 500 week return: use /finance-market-analysis:yfinance-data (pull SPY
+  weekly return); fall back to bash scripts/perplexity.sh if unavailable
 - Trades taken (W/L/open), win rate, best/worst trade, profit factor
 
 STEP 4 — Append full review section to memory/WEEKLY-REVIEW.md matching template.
 
-STEP 5 — If a rule needs to change, update memory/TRADING-STRATEGY.md too.
+STEP 5 — SEPA watchlist for next week. For 3-5 names showing momentum or
+with upcoming catalysts, run /finance-market-analysis:sepa-strategy. List
+pass/fail in the review's "Next Week Watchlist" section.
+For any position held >2 weeks, run /finance-market-analysis:estimate-analysis
+to check analyst revision trend — deteriorating estimates = weakening thesis.
+
+STEP 5b — If a rule needs to change, update memory/TRADING-STRATEGY.md too.
 
 STEP 6 — Send ONE Telegram message:
   bash scripts/notify.sh "Week ending MMM DD

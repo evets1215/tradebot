@@ -28,7 +28,11 @@ Never tighten within 3% of current price. Never move a stop down.
 
 STEP 5 — Thesis check. Cut any position with a broken thesis, even if not at -7%.
 
-STEP 6 — Optional Perplexity research if something is moving sharply.
+STEP 6 — If any position is moving >3% with no obvious cause:
+- Run /finance-data-providers:finance-sentiment on that ticker first
+- If sentiment shows sharp negative shift or breaking news, treat as thesis broken
+- Only fall back to bash scripts/perplexity.sh if sentiment is neutral/unclear
+Append addendum to today's RESEARCH-LOG entry if anything actionable is found.
 
 STEP 7 — Notification: only if action was taken.
   bash scripts/notify.sh "<action summary>"

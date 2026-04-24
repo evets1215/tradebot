@@ -44,8 +44,11 @@ Never tighten within 3% of current price. Never move a stop down.
 STEP 5 — Thesis check. If a thesis broke intraday, cut the position even
 if not at -7% yet. Document reasoning in TRADE-LOG.
 
-STEP 6 — Optional intraday research via Perplexity if something is moving
-sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
+STEP 6 — If any position is moving >3% with no obvious cause:
+- Run /finance-data-providers:finance-sentiment on that ticker first
+- If sentiment shows sharp negative shift or breaking news, treat as thesis broken
+- Only fall back to bash scripts/perplexity.sh if sentiment is neutral/unclear
+Append afternoon addendum to RESEARCH-LOG if anything actionable is found.
 
 STEP 7 — Notification: only if action was taken.
   bash scripts/notify.sh "<action summary>"

@@ -18,7 +18,7 @@ IMPORTANT — ENVIRONMENT VARIABLES:
 
 IMPORTANT — PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
-  MUST commit and push at STEP 8 if any trades executed.
+  MUST commit and push at STEP 9 if any trades executed.
 
 STEP 1 — Read memory for today's plan:
 - memory/TRADING-STRATEGY.md
@@ -31,7 +31,13 @@ STEP 2 — Re-validate with live data:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh quote <each planned ticker>
 
-STEP 3 — Hard-check rules BEFORE every order. Skip any trade that fails
+STEP 3 — Liquidity gate. For each planned entry, run
+/finance-market-analysis:stock-liquidity. Skip any name where:
+- Average daily volume < 500k shares, OR
+- Bid-ask spread > 0.3% of price
+Log the skip reason in TRADE-LOG.
+
+STEP 4 — Hard-check rules BEFORE every order. Skip any trade that fails
 and log the reason:
 - Total positions after trade <= 6
 - Trades this week <= 3
@@ -39,23 +45,23 @@ and log the reason:
 - Catalyst documented in today's RESEARCH-LOG
 - daytrade_count leaves room (PDT: 3/5 rolling business days)
 
-STEP 4 — Execute the buys (market orders, day TIF):
+STEP 5 — Execute the buys (market orders, day TIF):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
 Wait for fill confirmation before placing the stop.
 
-STEP 5 — Immediately place 10% trailing stop GTC for each new position:
+STEP 6 — Immediately place 10% trailing stop GTC for each new position:
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
 If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
 If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
 
-STEP 6 — Append each trade to memory/TRADE-LOG.md (matching existing format):
+STEP 7 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
 
-STEP 7 — Notification: only if a trade was placed.
+STEP 8 — Notification: only if a trade was placed.
   bash scripts/notify.sh "<tickers, shares, fill prices, one-line why>"
 
-STEP 8 — COMMIT AND PUSH (mandatory if any trades executed):
+STEP 9 — COMMIT AND PUSH (mandatory if any trades executed):
   git add memory/TRADE-LOG.md
   git commit -m "market-open trades $DATE"
   git push origin main
