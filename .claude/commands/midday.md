@@ -10,20 +10,20 @@ DATE=$(date +%Y-%m-%d)
 STEP 1 — Read memory:
 - memory/TRADING-STRATEGY.md (exit rules)
 - tail of memory/TRADE-LOG.md (entries, thesis per position, stops)
+- tail of memory/PENDING-ORDERS.jsonl (ticket risk, stop, execution status)
 - today's memory/RESEARCH-LOG.md entry
 
 STEP 2 — Pull current state:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
 
-STEP 3 — Cut losers immediately. For every position where unrealized_plpc <= -0.07:
+STEP 3 — Cut losers immediately. For every position where unrealized loss
+exceeds planned ticket risk, or no accepted protective stop exists:
   bash scripts/alpaca.sh close SYM
   bash scripts/alpaca.sh cancel ORDER_ID   # cancel its trailing stop
-Log to TRADE-LOG: exit price, realized P&L, "cut at -7% per rule".
+Log to TRADE-LOG with ticket ID, exit price, realized P&L.
 
-STEP 4 — Tighten trailing stops on winners:
-- Up >= +20% -> trail_percent: "5"
-- Up >= +15% -> trail_percent: "7"
+STEP 4 — Tighten stops only when volatility-adjusted logic allows it.
 Never tighten within 3% of current price. Never move a stop down.
 
 STEP 5 — Thesis check. Cut any position with a broken thesis, even if not at -7%.

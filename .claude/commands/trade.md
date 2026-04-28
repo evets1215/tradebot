@@ -1,26 +1,27 @@
 ---
-description: Manual trade helper with strategy-rule validation. Usage — /trade SYMBOL SHARES buy|sell
+description: Manual trade helper with Slack approval. Usage — /trade SYMBOL buy
 ---
 
-Execute a manual trade with full rule validation. Refuse if any rule fails.
+Create a manual buy approval ticket with full rule validation. Refuse if
+any rule fails. Never place an unapproved market order.
 
-Args: SYMBOL SHARES SIDE (buy or sell). If missing, ask.
+Args: SYMBOL SIDE (buy only for approval flow). If missing, ask.
 
-1. Pull state: account, positions, quote SYMBOL (capture ask price P).
-2. For BUY, validate:
-   - Total positions after fill <= 6
-   - Trades this week + 1 <= 3
-   - SHARES * P <= 20% of equity
-   - SHARES * P <= available cash
-   - daytrade_count < 3
-   - Catalyst documented (ask for thesis if not in today's RESEARCH-LOG)
-   If any fail, STOP and print the failed checks.
-3. For SELL, confirm position exists with right qty. No other checks.
-4. Print order JSON + validation results, ask "execute? (y/n)".
-5. On confirm:
-   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy|sell","type":"market","time_in_force":"day"}'
-6. For BUYs, immediately place 10% trailing stop GTC:
-   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
-   If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry.
-7. Log to memory/TRADE-LOG.md with full thesis, entry, stop, target, R:R.
-8. bash scripts/notify.sh with trade details.
+1. Pull state: account, positions, quote SYMBOL.
+2. Confirm today's RESEARCH-LOG has a catalyst. If not, ask for a concise thesis.
+3. Run the gate and send Slack Approve/Reject buttons:
+   python3 scripts/trade_gate.py propose \
+     --symbol SYM \
+     --setup "<setup category>" \
+     --catalyst-type "<catalyst category>" \
+     --sector "<sector/theme>" \
+     --sector-etf <ETF> \
+     --regime normal \
+     --catalyst-quality <0-20> \
+     --earnings-revisions <0-15> \
+     --thesis "<concise thesis>" \
+     --notify
+4. If status is REJECTED_BY_GATE, print the failed gates and STOP.
+5. If status is PENDING, wait for Slack approval. Do not place an order here.
+6. The approval server executes and reports one final Slack status:
+   SUCCESS, NO TRADE, FAILED, or URGENT: filled but unprotected.

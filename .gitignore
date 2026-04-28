@@ -1,3 +1,5 @@
 .env
 /DAILY-SUMMARY.md
 *.log
+__pycache__/
+*.pyc

@@ -30,6 +30,13 @@ case "$cmd" in
   account)
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/account"
     ;;
+  clock)
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/clock"
+    ;;
+  asset)
+    sym="${1:?usage: asset SYM}"
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/assets/$sym"
+    ;;
   positions)
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/positions"
     ;;
@@ -41,9 +48,26 @@ case "$cmd" in
     sym="${1:?usage: quote SYM}"
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$DATA/stocks/$sym/quotes/latest"
     ;;
+  bars)
+    symbols="${1:?usage: bars SYMBOLS START END [TIMEFRAME]}"
+    start="${2:?usage: bars SYMBOLS START END [TIMEFRAME]}"
+    end="${3:?usage: bars SYMBOLS START END [TIMEFRAME]}"
+    timeframe="${4:-1Day}"
+    curl -fsS -G -H "$H_KEY" -H "$H_SEC" "$DATA/stocks/bars" \
+      --data-urlencode "symbols=$symbols" \
+      --data-urlencode "timeframe=$timeframe" \
+      --data-urlencode "start=$start" \
+      --data-urlencode "end=$end" \
+      --data-urlencode "limit=10000" \
+      --data-urlencode "adjustment=all"
+    ;;
   orders)
     status="${1:-open}"
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/orders?status=$status"
+    ;;
+  order-status)
+    oid="${1:?usage: order-status ORDER_ID}"
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/orders/$oid"
     ;;
   order)
     body="${1:?usage: order '<json>'}"
@@ -65,7 +89,7 @@ case "$cmd" in
     curl -fsS -H "$H_KEY" -H "$H_SEC" -X DELETE "$API/positions"
     ;;
   *)
-    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
+    echo "Usage: bash scripts/alpaca.sh <account|clock|asset|positions|position|quote|bars|orders|order-status|order|cancel|cancel-all|close|close-all> [args]" >&2
     exit 1
     ;;
 esac

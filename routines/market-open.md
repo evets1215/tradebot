@@ -6,19 +6,19 @@ DATE=$(date +%Y-%m-%d).
 IMPORTANT — ENVIRONMENT VARIABLES:
 - Every API key is ALREADY exported as a process env var: ALPACA_API_KEY,
   ALPACA_SECRET_KEY, ALPACA_ENDPOINT, ALPACA_DATA_ENDPOINT,
-  PERPLEXITY_API_KEY, PERPLEXITY_MODEL, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
+  PERPLEXITY_API_KEY, PERPLEXITY_MODEL, SLACK_WEBHOOK_URL.
 - There is NO .env file in this repo and you MUST NOT create, write, or
   source one. The wrapper scripts read directly from the process env.
 - If a wrapper prints "KEY not set in environment" -> STOP, send one
-  Telegram alert naming the missing var, and exit.
+  Slack alert naming the missing var, and exit.
 - Verify env vars BEFORE any wrapper call:
-  for v in ALPACA_API_KEY ALPACA_SECRET_KEY TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
+  for v in ALPACA_API_KEY ALPACA_SECRET_KEY SLACK_WEBHOOK_URL; do
     [[ -n "${!v:-}" ]] && echo "$v: set" || echo "$v: MISSING"
   done
 
 IMPORTANT — PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
-  MUST commit and push at STEP 9 if any trades executed.
+  MUST commit and push at STEP 7 if any approval tickets were created.
 
 STEP 1 — Read memory for today's plan:
 - memory/TRADING-STRATEGY.md
@@ -31,38 +31,36 @@ STEP 2 — Re-validate with live data:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh quote <each planned ticker>
 
-STEP 3 — Liquidity gate. For each planned entry, run
-/finance-market-analysis:stock-liquidity. Skip any name where:
-- Average daily volume < 500k shares, OR
-- Bid-ask spread > 0.3% of price
-Log the skip reason in TRADE-LOG.
+STEP 3 — For each planned BUY candidate, create an approval ticket instead
+of placing an order. Use exact setup/catalyst fields from today's
+RESEARCH-LOG. Example:
+  python3 scripts/trade_gate.py propose \
+    --symbol SYM \
+    --setup "Post-earnings drift" \
+    --catalyst-type "Earnings" \
+    --sector "Technology" \
+    --sector-etf XLK \
+    --regime normal \
+    --catalyst-quality 15 \
+    --earnings-revisions 10 \
+    --thesis "One concise thesis from RESEARCH-LOG" \
+    --notify
 
-STEP 4 — Hard-check rules BEFORE every order. Skip any trade that fails
-and log the reason:
-- Total positions after trade <= 6
-- Trades this week <= 3
-- Position cost <= 20% of equity
-- Catalyst documented in today's RESEARCH-LOG
-- daytrade_count leaves room (PDT: 3/5 rolling business days)
+STEP 4 — If `trade_gate.py` returns `REJECTED_BY_GATE`, do NOT trade.
+Append the skip reason to memory/TRADE-LOG.md.
 
-STEP 5 — Execute the buys (market orders, day TIF):
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
-Wait for fill confirmation before placing the stop.
+STEP 5 — If `trade_gate.py` returns `PENDING`, STOP. Do NOT place a buy
+and do NOT start the approval server here — this routine is a one-shot
+cloud process and cannot host a long-lived HTTP server. The Slack
+approval server runs externally on a host Slack can reach; it picks up
+the ticket and executes via `scripts/execute_approved_trade.py`. The
+final Slack status will be one of: SUCCESS, NO TRADE, FAILED, URGENT.
 
-STEP 6 — Immediately place 10% trailing stop GTC for each new position:
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
-If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
-If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
+STEP 6 — Notification: trade_gate already sent the approval message.
+Send an extra Slack alert only on workflow errors.
 
-STEP 7 — Append each trade to memory/TRADE-LOG.md (matching existing format):
-Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
-
-STEP 8 — Notification: only if a trade was placed.
-  bash scripts/notify.sh "<tickers, shares, fill prices, one-line why>"
-
-STEP 9 — COMMIT AND PUSH (mandatory if any trades executed):
-  git add memory/TRADE-LOG.md
-  git commit -m "market-open trades $DATE"
+STEP 7 — COMMIT AND PUSH (mandatory if tickets/skips were written):
+  git add memory/PENDING-ORDERS.jsonl memory/TRADE-LOG.md
+  git commit -m "market-open approval tickets $DATE"
   git push origin main
-Skip commit if no trades fired. On push failure: rebase and retry.
+Skip commit if no files changed. On push failure: rebase and retry.

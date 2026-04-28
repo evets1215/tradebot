@@ -6,13 +6,13 @@ DATE=$(date +%Y-%m-%d).
 IMPORTANT — ENVIRONMENT VARIABLES:
 - Every API key is ALREADY exported as a process env var: ALPACA_API_KEY,
   ALPACA_SECRET_KEY, ALPACA_ENDPOINT, ALPACA_DATA_ENDPOINT,
-  PERPLEXITY_API_KEY, PERPLEXITY_MODEL, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
+  PERPLEXITY_API_KEY, PERPLEXITY_MODEL, SLACK_WEBHOOK_URL.
 - There is NO .env file in this repo and you MUST NOT create, write, or
   source one. The wrapper scripts read directly from the process env.
 - If a wrapper prints "KEY not set in environment" -> STOP, send one
-  Telegram alert naming the missing var, and exit.
+  Slack alert naming the missing var, and exit.
 - Verify env vars BEFORE any wrapper call:
-  for v in ALPACA_API_KEY ALPACA_SECRET_KEY TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
+  for v in ALPACA_API_KEY ALPACA_SECRET_KEY SLACK_WEBHOOK_URL; do
     [[ -n "${!v:-}" ]] && echo "$v: set" || echo "$v: MISSING"
   done
 
@@ -23,26 +23,27 @@ IMPORTANT — PERSISTENCE:
 STEP 1 — Read memory so you know what's open and why:
 - memory/TRADING-STRATEGY.md (exit rules)
 - tail of memory/TRADE-LOG.md (entries, original thesis per position, stops)
+- tail of memory/PENDING-ORDERS.jsonl (ticket risk, stop, execution status)
 - today's memory/RESEARCH-LOG.md entry
 
 STEP 2 — Pull current state:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
 
-STEP 3 — Cut losers immediately. For every position where
-unrealized_plpc <= -0.07:
-  bash scripts/alpaca.sh close SYM
-  bash scripts/alpaca.sh cancel ORDER_ID   # cancel its trailing stop
-Log the exit to TRADE-LOG: exit price, realized P&L, "cut at -7% per rule".
+STEP 3 — Cut losers immediately. For every position where unrealized loss
+exceeds the planned ticket risk, or no accepted protective stop exists:
+  bash scripts/alpaca.sh cancel ORDER_ID   # cancel the protective stop FIRST
+  bash scripts/alpaca.sh close SYM         # then close the position
+Order matters: canceling after close races the stop firing. Log the exit
+to TRADE-LOG with ticket ID and realized P&L.
 
-STEP 4 — Tighten trailing stops on winners. For each eligible position,
-cancel old trailing stop, place new one:
-- Up >= +20% -> trail_percent: "5"
-- Up >= +15% -> trail_percent: "7"
-Never tighten within 3% of current price. Never move a stop down.
+STEP 4 — Tighten stops only when volatility-adjusted logic allows it.
+Never tighten within 3% of current price. Never move a stop down. Do not
+replace a working stop unless the replacement is validated first.
 
-STEP 5 — Thesis check. If a thesis broke intraday, cut the position even
-if not at -7% yet. Document reasoning in TRADE-LOG.
+STEP 5 — Thesis check. If a thesis broke intraday (catalyst invalidated,
+sector rolling over), cut the position even if loss is still inside the
+planned ticket risk. Document reasoning in TRADE-LOG.
 
 STEP 6 — If any position is moving >3% with no obvious cause:
 - Run /finance-data-providers:finance-sentiment on that ticker first

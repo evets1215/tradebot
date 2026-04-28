@@ -42,7 +42,10 @@ STEP 5 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, sector leaders/laggards, today's releases)
 - Sentiment summary for held tickers (flag any red)
-- 2-3 actionable trade ideas WITH catalyst + SEPA pass/fail + entry/stop/target
+- 2-3 actionable trade ideas WITH:
+  ticker, setup category, catalyst type, sector/theme, sector ETF,
+  regime, catalyst quality score (0-20), earnings/revisions score (0-15),
+  thesis, entry reference, ATR/volatility stop, target, expected holding period
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
