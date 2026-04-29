@@ -32,6 +32,95 @@ TRADE or HOLD (default HOLD if no edge)
 
 ---
 
+## 2026-04-29 — Pre-market Research
+
+### Account
+- Equity: $2,500.00
+- Cash: $2,500.00 (100%)
+- Buying power: $5,000 (2x margin available; using cash only per strategy)
+- Daytrade count: 0
+- Open positions: 0 | Open orders: 0
+
+### Market Context
+- WTI: ~$99/barrel | Brent: ~$113/barrel — elevated, Hormuz supply disruption (IEA: largest on record); WTI testing $100 psychological level
+- S&P 500: Closed 7,138.80 (-0.49%) Apr 28; futures ~flat (-0.01%) premarket; 61% Polymarket odds of "Up" open
+- VIX: ~19.31 — moderate (Apr range 16.87–31.52, avg 20.96); not alarming
+- FOMC: Held rates at 3.50–3.75% (third consecutive pause, announced today); March CPI 3.3% YoY (energy-driven)
+- Earnings today AHC: MSFT, GOOG/GOOGL, META, AMZN — 4 of Mag7 report tonight; combined ~$16T market cap; focus is AI capex guidance
+- Economic calendar: Q1 GDP Advance Estimate due Apr 30 (tomorrow); Employment Cost Index due Apr 30
+- Perplexity fallback note: Perplexity API returned 401 (key invalid); all macro data via WebSearch
+
+### Sector Momentum (data thru Apr 28)
+| ETF   | 1W %   | 1M %    | Regime      |
+|-------|--------|---------|-------------|
+| XLK   | +2.04  | +23.80  | LEADER      |
+| XLY   | -1.65  | +10.74  | Strong      |
+| XLRE  | +0.30  | +9.20   | Strong      |
+| XLI   | -0.27  | +9.18   | Strong      |
+| XLF   | -0.86  | +7.22   | Moderate    |
+| XLB   | -0.71  | +4.71   | Moderate    |
+| XLP   | +1.52  | +1.47   | Flat        |
+| XLU   | +2.89  | +0.72   | Flat/def    |
+| XLV   | -1.43  | +0.01   | Flat        |
+| XLE   | +3.29  | -6.86   | LAGGARD     |
+| SPY   | +1.08  | +12.61  | Benchmark   |
+
+Regime: Tech bull. XLK +23.8% 1M dominates. XLU/XLE 1W reversal = defensive/energy bid (likely oil shock). XLE 1M still negative — not a momentum sector.
+
+### Sentiment on Held Tickers
+- No positions; N/A
+
+### SEPA Screens
+
+**NVDA — SEPA Analysis** (Closed $213.17 Apr 28; ATH $216.61 Apr 27)
+| # | Condition | Status | Value |
+|---|-----------|--------|-------|
+| 1 | Price > 150MA & 200MA | PASS | $213.17 > $185.82 > $183.34 |
+| 2 | 150MA > 200MA | PASS | $185.82 > $183.34 |
+| 3 | 200MA trending up ≥1m | PASS | $183.34 vs $179.21 (1m ago, +$4.13) |
+| 4 | 50MA > 150MA & 200MA | PASS* | $186.22 > $185.82 (delta $0.40 — marginal) |
+| 5 | Price > 50MA | PASS | $213.17 > $186.22 |
+| 6 | ≥30% above 52w low | PASS | +95.8% (52w low $108.89) |
+| 7 | Within 25% of 52w hi | PASS | -1.6% (52w high $216.61) |
+| 8 | RS > 70th pct | PASS | Strong sector leader; ~95.8% vs low; near ATH |
+
+Score: 7/8 confirmed (C4 marginal). **Stage 2, Base 2.**
+
+Fundamentals (Grade A):
+- Quarterly EPS: $0.77 → $1.08 → $1.31 → $1.77 (accelerating, +35% most recent QoQ)
+- Revenue: $44B → $46B → $57B → $68B (accelerating)
+- Annual EPS: $1.21 (FY24) → $2.97 (FY25) → $4.93 (FY26) (+66% latest)
+- Catalyst: AI chip dominance, data center supercycle; no earnings until ~May 28
+
+Pattern: Flat base breakout. Consolidation $198–208 (Apr 15–23). Breakout Apr 24 at $208.27 on 214M vol (1.42x 20d avg 150M). Hit ATH $216.61 Apr 27 → pulled back to $213.17 Apr 28. Still in buy zone.
+
+Entry / Stop / Target:
+- Entry: limit $213.00 (within $208.27–$218.68 buy zone, +2.3% above pivot)
+- Stop: $196.61 (ATR stop, ~7.7% below entry)
+- Target: $250 (~17% from entry, ~3.2:1 R:R)
+- Position size: 1 share (1% risk = $25; stop distance $16.39; $25/$16.39 = 1.5 → 1 share)
+- Notional: $213 = 8.5% of account (under 20% cap ✓)
+- Volume req for new breakout: ≥226M (1.5x avg)
+- **VERDICT: WATCHLIST** — setup valid; do NOT enter today due to Mag7 earnings AHC (binary event risk)
+
+**AMD — Screened, Disqualified**
+- +65% in April; premarket Apr 29 -6.97% ($311.29) — extended and reversing
+- Risk/reward asymmetry broken; skip until new base forms
+
+### Risk Factors
+- Mag7 earnings tonight (MSFT, GOOG, META, AMZN) — binary market event; AI capex miss could crater XLK
+- GDP Advance (Q1'26) tomorrow Apr 30 — another macro catalyst
+- WTI near $100 psychological level; Hormuz closure escalation risk
+- FOMC held (3.50–3.75%) but inflation 3.3% — "higher for longer" sentiment could resurface
+- AMD -6.97% premarket signals caution in broader semiconductor/chip space today
+- C4 marginality on NVDA (50MA barely above 150MA): any market sell-off could flip this to fail
+- Account too small for meaningful diversification; each trade is concentrated risk
+
+### Decision
+**HOLD** — No entry today. NVDA is the highest-conviction candidate (SEPA 7/8 pass, Grade A fundamentals, within buy zone), but entering on Mag7 earnings eve + GDP eve violates the patience discipline. Trigger for entry Thursday (Apr 30) morning: (1) Mag7 results broadly positive or neutral (AI capex not cut); (2) NVDA opens within $208.27–$218.68 buy zone; (3) GDP print not catastrophic; (4) volume trend confirms breakout continuation.
+
+---
+
 ## 2026-04-25 — Pre-market Research
 
 ### Account
