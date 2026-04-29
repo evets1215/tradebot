@@ -149,3 +149,98 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **HOLD** — Too many macro catalysts today (GDP, PCE, FOMC) to open new positions. Both NVDA and AVGO score below the 70 signal threshold and are in the watchlist. Will reassess after FOMC clarity. Earliest actionable entry: Thursday Apr 30 or next week if post-FOMC reaction is positive and sector momentum holds. Patience > activity.
+
+---
+
+## 2026-04-29 — Pre-market Research
+
+### Account
+- Equity: $2,500.00 | Cash: $2,500.00 (100%) | Buying power: $5,000 (2x margin)
+- Open positions: 0 | Open orders: 0 | Day trades used: 0/3
+- Trades this week: 0/3
+
+### Market Context
+- **WTI:** $102.22 (Apr 28 close), 3-week highs on unresolved US-Iran talks; Brent ~$104-105
+- **Oil premarket:** -2.81% pullback — giving back some recent gains
+- **Futures:** Nasdaq +1.3%, S&P 500 +0.85%, Dow +0.78% — risk-on premarket
+- **VIX:** 18.36 (Apr 28 close); declining from March peak ~30; constructive
+- **TODAY — FOMC day (key event):**
+  - 2:00 PM ET: FOMC rate decision — hold at 3.50-3.75% expected (99.9%)
+  - 2:30 PM ET: Powell press conference — tone/guidance is the real risk
+- **TOMORROW (Apr 30) — Heavy macro day:**
+  - 8:30 AM ET: Q1 GDP advance estimate, March PCE, Employment Cost Index
+  - Core PCE recently 2.7% (above 2% target); GDP first look could show oil/tariff impact
+
+### Sector Momentum (YTD as of Apr 27-28)
+| ETF | Sector | YTD Return | Status |
+|-----|--------|-----------|--------|
+| XLE | Energy | +27.8% | Leading YTD (oil $102+) |
+| XLB | Materials | +15.0% | Strong |
+| XLK | Technology | +11.7% | Active (AI/semis rally) |
+| XLI | Industrials | +11.5% | Active |
+| XLU | Utilities | +9.0% | Outperforming SPY |
+| XLP | Staples | +6.6% | Slight outperform |
+| SPY | S&P 500 | +5.2% | Benchmark |
+| XLF | Financials | ~flat/lag | Below benchmark |
+| XLV | Healthcare | -6.5% | Laggard — avoid |
+
+### Sentiment on Held Tickers
+- No positions. N/A.
+
+### Earnings Today
+- ADP (Q3 FY26): before open, call 8:30 AM ET — no watchlist overlap
+- Amazon (AMZN): after hours (unconfirmed time) — watchlist adjacent (AI infra)
+- CWH: after close — no overlap
+
+### Trade Ideas
+
+**1. NVDA** — AI Compute / sector breakout (carry from watchlist)
+- Sector/theme: Semiconductors / AI | ETF: XLK | Regime: Tech bull Stage 2
+- Price: ~$213.17 (Apr 28 close); retook $5T market cap Apr 24; mild pullback
+- SEPA check: $213 > 150MA ~$184 > 200MA ~$183 ✓; 200MA up ✓; RS 12m +87% ✓
+- Catalyst: AI chip demand structural; no fresh catalyst today
+- Catalyst quality score: 12/20 | Earnings/revisions score: 10/15
+- Signal score: ~52/75 — BELOW 70 threshold
+- Entry ref: $208-$212; ideal: pullback to 20d MA ~$193-$196
+- ATR stop: ~$185-$187 (below 50MA); risk/share ~$25-$28 (~1% equity)
+- Target: $240-$250; R:R ~1.7:1
+- **Status: WATCHLIST** — score below threshold; FOMC + GDP/PCE risk
+
+**2. AVGO** — AI Infrastructure / analyst revision momentum (carry from watchlist)
+- Sector/theme: Semiconductors / AI | ETF: XLK | Regime: Tech bull Stage 2
+- Price: $399.83 (Apr 28 close, -4.39% day); range $184-$429 (52w)
+- SEPA check: $400 > 150MA ~$300 > 200MA ~$280 ✓; 200MA up ✓; RS strong ✓
+- Catalyst: $8.4B AI revenue Q1 FY26, $100B target by 2027; $73B backlog
+- Catalyst quality score: 13/20 | Earnings/revisions: 11/15
+- Signal score: ~53/75 — BELOW 70 threshold; -4.4% pullback adds potential entry setup
+- Entry ref: $395-$410 zone (recent support); watching for stabilization
+- ATR stop: ~$375-$380; risk/share ~$20-$25; sizing: 1 share (~16% notional)
+- Target: $450-$470; R:R ~2:1 if entry near $400
+- **Status: WATCHLIST** — pullback interesting but GDP/PCE tomorrow adds risk; wait
+
+**3. POWL** — Power Grid / data-center infrastructure (NEW)
+- Sector/theme: Power infrastructure / Data-center demand | ETF: XLI
+- Price: ~$262-$264 (Apr 27-28); 52w range $54.75-$336.17; 1-year return +320%
+- SEPA check: $263 >> 50MA ~$185 >> 200MA ~$140 ✓; 200MA strongly up ✓; RS elite ✓
+- Catalyst: Structural demand growth from AI data-center power buildout; order backlog
+- Catalyst quality score: 13/20 (strong structural, multi-quarter order visibility)
+- Earnings/revisions: 12/15 (strong growth trajectory)
+- Signal score: ~62/75 — approaching threshold
+- Entry ref: $260-$265 (near current); VCP or base breakout pattern forming
+- ATR stop: ~$235-$240; risk/share ~$25 (1% equity) ✓; notional $260 (10.4%) ✓
+- Target: $300-$310; R:R ~1.8:1
+- **RISK: Earnings May 4, 2026 (5 days) — buying before earnings violates discipline**
+- **Status: WATCHLIST** — excellent chart, wrong timing; revisit post-May 4 earnings if reaction positive
+
+### Risk Factors
+- FOMC presser 2:30 PM today: any hawkish lean = growth selloff
+- GDP Q1 advance estimate tomorrow: oil shock + tariffs may show weakness; stagflation fear
+- PCE tomorrow: core 2.7%, if hotter → bonds sell, growth reprices
+- Oil -2.81% premarket — if reverses, energy complex moves; if drops, XLE may lag
+- Nasdaq futures +1.3% premarket = already pricing in benign FOMC; asymmetric risk to downside if Powell surprises
+- AVGO -4.4% yesterday on no news = distribution risk; watch volume on any bounce
+- POWL earnings May 4: binary event, do not hold through
+- PDT: 0 day trades used, preserve for genuine opportunities
+
+### Decision
+**HOLD** — Two back-to-back macro events (FOMC today + GDP/PCE tomorrow) make new entries inadvisable. All three watchlist names score below 70 threshold or carry near-term earnings risk. Market futures are optimistic (+1.3% Nasdaq) — this is already pricing in a benign outcome. New entries earliest: Thursday Apr 30 after GDP/PCE reaction settles, or post-POWL earnings May 4. Patience > activity.
