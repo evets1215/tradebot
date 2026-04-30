@@ -45,3 +45,12 @@ No positions yet. Bot launches tomorrow.
 - AMZN $268.50: spread $2.99 (1.1%) — REJECTED_BY_GATE (>0.30% spread rule); SEPA fails C2/C4
 
 **Decision:** HOLD. All watchlist candidates rejected by gate criteria. GDP +2.2% (benign); PCE data today (elevated ~3.0%). Macro overhang clearing but no setup meets full entry checklist. Next window: post-POWL earnings May 4, post-SU May 5; watch NVDA for pullback to ~$196-200.
+
+### Apr 30 — EOD Snapshot (Day 4, Thursday)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Fourth consecutive flat day — no positions, no orders placed, 0 trades today, 0 trades this week (cap 3/wk untouched). Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-04-29; account had no activity). Pre-market research correctly called HOLD ahead of 8:30 AM GDP/PCE/ECI binary event; market-open gate confirmed all three watchlist names rejected (NVDA score below 70 threshold; AVGO and AMZN spread > 0.30%). Discipline > activity — sitting on hands through a macro binary with marginal R:R is the correct call given the $2,500 micro-account where commission/spread drag punishes mediocre entries. Tomorrow (Fri May 1): pre-market routine, then weekly review; revisit NVDA on any pullback to $196-200, AVGO if 50MA recrosses 150MA, AMZN if 3-5 day post-earnings consolidation forms above MAs. Goal stays disciplined: 1 high-conviction entry next week within sizing/risk caps, not forced deployment.
