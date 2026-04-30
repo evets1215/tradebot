@@ -448,3 +448,10 @@ NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pul
   - SU (Suncor ADR): Strong 200MA uptrend; earnings May 5 — blackout → WATCHLIST post-May 5
   - EXE (Expand Energy): 50MA crossed below 200MA Apr 21 — SEPA FAIL; skip
 - **Updated decision:** GDP benign + FOMC done = macro overhang cleared. But NVDA R:R marginal at $209 (need $200-$205 pullback for 2:1); energy names all in earnings blackout May 4-12. No entry triggered today. Next window: post-POWL earnings May 4 AHC, post-SU May 5. Watch NVDA for pullback to 20d MA ~$196-200.
+
+### Midday Addendum (~12:10 PM ET)
+- **No positions; no stops to manage.**
+- **NVDA $200.68** (bid $200.57 / ask $200.68) — pullback from $209 pre-market has now reached the target entry zone ($200-$205). Spread $0.11 = 0.055% ✓. At $200.68 entry, stop $187 = $13.68 risk/share; target $250 = $49.32 gain; R:R ~3.6:1 ✓. 1% account risk = $25 → 1 share; notional $200.68 = 8.0% ✓. **Setup now meets R:R and sizing criteria.** Trade initiation requires `trade_gate.py` + Slack approval — not executed here. Flag for market-open or manual review.
+- **AMZN $260.45** (bid $260.45 / ask $260.50) — AH gap-up (+6%) did NOT hold; price is ~$2.60 BELOW pre-earnings close. Classic gap-and-fail pattern. SEPA MA conditions unresolved. **Skip; do not chase.**
+- **AVGO:** Not quoted (not actionable — SEPA MA staircase still unresolved per pre-market).
+- **Conclusion:** NVDA is the only actionable name; if it holds $200-$205 into close, pre-market routine tomorrow should run trade_gate.py to generate PENDING ticket for Slack approval.
