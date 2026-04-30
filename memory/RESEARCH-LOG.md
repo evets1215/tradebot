@@ -333,3 +333,109 @@ Entry / Stop / Target:
 
 ### Decision
 **HOLD** — Two back-to-back macro events (FOMC today + GDP/PCE tomorrow) make new entries inadvisable. All three watchlist names score below 70 threshold or carry near-term earnings risk. Market futures are optimistic (+1.3% Nasdaq) — this is already pricing in a benign outcome. New entries earliest: Thursday Apr 30 after GDP/PCE reaction settles, or post-POWL earnings May 4. Patience > activity.
+
+---
+
+## 2026-04-30 — Pre-market Research
+
+### Account
+- Equity: $2,500.00
+- Cash: $2,500.00 (100%)
+- Buying power: $5,000 (2x margin, using non-marginable $2,500 only)
+- Daytrade count: 0 (0/3 PDT used)
+- Open positions: 0 | Open orders: 0 | Trades this week: 0
+
+### Market Context
+- **WTI:** ~$108/bbl (range $98-$107 today; Apr 29 settle $106.88, +~7%)
+- **Brent:** ~$118-120/bbl (Apr 29 close $118.03, +8.13%); MAJOR spike
+- **Catalyst:** Trump announced US blockade of Iran pending nuclear deal — Strait of Hormuz risk; massive oil supply-shock fear
+- **S&P 500 futures:** -0.1% to +0.2% (mixed, flat bias); Dow -0.6% earlier; Nasdaq flat-to-positive
+- **VIX:** ~17.84 (prev close); moderate fear, not panic
+- **Economic calendar (8:30 AM ET TODAY — all simultaneously):**
+  - Q1 2026 GDP advance estimate (first look at growth; GDPNow had been tracking below trend)
+  - March PCE inflation (core was 2.7% last read; oil/tariff pass-through risk)
+  - Q1 Employment Cost Index (wages)
+  - These three prints together = highest macro risk event of Q1 reporting season
+- **Earnings (after close Apr 29 — already reported):**
+  - AMZN: EPS $2.78 vs $1.64 est (+69.5%), Revenue $181.5B vs $177.3B; AWS +28% (fastest 15 qtrs); AH +6%+
+  - GOOGL: Revenue $109.9B (+22%), Cloud +63% to $20.0B vs $18.1B est; EPS $5.11 (+81%); AH +6%
+  - Meta/MSFT also beat in prior days → Big Tech sweep
+- **Sector momentum (1M / 1W):**
+  | ETF | Sector | 1M % | 1W % | Status |
+  |-----|--------|------|------|--------|
+  | XLK | Technology | +24.79% | +2.10% | LEADER — AI/Big Tech earnings driving |
+  | XLY | Consumer Disc | +10.58% | -0.76% | Strong |
+  | XLRE | Real Estate | +8.53% | -0.73% | Active |
+  | XLI | Industrials | +8.51% | -2.38% | Active |
+  | XLF | Financials | +7.36% | +0.23% | Active |
+  | XLB | Materials | +3.81% | -1.64% | Neutral |
+  | SPY | S&P 500 | +12.60% | +0.44% | Benchmark |
+  | XLP | Staples | +1.27% | -0.67% | Lagging |
+  | XLU | Utilities | -0.52% | -0.89% | Lagging |
+  | XLV | Healthcare | -0.68% | -2.32% | LAGGING — avoid |
+  | XLE | Energy | -4.73% | +3.60% | 1M lag but 1W spike on Iran news |
+- **Note (Perplexity fallback):** Perplexity API returning 401 (expired key); all macro data sourced via WebSearch.
+
+### Sentiment on Held Tickers
+- No positions. N/A.
+
+### SEPA Screen — Watchlist Candidates
+
+**1. NVDA — $209.25 | Sector: XLK (LEADER)**
+- **Trend Template (8/8 conditions):** ✅ ALL PASS
+  1. Price $209.25 > 150MA $186.02 > 200MA $183.56 ✓
+  2. 150MA $186.02 > 200MA $183.56 ✓
+  3. 200MA slope +2.37% past month ✓
+  4. 50MA $186.71 > 150MA $186.02 > 200MA $183.56 ✓
+  5. Price $209.25 > 50MA $186.71 ✓
+  6. +101.1% above 52W low $104.06 ✓
+  7. -3.5% from 52W high $216.83 ✓
+  8. 1Y RS: +92.2% vs SPY +12.6% → elite ✓
+- **Stage:** 2 (advancing); pulled back from $216.61 Apr 27 → $209.25 Apr 29
+- **Pattern:** Minor pullback/consolidation near 52W highs; no clear VCP yet (only 2-day pullback)
+- **Fundamentals:** AI chip structural demand; volume avg 145M/day ✓
+- **Entry zone:** $205-$210 (current); ideal pullback to $200-$205 near 20d MA
+- **Stop:** $187 (below 50MA $186.71)
+- **Target:** $250 (+19%)
+- **Sizing (1% risk = $25 max):** 1 share; notional $209 = 8.4% of account ✓; R:R = ($41/$22) = 1.86:1 → marginal (below 2:1)
+- **SEPA verdict: WATCHLIST** — passes all 8 conditions; R:R marginal at current price; need pullback to $200-$205 for clean 2:1 R:R; no near-term earnings (May earnings ~4 weeks out)
+
+**2. AVGO — $405.45 | Sector: XLK (LEADER)**
+- **Trend Template (7/8 conditions):** ❌ FAILS condition 4
+  1. Price $405.45 > 150MA $347.35 > 200MA $337.61 ✓
+  2. 150MA $347.35 > 200MA $337.61 ✓
+  3. 200MA slope +3.66% past month ✓
+  4. **50MA $345.74 < 150MA $347.35** ✗ FAIL (gap: $1.61 — marginal)
+  5. Price $405.45 > 50MA $345.74 ✓
+  6. +122.1% above 52W low ✓
+  7. -5.6% from 52W high $429.31 ✓
+  8. 1Y RS: +112.4% → elite ✓
+- **Stage:** 2 (advancing but MA staircase temporarily broken by recent correction)
+- **Catalyst:** $8.4B AI revenue Q1 FY26; $100B target 2027; $73B backlog strong
+- **Entry zone:** $395-$410; $380 hard stop
+- **Sizing:** 1 share; notional $405 = 16.2%; R:R = ($45/$25) = 1.8:1 → marginal
+- **SEPA verdict: WATCHLIST** — near-pass; MA staircase repairing (50MA likely recrosses 150MA within 1-2 weeks); revisit if price holds $395-$405 range and 50MA recrosses
+
+**3. AMZN — $263.04 pre-AH | Sector: XLK (LEADER) — POST-EARNINGS**
+- **AH results (Apr 29):** EPS $2.78 vs $1.64 (+69.5%); Revenue $181.5B vs $177.3B; AWS +28%; AH +6%+
+- **Trend Template (6/8 conditions):** ❌ FAILS conditions 2 and 4
+  - 150MA $226.71 < 200MA $226.96 ✗ (marginal by $0.25)
+  - 50MA $222.33 < 150MA $226.71 AND < 200MA $226.96 ✗
+  - (Post-AH gap-up likely resolves MA picture — watch open)
+- **Post-earnings drift potential:** Massive beat typically sustains 5-10+ day drift; AWS re-acceleration bullish; AI capex $43B validates hyperscaler thesis
+- **Gap risk today:** Expected gap to $275-$280 at open; entering into gap-up = chasing
+- **SEPA verdict: WATCHLIST** — not SEPA-qualified today (MA staircase broken); gap-up open today creates chasing risk; monitor for 3-5 day post-earnings consolidation, then re-run SEPA; could qualify fully if price holds above MAs and they align
+
+### Risk Factors
+- **GDP/PCE/ECI at 8:30 AM ET: BINARY EVENT** — if GDP shows Q1 contraction or PCE hotter than 2.7%, growth stocks sell hard; stagflation scenario (slow growth + hot inflation) is worst case for tech
+- **Oil $108+ (Iran blockade):** Adds to PCE inflation directly; if Hormuz disruption feared, $120+ possible — bad for all sectors except XLE
+- **Big Tech already gapped AH:** AMZN +6%+, GOOGL +6% — some good news priced; if GDP disappoints, these give back gains
+- **NVDA R:R marginal at current price:** Entry only valid on pullback to $200-$205
+- **AVGO MA condition unresolved:** Not yet SEPA-qualified
+- **Micro account ($2,500):** 1-share positions; spread/commission drag material — only highest-conviction setups
+- **PDT preserved:** 0/3 day trades used; do not waste on pre-data volatility
+
+### Decision
+**HOLD — wait for 8:30 AM GDP/PCE/ECI data reaction before any action.**
+
+NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pullback to $200-$205 for a clean setup. Today's GDP/PCE prints are the largest macro binary of the month — entering before the data is speculation, not discipline. If GDP is benign (no contraction) and PCE ≤2.7%, tech sector holds and NVDA pullback to $200-$205 becomes a clean entry candidate later today or tomorrow. If data disappoints, stay cash. Big Tech earnings sweep (AMZN +GOOGL +Meta +MSFT) is strongly positive for XLK medium-term — the thesis for tech entries strengthens, but timing post-data is critical. Patience > activity.
