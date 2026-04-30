@@ -349,11 +349,12 @@ Entry / Stop / Target:
 - **WTI:** ~$108/bbl (range $98-$107 today; Apr 29 settle $106.88, +~7%)
 - **Brent:** ~$118-120/bbl (Apr 29 close $118.03, +8.13%); MAJOR spike
 - **Catalyst:** Trump announced US blockade of Iran pending nuclear deal — Strait of Hormuz risk; massive oil supply-shock fear
-- **S&P 500 futures:** -0.1% to +0.2% (mixed, flat bias); Dow -0.6% earlier; Nasdaq flat-to-positive
-- **VIX:** ~17.84 (prev close); moderate fear, not panic
+- **S&P 500 futures:** -0.1% to +0.2% (mixed, flat bias); Dow -0.6% earlier; Nasdaq flat-to-positive; slightly +6.50 pts (+0.10%) as of later premarket check
+- **VIX:** ~17.84-18.81 (prev close range); moderate fear, not panic
+- **FOMC result (Apr 29):** Hold at 3.50-3.75%. Elevated inflation cited; job gains slowing; Middle East uncertainty. One dissent (Miran, wanted -25bps). Median dot: one cut in 2026. Neutral/slightly hawkish tone.
 - **Economic calendar (8:30 AM ET TODAY — all simultaneously):**
-  - Q1 2026 GDP advance estimate (first look at growth; GDPNow had been tracking below trend)
-  - March PCE inflation (core was 2.7% last read; oil/tariff pass-through risk)
+  - Q1 2026 GDP advance estimate: **ACTUAL +2.2% annualized** (vs 2.3% consensus; massive rebound from Q4 +0.5%)
+  - March PCE inflation: Core PCE Feb was +3.0% YoY; March expected ~3.0%; data in today
   - Q1 Employment Cost Index (wages)
   - These three prints together = highest macro risk event of Q1 reporting season
 - **Earnings (after close Apr 29 — already reported):**
@@ -374,7 +375,6 @@ Entry / Stop / Target:
   | XLU | Utilities | -0.52% | -0.89% | Lagging |
   | XLV | Healthcare | -0.68% | -2.32% | LAGGING — avoid |
   | XLE | Energy | -4.73% | +3.60% | 1M lag but 1W spike on Iran news |
-- **Note (Perplexity fallback):** Perplexity API returning 401 (expired key); all macro data sourced via WebSearch.
 
 ### Sentiment on Held Tickers
 - No positions. N/A.
@@ -439,3 +439,12 @@ Entry / Stop / Target:
 **HOLD — wait for 8:30 AM GDP/PCE/ECI data reaction before any action.**
 
 NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pullback to $200-$205 for a clean setup. Today's GDP/PCE prints are the largest macro binary of the month — entering before the data is speculation, not discipline. If GDP is benign (no contraction) and PCE ≤2.7%, tech sector holds and NVDA pullback to $200-$205 becomes a clean entry candidate later today or tomorrow. If data disappoints, stay cash. Big Tech earnings sweep (AMZN +GOOGL +Meta +MSFT) is strongly positive for XLK medium-term — the thesis for tech entries strengthens, but timing post-data is critical. Patience > activity.
+
+### Post-Data Update (8:30 AM ET releases confirmed)
+- **GDP Q1 2026 actual: +2.2%** — solid rebound from +0.5%; slightly below 2.3% consensus but broadly benign. No contraction.
+- **PCE February core: +3.0% YoY** (March data also released today; prior trend +3.0-3.1%); inflation still elevated above Fed target. No imminent cut.
+- **Energy watchlist addendum:**
+  - OXY (~$59.35 Apr 29): Stage 2 estimated pass; pullback ~10% from Mar peak; Buffett stake, oil $108+; RISK: earnings likely May 8-12 — blackout period → WATCHLIST
+  - SU (Suncor ADR): Strong 200MA uptrend; earnings May 5 — blackout → WATCHLIST post-May 5
+  - EXE (Expand Energy): 50MA crossed below 200MA Apr 21 — SEPA FAIL; skip
+- **Updated decision:** GDP benign + FOMC done = macro overhang cleared. But NVDA R:R marginal at $209 (need $200-$205 pullback for 2:1); energy names all in earnings blackout May 4-12. No entry triggered today. Next window: post-POWL earnings May 4 AHC, post-SU May 5. Watch NVDA for pullback to 20d MA ~$196-200.
