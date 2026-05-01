@@ -69,3 +69,12 @@ No positions yet. Bot launches tomorrow.
 - POWL: earnings May 4 AHC — blackout window; revisit post-earnings May 5-6 if positive drift setup forms
 
 **Decision:** HOLD. NVDA in ideal R:R zone (R:R ~3.3:1 at $201.64 entry / $187 stop / $250 target) but score ~65-67/75 still below 70 threshold. ISM at 10 AM is sole remaining catalyst — if soft print causes further tech pullback, midday scan will reassess. AVGO spread disqualifying. Cash 100%, weekly cap 0/3. Next high-conviction windows: NVDA post-ISM (midday), POWL post-earnings May 5, OXY post-earnings ~May 8-12.
+
+### May 1 — EOD Snapshot (Day 5, Friday)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Fifth consecutive flat day closing the first trading week. No positions, no open orders, no fills today, 0 trades this week (cap 3/3 unused). Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-04-30; no activity to roll). Market-open gate again rejected the entire watchlist: NVDA score ~65-67/75 below 70 threshold despite ideal $200-205 zone and tight 0.16% spread, AVGO spread 5.6% disqualifying, AMZN failed SEPA MA staircase (MA150 < MA200, MA50 < MA150/200), POWL in earnings blackout (reports May 4 AHC). Week 1 scorecard: 5/5 days flat, 0 trades placed, 100% cash preserved, discipline intact — small-account drag (commission/spread on $2,500 base) makes mediocre entries especially expensive, so the gate doing its job is a feature, not a bug. Weekly review due this afternoon. Next week (May 4-8): POWL post-earnings May 5-6 if positive drift setup forms, NVDA on confirmed base/breakout or post-ISM pullback in $196-205 zone, OXY post-earnings ~May 8-12, AMZN only if MA staircase realigns (multi-week timeline). Goal stays the same: 1 high-conviction entry, sized ≤$500, hard stop ≥3% below limit, ≤1% account risk (~$25 max loss).
