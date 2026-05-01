@@ -54,3 +54,17 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Fourth consecutive flat day — no positions, no orders placed, 0 trades today, 0 trades this week (cap 3/wk untouched). Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-04-29; account had no activity). Pre-market research correctly called HOLD ahead of 8:30 AM GDP/PCE/ECI binary event; market-open gate confirmed all three watchlist names rejected (NVDA score below 70 threshold; AVGO and AMZN spread > 0.30%). Discipline > activity — sitting on hands through a macro binary with marginal R:R is the correct call given the $2,500 micro-account where commission/spread drag punishes mediocre entries. Tomorrow (Fri May 1): pre-market routine, then weekly review; revisit NVDA on any pullback to $196-200, AVGO if 50MA recrosses 150MA, AMZN if 3-5 day post-earnings consolidation forms above MAs. Goal stays disciplined: 1 high-conviction entry next week within sizing/risk caps, not forced deployment.
+
+### May 1 — Market-Open (Day 5)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Trades this week:** 0/3
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Market-open gate results (no tickets created):**
+- NVDA: pre-market $199.57; SEPA 7/7 ✓; signal score ~67/75 — REJECTED_BY_GATE (below 70 threshold); active pullback from 52w high $216.61, no VCP base formed; live Alpaca quote stale (bid $199.41 / ask $220 timestamped 2026-04-30 20:06) — cannot validate spread gate at open; revisit on base formation in $196-205 zone
+- AMZN: SEPA FAIL (MA150 < MA200; MA50 < MA150/200) — skip; revisit if MA staircase aligns (4-6 weeks)
+- POWL: earnings May 4 AHC — blackout window; revisit post-earnings May 5-6 if positive drift setup forms
+
+**Decision:** HOLD. No PENDING ticket created (no candidate cleared signal-score + R:R + spread gate simultaneously). Cash 100%, weekly cap untouched (0/3). Next routine: midday scan to monitor NVDA pullback action; afternoon weekly review template per strategy. Patience > activity continues — Day 5 flat preserves capital and PDT slots for genuine setups (POWL May 5-6, NVDA on confirmed base/breakout).
