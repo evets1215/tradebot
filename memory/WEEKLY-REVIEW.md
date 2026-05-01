@@ -48,13 +48,13 @@ Template for each entry:
 ### Stats
 | Metric | Value |
 |--------|-------|
-| Starting portfolio | $2,500.00 (Mon Apr 27; funded Tue Apr 28) |
+| Starting portfolio | $2,500.00 (funded Apr 28 — first live week) |
 | Ending portfolio | $2,500.00 |
 | Week return | $0.00 (0.00%) |
-| S&P 500 week | +0.78% (SPY $715.17 → $720.75) |
-| Bot vs S&P | -0.78% |
+| S&P 500 week | +0.9% (SPY Apr 24→May 1: $714.47→$720.65) |
+| Bot vs S&P | -0.9% |
 | Trades | 0 (W:0 / L:0 / open:0) |
-| Win rate | N/A (no closed trades) |
+| Win rate | N/A |
 | Best trade | N/A |
 | Worst trade | N/A |
 | Profit factor | N/A |
@@ -62,55 +62,41 @@ Template for each entry:
 ### Closed Trades
 | Ticker | Entry | Exit | P&L | Notes |
 |--------|-------|------|-----|-------|
-| —      | —     | —    | —   | No trades placed this week |
+| — | — | — | — | No trades placed this week |
 
 ### Open Positions at Week End
 | Ticker | Entry | Close | Unrealized | Stop |
 |--------|-------|-------|------------|------|
-| —      | —     | —     | —          | —    |
+| — | — | — | — | — |
 
 ### What Worked
-- Discipline held: gate correctly rejected all 3 watchlist candidates each day (NVDA score <70; AVGO/AMZN spread >0.30%; POWL earnings blackout)
-- Patience through Wed Apr 29 FOMC and Thu Apr 30 GDP/PCE/ECI binary trio — sat in 100% cash through the macro events
-- Daily routine ran reliably — pre-market, market-open, midday, EOD all five days, all committed
-- Score gate (signal ≥70) prevented chasing NVDA premarket gap to $208-211 May 1 (sub-2:1 R:R)
-- Cash preservation 100% — no commission/spread drag on $2,500 micro-account
+- Gate discipline: all three rejections had documented, rule-based reasons — no impulsive entries
+- FOMC/GDP/PCE/ISM patience: sitting on hands through five macro events in three days was correct; any pre-data entry risked whipsaw
+- Spread filter: correctly blocked AVGO ($14.55 spread = 3.6%) and AMZN ($2.99 = 1.1%) before wasting analysis time
+- NVDA tracking: correctly identified the $199–205 zone as best R:R of the week (up to 4:1); score gate held firm at 63–67/75 below 70 threshold
+- SEPA template: cleanly disqualified AMZN (MA staircase broken) and AVGO (C4 fail)
 
 ### What Didn't Work
-- 0% week vs SPY +0.78% = trailed benchmark by 0.78pp; bot is not yet in the market
-- Watchlist too narrow (3-4 names, mostly XLK) — single-sector dependency leaves no pipeline when XLK names fail score
-- NVDA midday May 1: SEPA 8/8 + R:R 4.0:1 at $199.60 was arguably the cleanest setup of the week, blocked solely by signal score 63-67/75 — score gate may be over-rigid for high-quality SEPA setups in a small account
-- Earnings-blackout calendar (POWL May 4, SU May 5, OXY ~May 8-12) drained the watchlist; no rotation candidates from non-tech sectors prepped
-- Multiple duplicate Apr 29 pre-market entries in RESEARCH-LOG — research routine ran inconsistently
+- 0% return vs market +0.9% — capital preservation is correct but the gap compounds
+- Watchlist too narrow: only 3 names screened; all blocked simultaneously left zero entry opportunities
+- Duplicate research log entries for Apr 29 (three near-identical pre-market drafts) — wasted context, adds noise
+- NVDA score floor (~63–67/75) persists without a fresh catalyst; need a plan to find a catalyst that pushes it over 70, not just wait
 
 ### Key Lessons
-- Patience > activity is correctly the default, but a 0% return when SEPA 8/8 + R:R 4:1 setups exist suggests the signal-score component is binding too tight when SEPA + fundamentals are A-grade
-- Watchlist breadth matters as much as depth — need 8-10 candidates across 3+ sectors so the gate can find at least 1 actionable name when single names fail
-- Earnings-blackout cluster (3 of 4 watchlist names in blackout next week) means the watchlist should rotate weekly to maintain pipeline coverage
-- Micro-account cost structure (commission + spread) penalizes mediocre entries — score discipline is correct, but threshold calibration deserves study (do NOT change yet — needs 2+ weeks of evidence)
+1. **Score gate > R:R alone.** NVDA at 4:1 R:R on May 1 midday was the best setup of the week — correctly blocked at 63–67/75. The gate is a feature. Don't relax it under R:R pressure.
+2. **Macro calendar density.** FOMC + GDP + PCE + ECI + ISM in three days = maximum uncertainty window. HOLD through all of it was the only defensible call; the lesson is to front-run research on earnings windows *around* these events, not during them.
+3. **Earnings blackouts clog the watchlist.** POWL (May 4), SU (May 5), OXY (~May 8–12) all locked out simultaneously with macro events. Week 2 should open up meaningfully: POWL post-earnings May 5–6, OXY post-earnings ~May 12+.
+4. **Account size shapes strategy.** At $2,500 and 1-share sizing, AVGO ($405+) consumes 16%+ notional in one position. Need to prioritize sub-$250 candidates or ensure AVGO SEPA pass + spread normalise before queuing it.
+5. **Five consecutive flat days is fine** given the setup quality. Patience > activity is working; do not lower the bar to generate trades.
 
-### Adjustments for Next Week (May 4-8)
-- Expand watchlist to 8-10 names across XLK, XLI, XLF, XLE: add ETN, GS, JPM, alongside existing NVDA, POWL, OXY, SU, AVGO
-- Pre-market routine to check POWL post-earnings drift May 5-6 (if positive beat + gap-up holds)
-- NVDA: re-engage on either (a) confirmed base in $196-205 with score ≥65, OR (b) pullback to 50MA ~$190-192 with R:R ≥4:1
-- OXY: prep entry plan post-earnings ~May 8-12 (positive drift candidate, oil tailwind)
-- Track: did the score-gate reject of NVDA midday Fri May 1 ($199.60, SEPA 8/8, R:R 4:1) prove correct or not? Mark for observation; if NVDA breaks above $205 next week without us, evidence for threshold review starts to accumulate
-- DO NOT update TRADING-STRATEGY.md this week — score-threshold question needs ≥2 weeks of evidence before any rule change
+### Adjustments for Next Week (May 4–8)
+- **POWL May 5–6:** Primary focus. Post-earnings, if positive beat + gap held above prior close, run SEPA + signal score. Could be first entry of the challenge.
+- **NVDA:** Monitor pre-market May 4; if holds $197–205 with score still <70, do NOT enter — wait for a fresh catalyst (Blackwell delivery news, analyst revision) to push score ≥70.
+- **OXY:** Earnings ~May 8–12; mark for post-earnings check; Buffett stake + oil $105+ thesis intact.
+- **SU:** Post-earnings May 5 reaction; adds XLE exposure diversification vs XLK-heavy current watchlist.
+- **Watchlist expansion:** Scan for 2 additional Stage 2 setups in XLI/XLE/XLRE sectors to reduce dependency on XLK names. Goal: 5+ qualified candidates each week, not 3.
+- **Research log hygiene:** One pre-market entry per day, not multiple drafts. Midday addendum is acceptable if positions are open.
+- **Max risk reminder:** Account equity $2,500; 1% risk = $25 max loss per trade; 20% notional = $500 max position. Never exceed.
 
-### Next Week Watchlist (SEPA quick-screen run 2026-05-01)
-| Ticker | Last | SEPA 7/7 | 52w Off-Hi | Notes |
-|--------|------|----------|------------|-------|
-| NVDA   | $198.45 | 7/7 PASS (C4 marginal: MA50 $187.15 vs MA150 $186.31) | -8.4% | Score gate primary blocker |
-| POWL   | $275.33 | 7/7 PASS | -0.7% | EARNINGS May 4 AHC — blackout; revisit May 5-6 |
-| OXY    | $58.72  | 7/7 PASS | -11.4% | Earnings ~May 8-12 — blackout |
-| SU     | $67.56  | 7/7 PASS | -1.3% | Earnings May 5 — blackout |
-| ETN    | $425.44 | 6/7 (fails C2: MA150 $361.13 < MA200 $361.32 by $0.19, marginal) | -1.7% | Data-center power; SEPA repairs in 1-2 weeks; watch |
-
-### Strategy Doc Changes This Week
-- None. Score-threshold and watchlist-breadth observations logged but not yet codified — need ≥2 weeks of evidence before TRADING-STRATEGY.md edits.
-
-### Overall Grade: C
-- Discipline: A (zero forced trades, all gate rejections justified)
-- Performance: D (0% vs SPY +0.78% = -0.78pp; bot not yet earning)
-- Process: B (routines ran, but research log had duplicates; watchlist too narrow)
-- Net: C — a "correct nothing" week, but a benchmark-trailing one. Goal next week: 1 high-conviction entry within sizing/risk caps if a clean setup emerges.
+### Overall Grade: C+
+Disciplined HOLD through a genuinely difficult macro week (5 binary events, 3 earnings blackouts). Gate integrity was perfect — no rules broken, no sloppy entries. Grade is C+ rather than B because the watchlist is too narrow (3 names → 0 opportunities) and the account earned 0% vs benchmark +0.9% in its first live week. Process quality: A. Output quality: C. The combination earns a C+.
