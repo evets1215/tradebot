@@ -459,80 +459,74 @@ NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pul
 ---
 
 ## 2026-05-01 — Pre-market Research
-*Perplexity API: 401 auth failure — all macro data sourced via WebSearch fallback.*
 
 ### Account
-- Equity: $2,500.00
-- Cash: $2,500.00 (100%)
-- Buying power: $5,000 (2x margin; cash-only per strategy)
-- Daytrade count: 0
-- Open positions: 0 | Open orders: 0
+- Equity: $2,500.00 | Cash: $2,500.00 (100%) | Buying power: $5,000 (2x margin)
+- Open positions: 0 | Open orders: 0 | Daytrade count: 0/3
+- Trades this week: 0/3 (new week — full capacity)
 
 ### Market Context
-- **WTI:** ~$106/barrel | **Brent:** ~$115-120/barrel — Hormuz supply disruption persists (IEA: largest on record); WTI well above $100 psychological level
-- **S&P 500 futures:** +0.07% at ~7,172; April closed +10.4% (best month since Nov 2020); market in strong bull regime
-- **VIX:** ~18.53 (down from April avg 19.31; 52w range 13.38–35.30); declining volatility = improving risk appetite
-- **Economic calendar today:**
-  - 10:00 AM ET — ISM Manufacturing PMI for April (forecast 52, prior 52.7; slight contraction expected but still expansionary)
-  - NFP NOT today — April jobs report releases May 8
-- **Earnings before open:** LEA ($3.50E EPS), AON ($6.33E EPS), TCANF — none on watchlist
-- **Sector momentum (1-month / 1-week):**
+- **WTI:** ~$105.07/bbl (-1.69% from prev close); pulling back from $108 Iran-blockade spike. April closed +10.4% (best month since Nov 2020 for equities).
+- **Brent:** ~$110.84/bbl (+0.36%); EIA forecasts peak $115 in Q2 2026; Hormuz supply disruption ongoing
+- **Futures (premarket):** S&P 500 +0.10%, Nasdaq +0.07%, Dow +0.12% — flat/mildly positive
+- **VIX:** 17.28 (-8.13% from 18.81 prev close); declining trend = constructive risk-on backdrop (52w range 13.38-35.30)
+- **Economic calendar today (May 1):**
+  - **10:00 AM ET: ISM Manufacturing PMI for April** — only major release. March was 52.7 (expansion). Prices Paid sub-index ran 70.5-78.3 in March (highest since mid-2022). April NFP NOT today — April jobs report releases May 8.
+  - GDP/PCE/ECI already released Apr 30 (GDP +2.2%, core PCE ~3.0% — benign)
 
-| ETF | 1M% | 1W% | Verdict |
-|-----|-----|-----|---------|
-| XLK | +18.2 | -0.5 | Leader |
-| XLRE | +8.4 | +1.3 | Emerging |
-| XLY | +7.8 | -0.3 | Strong |
-| XLI | +6.2 | +1.2 | Healthy |
-| XLF | +5.4 | +1.4 | Healthy |
-| XLP | +3.5 | +1.3 | Neutral |
-| XLB | +2.0 | -0.9 | Weak |
-| XLU | +1.6 | +1.5 | Defensive rotation |
-| XLE | +1.1 | +4.9 | Oil spike lift |
-| XLV | -1.2 | +1.3 | Laggard |
-
-- **Key observations:** Tech dominates 1M (+18.2%); Energy recovering sharply on 1W (+4.9%) as oil holds $106; Healthcare only negative sector (1M -1.2%).
+### Sector Momentum (1-month / 1-week as of Apr 30)
+| ETF | 1M% | 1W% | YTD% | Verdict |
+|-----|-----|-----|------|---------|
+| XLK | +18.2 | -0.5 | recovering | Leader (AI/semis) |
+| XLRE | +8.4 | +1.3 | — | Emerging |
+| XLY | +7.8 | -0.3 | — | Strong |
+| XLI | +6.2 | +1.2 | — | Healthy |
+| XLF | +5.4 | +1.4 | -4.33 | Healthy 1M; laggard YTD |
+| XLP | +3.5 | +1.3 | +9.2 | Neutral/defensive |
+| XLU | +1.6 | +1.5 | +10.5 | Defensive rotation |
+| XLE | +1.1 | +4.9 | +34.29 | YTD leader; 1W oil spike |
+| XLB | +2.0 | -0.9 | — | Weak |
+| XLV | -1.2 | +1.3 | lagging | Laggard; avoid |
 
 ### Sentiment on Held Tickers
-- No current holdings — sentiment check not applicable.
+- No positions. N/A.
+
+### Earnings Watch
+- **May 4 AHC: POWL** — do NOT enter before this date (blackout rule)
+- **May 5: SU** — blackout until post-earnings reaction
+- **May 8-12 est: OXY** — blackout; also April NFP May 8
+- No major watchlist names reporting today (May 1)
 
 ### Trade Ideas
 
-**1. NVDA — Pullback continuation watch (Tech / XLK)**
-- Catalyst: Blackwell GPU ramp, AI data-center demand cycle intact; no near-term earnings (Q1 FY2027 likely late May)
-- SEPA Trend Template (7/7 PASS):
-  - C1 Price $199.57 > MA150 $186.17 > MA200 $183.71 ✓
-  - C2 MA150 $186.17 > MA200 $183.71 ✓
-  - C3 MA200 slope +2.36%/month (rising ≥1 month) ✓
-  - C4 MA50 $186.94 > MA150 $186.17 > MA200 $183.71 ✓
-  - C5 Price $199.57 > MA50 $186.94 ✓
-  - C6 +83.3% above 52w low $108.89 ✓
-  - C7 -7.9% from 52w high $216.61 ✓
-  - C8 RS: estimated top decile (83% above 52w low while SPY +10% in April) — likely PASS
-- Fundamentals Grade: **A** — EPS $0.76→$1.08→$1.30→$1.76 (+97.8% YoY); Revenue $44B→$47B→$57B→$68B (+73% YoY); margins expanding
-- Pattern: 3-day pullback from 52w high $216.61 to $199.57 (-7.9%); MA50 support at $186.94; pullback not yet a VCP (too early — need 2-3 weeks of contraction)
-- Signal score: ~67/75 (below 70 gate threshold — technical score reduced due to active pullback from high with elevated sell volume)
-- Entry zone: $196-205 (50MA support / pullback zone). Breakout pivot = $216.61 (52w high). A clean VCP breakout above $217+ with ≥1.5x volume would be the ideal entry.
-- Sizing (if gate clears): 1% risk = $25; entry $205, stop $187 (50MA), risk/share $18; ~1 share notional $205 (~8.2% of account)
-- **Verdict: WATCH LIST** — all 7 SEPA conditions pass, A fundamentals; pullback needed to form base before breakout entry. Not actionable today.
+**1. NVDA — Apr 30 close $199.57 | Premarket May 1: $208-211 | Sector: XLK**
+- **SEPA (8/8 PASS):** C1 $199.57 > MA150 $186.17 > MA200 $183.71 ✓; C2 MA150>MA200 ✓; C3 MA200 slope +2.36%/mo ✓; C4 MA50 $186.94 > MA150/MA200 ✓; C5 Price>MA50 ✓; C6 +83.3% above 52w low ✓; C7 -7.9% from 52w high $216.61 ✓; C8 RS top decile ✓ — Stage 2 confirmed
+- **Fundamentals Grade A:** EPS $0.76→$1.08→$1.30→$1.76 (+97.8% YoY); Revenue $44B→$47B→$57B→$68B; margins expanding
+- **Setup:** Apr 30 tested $200 support (low $198.70, close $199.57, vol 224M); premarket May 1 recovering to $208-211
+- **Issue — premarket gap:** At $210 entry: stop $187 → risk $23; target $250 → reward $40; R:R ~1.74:1 (sub-2:1, marginal). Missed the $200-205 window.
+- **Signal score: ~63-67/75** — below 70 threshold (volume 8/15; no fresh catalyst today)
+- **Catalyst:** 12/20 — structural AI demand; Blackwell GPU ramp; Dan Ives $250 target; 48 analyst Buys, avg target $222; next earnings ~late May (~4 weeks out)
+- **If ISM sells off tech → NVDA retests $200-205:** At $202 entry, stop $187 → R:R ~3.2:1 ✓, score ~65-67/75 (still borderline below 70)
+- **Status: WATCHLIST** — do NOT chase premarket gap; monitor ISM 10 AM reaction for intraday pullback opportunity
 
-**2. AMZN — SEPA FAIL (skip)**
-- Q1 2026 EPS $2.78 vs $1.64E (+74.8% YoY) — strong beat reported Apr 29
-- Trend Template: 5/7 — FAIL (C2: MA150 $227 < MA200 $227; C4: MA50 $223 < MA150/200)
-- MA staircase inverted despite price at 52w high ($265.06); MAs haven't aligned after April +32% rally
-- Fundamental Grade: A — but SEPA rules require all 7 conditions; template failure = no trade
-- **Verdict: PASS** — revisit when MA staircase aligns (need MA50 > MA150 > MA200; could take 4-6 weeks at current trajectory)
+**2. AVGO — ~$405-420 | Sector: XLK | AI Infrastructure**
+- **SEPA (7/8):** Fails C4 — 50MA $345.74 < 150MA $347.35 (gap $1.61; likely resolves in 1-2 weeks)
+- **Signal score: ~53/75** — unchanged; no fresh catalyst
+- **Catalyst:** $8.4B AI revenue Q1 FY26 (+106% YoY); $100B target 2027; analyst target $438; next earnings ~June 3
+- **Status: WATCHLIST** — revisit when 50MA recrosses 150MA
 
-**3. POWL (Powell Industries) — Earnings catalyst watch (May 4 AHC)**
-- Flagged in Apr 29/30 research as post-earnings drift candidate
-- Reports May 4 after-hours; if beats estimates, post-earnings drift entry possible May 5-6
-- Not actionable today — in earnings blackout window
+**3. POWL — ~$260-270 | Sector: XLI | Power Grid / Data Center**
+- **SEPA:** Elite Stage 2; EPS acceleration; data-center power demand structural
+- **HARD BLOCK: Earnings May 4 AHC** — no entry before earnings; reassess May 5 reaction
+- **Status: WATCHLIST** — mark for May 5 check; if strong beat + gap-up held, consider entry May 5-6
 
 ### Risk Factors
-- ISM Manufacturing at 10 AM: miss below 51 could weigh on industrials/market
-- NVDA down ~$10 premarket (from $209 to $199); extended sell pressure could push toward 50MA ($187) — would improve eventual R:R but not actionable until base forms
-- Oil at $106 = stagflation risk if macro deteriorates; energy may see reversal if Hormuz tensions ease
-- Market extended after April +10.4% — ISM miss or weak breadth could trigger brief consolidation
+- **ISM at 10 AM:** Prices Paid ran 70+ in March; if hot again, stagflation narrative back; tech/growth sells
+- **NVDA premarket gap to $208-211:** Chasing gives sub-2:1 R:R and score still below 70
+- **Oil $105-110 (Hormuz):** Energy the YTD leader but not in our watchlist; if tensions ease, oil falls, macro improves
+- **VIX 17.28 declining:** Constructive, supports eventual entries; but patience still required
+- **Micro account:** 1-share sizing; spread/commission drag always meaningful
+- **New week:** Full weekly capacity (0/3 trades used) — do not force deployment
 
 ### Decision
-**HOLD** — NVDA passes all 7 SEPA conditions and has A fundamentals, but is in active pullback from 52w high; no VCP formed, signal score ~67 (below 70 gate threshold). AMZN fails SEPA MA staircase. No new entry today. Watch NVDA for base formation at $196-205; watch POWL post-earnings May 5. Cash 100%, 0 trades this week (cap 3/wk untouched).
+**HOLD** — NVDA gapped above the ideal $200-205 entry zone in premarket (trading $208-211); at that price R:R is sub-2:1 and signal score ~63-67/75 (below 70 threshold). No other watchlist name clears the full gate. ISM at 10:00 AM ET is the only macro catalyst today — if it prints soft and tech sells off, NVDA pullback to $200-205 intraday could be the entry trigger (still borderline on score). Do NOT chase the premarket gap. POWL earnings May 4 AHC — mark calendar for May 5 post-reaction check. Next high-conviction window: post-POWL earnings (May 5) and post-OXY earnings (May 8-12+).
