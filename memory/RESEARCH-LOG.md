@@ -455,3 +455,84 @@ NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pul
 - **AMZN $260.45** (bid $260.45 / ask $260.50) — AH gap-up (+6%) did NOT hold; price is ~$2.60 BELOW pre-earnings close. Classic gap-and-fail pattern. SEPA MA conditions unresolved. **Skip; do not chase.**
 - **AVGO:** Not quoted (not actionable — SEPA MA staircase still unresolved per pre-market).
 - **Conclusion:** NVDA is the only actionable name; if it holds $200-$205 into close, pre-market routine tomorrow should run trade_gate.py to generate PENDING ticket for Slack approval.
+
+---
+
+## 2026-05-01 — Pre-market Research
+*Perplexity API: 401 auth failure — all macro data sourced via WebSearch fallback.*
+
+### Account
+- Equity: $2,500.00
+- Cash: $2,500.00 (100%)
+- Buying power: $5,000 (2x margin; cash-only per strategy)
+- Daytrade count: 0
+- Open positions: 0 | Open orders: 0
+
+### Market Context
+- **WTI:** ~$106/barrel | **Brent:** ~$115-120/barrel — Hormuz supply disruption persists (IEA: largest on record); WTI well above $100 psychological level
+- **S&P 500 futures:** +0.07% at ~7,172; April closed +10.4% (best month since Nov 2020); market in strong bull regime
+- **VIX:** ~18.53 (down from April avg 19.31; 52w range 13.38–35.30); declining volatility = improving risk appetite
+- **Economic calendar today:**
+  - 10:00 AM ET — ISM Manufacturing PMI for April (forecast 52, prior 52.7; slight contraction expected but still expansionary)
+  - NFP NOT today — April jobs report releases May 8
+- **Earnings before open:** LEA ($3.50E EPS), AON ($6.33E EPS), TCANF — none on watchlist
+- **Sector momentum (1-month / 1-week):**
+
+| ETF | 1M% | 1W% | Verdict |
+|-----|-----|-----|---------|
+| XLK | +18.2 | -0.5 | Leader |
+| XLRE | +8.4 | +1.3 | Emerging |
+| XLY | +7.8 | -0.3 | Strong |
+| XLI | +6.2 | +1.2 | Healthy |
+| XLF | +5.4 | +1.4 | Healthy |
+| XLP | +3.5 | +1.3 | Neutral |
+| XLB | +2.0 | -0.9 | Weak |
+| XLU | +1.6 | +1.5 | Defensive rotation |
+| XLE | +1.1 | +4.9 | Oil spike lift |
+| XLV | -1.2 | +1.3 | Laggard |
+
+- **Key observations:** Tech dominates 1M (+18.2%); Energy recovering sharply on 1W (+4.9%) as oil holds $106; Healthcare only negative sector (1M -1.2%).
+
+### Sentiment on Held Tickers
+- No current holdings — sentiment check not applicable.
+
+### Trade Ideas
+
+**1. NVDA — Pullback continuation watch (Tech / XLK)**
+- Catalyst: Blackwell GPU ramp, AI data-center demand cycle intact; no near-term earnings (Q1 FY2027 likely late May)
+- SEPA Trend Template (7/7 PASS):
+  - C1 Price $199.57 > MA150 $186.17 > MA200 $183.71 ✓
+  - C2 MA150 $186.17 > MA200 $183.71 ✓
+  - C3 MA200 slope +2.36%/month (rising ≥1 month) ✓
+  - C4 MA50 $186.94 > MA150 $186.17 > MA200 $183.71 ✓
+  - C5 Price $199.57 > MA50 $186.94 ✓
+  - C6 +83.3% above 52w low $108.89 ✓
+  - C7 -7.9% from 52w high $216.61 ✓
+  - C8 RS: estimated top decile (83% above 52w low while SPY +10% in April) — likely PASS
+- Fundamentals Grade: **A** — EPS $0.76→$1.08→$1.30→$1.76 (+97.8% YoY); Revenue $44B→$47B→$57B→$68B (+73% YoY); margins expanding
+- Pattern: 3-day pullback from 52w high $216.61 to $199.57 (-7.9%); MA50 support at $186.94; pullback not yet a VCP (too early — need 2-3 weeks of contraction)
+- Signal score: ~67/75 (below 70 gate threshold — technical score reduced due to active pullback from high with elevated sell volume)
+- Entry zone: $196-205 (50MA support / pullback zone). Breakout pivot = $216.61 (52w high). A clean VCP breakout above $217+ with ≥1.5x volume would be the ideal entry.
+- Sizing (if gate clears): 1% risk = $25; entry $205, stop $187 (50MA), risk/share $18; ~1 share notional $205 (~8.2% of account)
+- **Verdict: WATCH LIST** — all 7 SEPA conditions pass, A fundamentals; pullback needed to form base before breakout entry. Not actionable today.
+
+**2. AMZN — SEPA FAIL (skip)**
+- Q1 2026 EPS $2.78 vs $1.64E (+74.8% YoY) — strong beat reported Apr 29
+- Trend Template: 5/7 — FAIL (C2: MA150 $227 < MA200 $227; C4: MA50 $223 < MA150/200)
+- MA staircase inverted despite price at 52w high ($265.06); MAs haven't aligned after April +32% rally
+- Fundamental Grade: A — but SEPA rules require all 7 conditions; template failure = no trade
+- **Verdict: PASS** — revisit when MA staircase aligns (need MA50 > MA150 > MA200; could take 4-6 weeks at current trajectory)
+
+**3. POWL (Powell Industries) — Earnings catalyst watch (May 4 AHC)**
+- Flagged in Apr 29/30 research as post-earnings drift candidate
+- Reports May 4 after-hours; if beats estimates, post-earnings drift entry possible May 5-6
+- Not actionable today — in earnings blackout window
+
+### Risk Factors
+- ISM Manufacturing at 10 AM: miss below 51 could weigh on industrials/market
+- NVDA down ~$10 premarket (from $209 to $199); extended sell pressure could push toward 50MA ($187) — would improve eventual R:R but not actionable until base forms
+- Oil at $106 = stagflation risk if macro deteriorates; energy may see reversal if Hormuz tensions ease
+- Market extended after April +10.4% — ISM miss or weak breadth could trigger brief consolidation
+
+### Decision
+**HOLD** — NVDA passes all 7 SEPA conditions and has A fundamentals, but is in active pullback from 52w high; no VCP formed, signal score ~67 (below 70 gate threshold). AMZN fails SEPA MA staircase. No new entry today. Watch NVDA for base formation at $196-205; watch POWL post-earnings May 5. Cash 100%, 0 trades this week (cap 3/wk untouched).
