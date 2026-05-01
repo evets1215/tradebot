@@ -530,3 +530,11 @@ NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pul
 
 ### Decision
 **HOLD** — NVDA gapped above the ideal $200-205 entry zone in premarket (trading $208-211); at that price R:R is sub-2:1 and signal score ~63-67/75 (below 70 threshold). No other watchlist name clears the full gate. ISM at 10:00 AM ET is the only macro catalyst today — if it prints soft and tech sells off, NVDA pullback to $200-205 intraday could be the entry trigger (still borderline on score). Do NOT chase the premarket gap. POWL earnings May 4 AHC — mark calendar for May 5 post-reaction check. Next high-conviction window: post-POWL earnings (May 5) and post-OXY earnings (May 8-12+).
+
+### Midday Addendum (~1:09 PM ET)
+- **No positions; no stops to manage.**
+- **NVDA $199.50 bid / $199.60 ask** — full round-trip from $208-211 premarket back through the ideal $200-205 entry zone to $199.50 (below $200). Likely driven by ISM Mfg PMI 10 AM print. Spread $0.10 = 0.05% ✓. At $199.60 entry: stop $187 → risk $12.60; target $250 → reward $50.40; R:R ~4.0:1 ✓. Sizing: 1 share = $199.60 notional (8.0%) ✓; ticket risk $12.60 (0.5% of equity, well under 1% cap) ✓.
+- **Signal score remains ~63-67/75 (below 70 threshold).** No fresh catalyst; volume today running slightly below recent avg; the NVDA thesis is unchanged (structural AI demand) but no incremental trigger to push score above 70. Score gate is firm — no trade_gate.py proposed.
+- **AVGO $420.10 bid / $420.74 ask** — SEPA C4 (50MA < 150MA) still unresolved; not actionable.
+- **POWL $237.94 bid / $315.23 ask** — extreme bid/ask spread; earnings blackout May 4 AHC; skip.
+- **Conclusion:** NVDA at $199.50 is the best R:R setup we've seen (4:1), but score below threshold = no entry. Continue HOLD. If NVDA holds $197-202 into close today and Monday, reassess with fresh pre-market routine May 4 (but note POWL earnings May 4 AHC creates binary market risk — may be better to wait until May 5).
