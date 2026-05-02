@@ -78,3 +78,12 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Fifth consecutive flat day closing week 1. No positions, no orders placed, 0 trades today, 0 trades this week (cap 3/3 unused). Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-04-30; no activity to roll). NVDA gapped to $208-211 premarket then sold off through the ideal $200-205 entry zone to $199.50 intraday (ISM Mfg PMI-driven tech weakness); midday scan confirmed R:R ~4.0:1 at $199.60 entry — but score held at ~63-67/75, below the 70 threshold, so no ticket was proposed. AVGO spread 5.6% disqualifying; AMZN failed SEPA MA staircase; POWL earnings blackout May 4 AHC. Week 1 scorecard: 5/5 days flat, 0 trades, 100% cash, score discipline intact — gate doing its job is a feature. Next week (May 4-8): POWL post-earnings May 5-6 if strong beat + gap held; NVDA reassess Mon pre-market if holds $197-205 (caution: POWL binary same day); OXY post-earnings ~May 8-12. Goal: 1 high-conviction entry, ≤$500, hard stop ≥3% below limit, ≤1% account risk.
+
+### May 2 — EOD Snapshot (Day 6, Saturday — non-trading)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Weekend — markets closed. No positions, no orders, no trades. Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-05-01; no activity). Week 1 ended flat: 5 trading days, 0 trades, 100% cash. Gate discipline intact throughout — every candidate rejected by score threshold (<70) or spread (>0.30%). Week 2 watchlist: POWL post-earnings May 5-6 (reports May 4 AHC), NVDA pre-market Mon if holding $197-205 range, OXY post-earnings ~May 8-12. Target 1 high-conviction entry ≤$500, hard stop ≥3% below limit, ≤1% account risk (~$25 max loss).
