@@ -87,3 +87,12 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Weekend — markets closed. No positions, no orders, no trades. Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-05-01; no activity). Week 1 ended flat: 5 trading days, 0 trades, 100% cash. Gate discipline intact throughout — every candidate rejected by score threshold (<70) or spread (>0.30%). Week 2 watchlist: POWL post-earnings May 5-6 (reports May 4 AHC), NVDA pre-market Mon if holding $197-205 range, OXY post-earnings ~May 8-12. Target 1 high-conviction entry ≤$500, hard stop ≥3% below limit, ≤1% account risk (~$25 max loss).
+
+### May 3 — EOD Snapshot (Day 7, Sunday — non-trading)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Weekend — markets closed. No positions, no orders, no trades. Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-05-01; no activity). Week 1 ended 0-for-5 with 100% cash — gate discipline intact. Week 2 begins Mon May 5 (Mon May 4 likely quiet pre-POWL); key catalysts: POWL earnings May 4 AHC (revisit May 5-6 if strong beat), NVDA pre-market Mon if holding $197-205, OXY post-earnings ~May 8-12. Target 1 high-conviction entry ≤$500, ≤1% account risk (~$25 max loss), limit order only.
