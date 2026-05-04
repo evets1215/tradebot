@@ -538,3 +538,94 @@ NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pul
 - **AVGO $420.10 bid / $420.74 ask** — SEPA C4 (50MA < 150MA) still unresolved; not actionable.
 - **POWL $237.94 bid / $315.23 ask** — extreme bid/ask spread; earnings blackout May 4 AHC; skip.
 - **Conclusion:** NVDA at $199.50 is the best R:R setup we've seen (4:1), but score below threshold = no entry. Continue HOLD. If NVDA holds $197-202 into close today and Monday, reassess with fresh pre-market routine May 4 (but note POWL earnings May 4 AHC creates binary market risk — may be better to wait until May 5).
+
+---
+
+## 2026-05-04 — Pre-Market Research (Week 2, Day 1)
+
+*Note: Perplexity API returned 401; all macro data sourced via WebSearch fallback.*
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (margin)
+- **Positions:** 0 | **Open Orders:** 0 | **Daytrade Count:** 0
+- **Phase P&L:** $0.00 (0.00%) | **Trades this week:** 0/3
+
+### Market Context
+- **Oil:** WTI ~$101/bbl | Brent ~$111/bbl — Iran/Hormuz war ongoing; "Project Freedom" (Trump initiative to free stranded ships) announced; Hormuz premium still embedded
+- **Indices:** S&P 500 futures +0.07% premarket; markets grinding higher on earnings resilience; ~76% of prediction market participants expect "Up" open
+- **VIX:** 16.78 (↓0.65%) — low, constructive; down from 17.28 last session
+- **FOMC:** Held 3.50–3.75% at Apr 28-29 meeting; Powell is chair through that meeting; next scheduled meeting June 16-17 (no FOMC this week)
+- **Economic Calendar:**
+  - **Fri May 8 8:30 AM ET: April NFP** — consensus 60K (vs 178K March); unemployment 4.4% expected. Major binary event; elevated miss risk given tariff/Iran uncertainty
+  - No CPI/PPI/FOMC this week; NFP is the only tier-1 macro release
+- **Sector Momentum (1W / 1M / YTD):**
+
+| ETF | 1W% | 1M% | YTD% | Signal |
+|-----|-----|-----|------|--------|
+| XLE | +3.48 | -0.20 | +29.76 | Strongest YTD + 1W (Iran/oil bid) |
+| XLK | +1.03 | +19.98 | +12.32 | Tech recovery — 1M standout |
+| XLRE | +1.12 | +8.23 | +10.50 | Emerging |
+| XLP | +1.13 | +3.33 | +8.95 | Defensive bid |
+| XLF | +0.97 | +5.02 | -4.99 | Recovering but YTD laggard |
+| XLU | +0.80 | +0.95 | +8.56 | Defensive |
+| XLI | +0.28 | +5.19 | +9.79 | Industrials flat this week |
+| XLY | -0.05 | +8.04 | +0.44 | Consumer discretionary sideways |
+| XLB | -1.10 | +1.76 | +11.84 | Materials weakest this week |
+| XLV | +0.68 | -1.74 | -6.27 | Healthcare — YTD worst; avoid |
+
+**Sector leaders:** XLE (oil/geopolitical), XLK (1M rebound), XLRE
+**Sector laggards:** XLV, XLB
+
+### Sentiment on Held Tickers
+- No positions. N/A.
+
+### Earnings Watch
+- **POWL (May 4 AHC tonight):** Consensus $4.05 EPS / $297.1M revenue (+7.4% YoY). Blackout today; reassess May 5 post-reaction. Previous beat: Q1 $1.13 EPS vs $0.95 expected.
+- **OXY (~May 8-12):** Blackout; also conflicts with NFP May 8. Revisit May 12+.
+- **NVDA (~late May, ~4 weeks out):** Within 2-week SEPA blackout zone — no entry per rules.
+
+### SEPA Analysis
+
+**1. NVDA — $198.45 close May 1 | Premarket May 4: ~$200.64 | Sector: XLK**
+
+**Trend Template (8/8 PASS — Stage 2 confirmed):**
+| # | Condition | Status | Values |
+|---|-----------|--------|--------|
+| 1 | Price > MA150 & MA200 | ✅ PASS | $198.45 > $186.31 > $183.84 |
+| 2 | MA150 > MA200 | ✅ PASS | $186.31 > $183.84 |
+| 3 | MA200 trending up ≥1 month | ✅ PASS | +2.34%/mo; +15.07% vs 4mo ago |
+| 4 | MA50 > MA150 & MA200 | ✅ PASS | $187.15 > $186.31 > $183.84 (C4 margin tight: $0.84) |
+| 5 | Price > MA50 | ✅ PASS | $198.45 > $187.15 |
+| 6 | Price ≥ 30% above 52W low | ✅ PASS | +77.8% above $111.58 |
+| 7 | Price within 25% of 52W high | ✅ PASS | -8.4% from $216.61 high |
+| 8 | RS > 70th pctile | ✅ PASS | NVDA +73.4% vs SPY +28.6% (1Y); RS outperf +44.7% |
+
+**Fundamentals Grade A:** EPS $0.76→$1.08→$1.30→$1.76 (+97.8% YoY); Revenue $44B→$47B→$57B→$68B; margins expanding
+
+**Pattern:** Post-breakout pullback. NVDA surged to 52W high $216.61 Apr 27 (1.27x vol) then sold hard: Apr 30 -4.6% on 1.53x volume (distribution signal). Pulled back to $198-200 support. **No VCP forming yet** — needs time to base and volume dry-up. Entry rule: do not enter within 2 weeks of earnings (late May). 
+
+**Signal score: ~63-67/75** — below 70 threshold. No fresh catalyst this week; distribution volume on Apr 30 is caution flag.
+
+**Entry plan:** Wait for new base to form above $197-202 (anticipate 3-5 weeks); new VCP pivot likely $216-220. SEPA entry only after: (a) post-earnings base, (b) score ≥ 70, (c) VDU + volume breakout.
+
+**Status: WATCHLIST — no entry**
+
+**2. POWL — Earnings Blackout Tonight**
+- Elite Stage 2; EPS acceleration; data-center power demand structural
+- **HARD BLOCK: Earnings AHC May 4** — reassess May 5 post-reaction
+- If strong beat + gap-up held + spread normalizes → run full SEPA + trade_gate.py May 5
+
+**3. AVGO — WATCHLIST (unchanged)**
+- SEPA C4 still failing (MA50 $345.74 < MA150 $347.35); monitor for crossover
+- No entry until C4 resolves
+
+### Risk Factors
+- **NFP Friday May 8 (60K consensus vs 178K March):** Huge downside risk if miss; could signal tariff/war-driven labor slowdown. Hold cash through Friday or accept binary risk.
+- **POWL tonight:** Binary catalyst — beat could set up May 5 entry but also creates overnight gap risk if fade.
+- **NVDA distribution volume (Apr 30 1.53x):** Post-breakout failure pattern; $197-198 is key support; below $195 = Stage 2 threatened.
+- **Iran/Hormuz war:** Oil $101-111 elevated; "Project Freedom" may ease Hormuz if successful — could collapse energy premium, XLE reversal risk.
+- **Micro account:** 1-share sizing; spread/commission drag always meaningful; patience remains correct.
+- **NVDA earnings proximity:** ~4 weeks out → SEPA 2-week blackout applies once we cross ~May 18.
+
+### Decision
+**HOLD** — No actionable entry today. NVDA pulled back from $216.61 to $198 with distribution volume; score below 70; no VCP entry; earnings proximity mounting. POWL in blackout until May 5. Primary catalyst tonight = POWL earnings. Primary macro risk = NFP May 8. Cash 100%, 0/3 trades used this week. Plan: (1) Monitor POWL AHC tonight; (2) Run market-open routine May 5 with POWL post-reaction SEPA screen; (3) Hold through NFP May 8 unless exceptional setup emerges.
