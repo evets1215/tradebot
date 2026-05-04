@@ -111,3 +111,12 @@ No positions yet. Bot launches tomorrow.
 - POWL: REJECTED_BY_GATE (earnings blackout AHC tonight + SEPA C7 fail >25% below 52w high)
 
 **Decision:** HOLD. No entry. All candidates blocked by spread, signal score, or earnings blackout. POWL reports tonight (AHC May 4) — binary event. Potential FOMC meeting May 6-7 adds further uncertainty through mid-week. Next windows: POWL post-earnings reaction May 5-6 (if SEPA qualifies); OXY post-earnings reaction May 6 (reports AHC May 5); NVDA reassess once score ≥70 and spread normalizes.
+
+### May 4 — EOD Snapshot (Day 8, Monday)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** First trading day of week 2 closes flat. No positions, no orders placed, 0 trades today, 0 trades this week (cap 3 unused). Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-05-01; no activity to roll over the weekend). Market-open gate ran a 4-name screen (NVDA, AVGO, OXY, POWL) and rejected all: NVDA on spread (0.75%) + signal score (<70) + distribution-volume flag; AVGO on spread (3.4%) + SEPA C4 fail; OXY on earnings blackout (AHC May 5); POWL on earnings blackout AHC tonight + SEPA C7 fail. Macro setup: VIX 16.78, S&P futures +0.07%, XLE/XLK leading sectors; only tier-1 macro this week is NFP Fri May 8 (60K consensus vs 178K prior) — sizable downside binary. Primary catalyst tonight = POWL earnings; potential FOMC meeting May 6-7 adds mid-week uncertainty. Plan tomorrow: pre-market routine, POWL post-reaction SEPA screen (May 5 if strong beat + gap held + spread normalizes), OXY screen post-AHC May 5, NVDA reassess only on consolidation above $197-202 with VDU. No forced deployment; gate discipline intact.
