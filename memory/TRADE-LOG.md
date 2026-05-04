@@ -96,3 +96,18 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Weekend — markets closed. No positions, no orders, no trades. Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-05-01; no activity). Week 1 ended 0-for-5 with 100% cash — gate discipline intact. Week 2 begins Mon May 5 (Mon May 4 likely quiet pre-POWL); key catalysts: POWL earnings May 4 AHC (revisit May 5-6 if strong beat), NVDA pre-market Mon if holding $197-205, OXY post-earnings ~May 8-12. Target 1 high-conviction entry ≤$500, ≤1% account risk (~$25 max loss), limit order only.
+
+### May 4 — Market-Open (Day 8, Week 2)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Trades this week:** 0/3
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Market-open gate results (no tickets created):**
+- NVDA $202.00 ask / $200.48 bid: spread 0.75% — REJECTED_BY_GATE (>0.30% spread rule); also signal score ~63-67/75 below 70 threshold; distribution volume flag from Apr 30; POWL binary event tonight adds risk
+- AVGO $435.00 ask / $420.25 bid: spread 3.4% — REJECTED_BY_GATE (>0.30% spread rule); SEPA C4 still failing (MA50 < MA150)
+- OXY $58.94 ask / $58.90 bid: spread 0.07% ✓ — REJECTED_BY_GATE (earnings blackout; reports AHC May 5 tomorrow)
+- POWL: REJECTED_BY_GATE (earnings blackout AHC tonight + SEPA C7 fail >25% below 52w high)
+
+**Decision:** HOLD. No entry. All candidates blocked by spread, signal score, or earnings blackout. POWL reports tonight (AHC May 4) — binary event. Potential FOMC meeting May 6-7 adds further uncertainty through mid-week. Next windows: POWL post-earnings reaction May 5-6 (if SEPA qualifies); OXY post-earnings reaction May 6 (reports AHC May 5); NVDA reassess once score ≥70 and spread normalizes.
