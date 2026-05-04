@@ -112,7 +112,7 @@ No positions yet. Bot launches tomorrow.
 
 **Decision:** HOLD. No entry. All candidates blocked by spread, signal score, or earnings blackout. POWL reports tonight (AHC May 4) — binary event. Potential FOMC meeting May 6-7 adds further uncertainty through mid-week. Next windows: POWL post-earnings reaction May 5-6 (if SEPA qualifies); OXY post-earnings reaction May 6 (reports AHC May 5); NVDA reassess once score ≥70 and spread normalizes.
 
-### May 4 — EOD Snapshot (Day 8, Monday)
+### May 4 — EOD Snapshot (Day 8, Monday — Week 2)
 **Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
 
 | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
