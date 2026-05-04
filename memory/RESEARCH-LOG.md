@@ -538,3 +538,125 @@ NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pul
 - **AVGO $420.10 bid / $420.74 ask** — SEPA C4 (50MA < 150MA) still unresolved; not actionable.
 - **POWL $237.94 bid / $315.23 ask** — extreme bid/ask spread; earnings blackout May 4 AHC; skip.
 - **Conclusion:** NVDA at $199.50 is the best R:R setup we've seen (4:1), but score below threshold = no entry. Continue HOLD. If NVDA holds $197-202 into close today and Monday, reassess with fresh pre-market routine May 4 (but note POWL earnings May 4 AHC creates binary market risk — may be better to wait until May 5).
+
+---
+
+## 2026-05-04 — Pre-market Research
+
+### Account
+- Equity: $2,500.00 | Cash: $2,500.00 (100%) | Buying power: $5,000 (margin 2x)
+- Non-marginable BP: $2,500 | Daytrade count: 0 | Positions: 0 | Open orders: 0
+
+### Market Context
+- **WTI:** ~$101.50-$102/barrel (symmetrical triangle pattern $90-$110; Iran/Hormuz tensions + OPEC+ raised output +188k bbl/day; Polymarket showing 69% probability WTI ≥$101 today)
+- **Brent:** ~$116 (May 1 reference, Brent-WTI spread elevated ~$14/b)
+- **S&P 500 futures:** +0.07-0.23% premarket; Friday May 1 close: record 7,230.12; futures ~7,270 area; Dow -0.22%, Nasdaq +0.25% (divergent)
+- **VIX:** ~16.89 (April close; declining from March high 30.61 — constructive)
+- **Economic calendar this week (HIGH ALERT):**
+  - Mon May 4: POWL earnings AHC (blackout — assess Tue)
+  - Tue May 5: ISM Services 10 AM ET (consensus 53.8); OXY earnings AHC
+  - Tue-Wed May 5-6: **FOMC meeting** (statement + press conference Wed May 7)
+  - Wed May 7: ADP Employment (consensus +90K vs. prior +62K)
+  - Fri May 8: **NFP April** 8:30 AM ET (consensus +73K vs. prior +178K); Unemployment rate 4.3% est.; Michigan Sentiment 49.3 est.
+  - **BINARY RISK WEEK: FOMC (May 7) + NFP (May 8) — do NOT enter ahead of these without high conviction**
+- **Sector momentum (approximate MTD May 2026):**
+  - XLE (Energy): +4-6% MTD leader; WTI elevated; oil names outperforming
+  - XLK (Tech): +3-5% MTD; mega-cap earnings + AI demand
+  - XLI (Industrials): +2-4% MTD; infrastructure / power grid
+  - XLB (Materials): +1-2% MTD; modest
+  - XLP (Staples): +1-2% MTD; defensive
+  - XLV (Healthcare): +1-2% MTD; stable
+  - XLF (Financials): -1 to +1% MTD; mixed; rate uncertainty
+  - XLY (Cons. Discret.): -2-0% MTD; lagging
+  - XLU (Utilities): -2 to -4% MTD; rate-sensitive / underperforming
+  - XLRE (Real Estate): -2 to -3% MTD; yield-pressured
+- **Sector conclusion:** XLE and XLK lead. XLU/XLRE avoid.
+
+### Sentiment on Held Tickers
+- No positions held. N/A.
+
+### Earnings Watch
+- **POWL (May 4 AHC tonight):** Consensus EPS $1.34-$4.05 (wide range); Revenue $297-299M; Q1 2026 actual prior beat: $3.40 vs. $2.94 est. (+15.65%). Call: May 5 at 11:00 AM ET. **CRITICAL:** Stock has declined ~52% from $590 (Mar highs) to $275 (May 1 close). SEPA C7 FAIL (>25% below 52w high). SEPA disqualified regardless of earnings result. Assess tomorrow; remove from active watchlist.
+- **OXY (May 5 AHC):** Consensus EPS $0.62 (prior Q: $0.87 actual, +19.18% beat). 5-quarter streak of 6-19% EPS beats. Post-earnings blackout through May 5; assess May 6 for drift entry. Energy sector in momentum (XLE leading). WTI $101-102 supports. 10% pullback from recent high on Iran ceasefire oil price unwind = potential entry zone post-result.
+- **KTOS (May 6 AHC):** Q1 2026 earnings. Price ~$62 (-54% from 52w high of $134). SEPA C7 FAIL. In blackout. Skip.
+
+### SEPA Screen
+
+**NVDA — ~$198.45 premarket (May 4)**
+- C1: $198.45 > MA150 ~$186 > MA200 ~$184 ✓
+- C2: MA150 > MA200 ✓
+- C3: MA200 trending up ~+2.4%/mo ✓
+- C4: MA50 ~$187 > MA150/MA200 ✓ (slim margin)
+- C5: Price > MA50 ✓
+- C6: +83% above 52w low ~$108 ✓
+- C7: -8.4% from 52w high $216.61 ✓
+- C8: RS top decile (AI compute leadership) ✓
+- **SEPA: 8/8 PASS — Stage 2 confirmed**
+- Signal score: ~65/75 (below 70 threshold — no fresh catalyst, volume slightly below 20d avg)
+- Catalyst quality: 12/20 structural AI/Blackwell demand; 48 analyst Buys; avg target $222; earnings ~late May
+- R:R at $198: stop $187 (5.6%), target $250 → reward $52, risk $11 → R:R ~4.7:1 ✓
+- Sizing: 1 share = $198 notional (7.9%) ✓; risk $11 = 0.44% of equity ✓
+- **Barrier:** Score 65/75 below 70 gate. No fresh catalyst. FOMC May 7 creates binary week.
+- **Status: WATCHLIST — do not enter until after FOMC resolved (May 7) or score breaks 70**
+
+**AVGO — ~$420 (May 4)**
+- MA50 ~$340, MA200 ~$316 (no MA150 available)
+- SEPA C4: MA50 $340 likely still below MA150 (prior research showed $345 vs $347; no sign of crossover)
+- Signal score: ~53/75 (C4 failure unchanged)
+- **Status: WATCHLIST — monitor for 50MA recross of 150MA; estimated 1-2 weeks**
+
+**POWL — ~$275 (May 1 close)**
+- SEPA C7 FAIL: -53% from $590 52w high (threshold: ≤25%)
+- Stage 4 downtrend confirmed
+- **Status: REMOVE from active watchlist — Stage 4 disqualifies per SEPA**
+
+### Trade Ideas
+
+**1. NVDA — Post-FOMC entry (earliest May 7 post-statement)**
+- Setup: Analyst revision momentum / Stage 2 pullback base $197-205
+- Catalyst type: Structural AI demand (Blackwell GPU ramp); no binary event until late May earnings
+- Sector/theme: AI Compute | XLK
+- Regime: Constructive (VIX 16.89; S&P near record highs)
+- Catalyst quality score: 12/20 (structural; no near-term binary trigger)
+- Earnings/revision score: 13/15 (EPS +97.8% YoY; 48 analyst Buys; avg target $222)
+- Signal score: ~65/75 (below 70 — score gate blocks entry today)
+- Entry reference: $197-202 limit (day of entry, post-FOMC)
+- Stop: $187 (ATR-based, ~5-6% below entry)
+- Target: $250 (analyst consensus zone)
+- Expected holding: 4-8 weeks
+- Risk at 1 share entry ($200 notional): $13 risk / $50 reward = R:R ~3.8:1 ✓
+- **Action: HOLD for now; reassess Tuesday/Wednesday post-FOMC if NVDA holds $195-205**
+
+**2. OXY — Post-earnings drift (assess May 6)**
+- Setup: Post-earnings drift (if beat confirmed May 5 AHC)
+- Catalyst type: Q1 2026 beat + WTI $101 support; cost savings from OxyChem sale ($1.2B+ FCF)
+- Sector/theme: Macro/commodity-linked | XLE (sector leader +4-6% MTD)
+- Regime: XLE leading; oil price elevated
+- Catalyst quality score: TBD (pending May 5 actual vs. consensus $0.62)
+- Earnings/revision score: TBD (prior 5 quarters beat by 6-19%)
+- Signal score: TBD — cannot score until actual results + May 6 price action
+- Entry reference: Assess May 6 open gap quality (only enter if gap held + spread ≤0.30%)
+- Stop: ATR-based; determine from May 6 price action
+- Target: Determine from gap level and prior resistance
+- **Action: In earnings blackout (May 5 AHC). Run pre-market check May 6 to assess.**
+- **Constraint: FOMC May 6-7 means May 6 entry would be pre-statement; prefer May 8 window**
+
+### Risk Factors
+- **FOMC May 6-7:** Primary risk this week. If Fed signals hawkish, growth/tech sells (NVDA). If dovish or hold, supports current rally.
+- **NFP May 8:** Labor data consensus +73K (sharp decel). Soft print = stagflation concern. Strong print = rate expectation spike.
+- **POWL binary tonight (May 4 AHC):** Already Stage 4 — no trade regardless of result. Monitor sentiment contagion to XLI industrials.
+- **Oil price risk:** WTI triangle pattern — breakout either direction changes XLE thesis. Iran/Hormuz headline risk persists.
+- **NVDA score gate:** Gate at 70; score ~65 = no entry. Score could move on any fresh AI catalyst (new GPU deal, MSFT/GOOGL/META capex update from this earnings season).
+- **Micro account constraints:** 1-share sizing for most positions. Commission/spread drag remains meaningful. Only high-conviction setups justify deployment.
+- **Earnings blackouts:** POWL (tonight), OXY (May 5 AHC), KTOS (May 6 AHC) — multiple blackouts active simultaneously.
+
+### Decision
+**HOLD — Cash 100% ($2,500), 0/3 trades used this week.**
+
+Rationale: Binary risk week. FOMC May 7 + NFP May 8 are the two largest macro catalysts for the month. Entering NVDA today (score ~65/75) ahead of the Fed meeting creates avoidable risk without a compensating fresh catalyst. OXY is in earnings blackout through May 5. POWL removed from watchlist (Stage 4 downtrend). Patience is the edge — capital is preserved for the higher-conviction post-FOMC entry window.
+
+**Next action windows:**
+- May 5 morning: Check POWL post-earnings gap (academic — SEPA fail; watch for XLI sector impact)
+- May 6: Assess OXY post-earnings if beat confirmed; still pre-FOMC, low conviction for new entry
+- May 7 (post-2 PM ET FOMC statement): Best window to assess NVDA entry if market confirms Fed hold
+- May 8 (post-9:30 AM NFP): Second assessment after labor data clears
