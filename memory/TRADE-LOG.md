@@ -128,16 +128,18 @@ No positions yet. Bot launches tomorrow.
 |--------|--------|-------|-------|---------|----------------|------|
 | —      | —      | —     | —     | —       | —              | —    |
 
-**Pre-open snapshot (~8:53 AM ET, market opens 9:30 AM):**
-- NVDA: ask $214.85 / bid $197.73 (last quote 4:10 PM ET May 4) — wide AH/closing spread $17.12 (~8.7%); not a live pre-market quote, will revalidate after open
-- POWL: ask $310.46 / bid $232.88 (AH after earnings) — extreme spread; AH bid ~$232.88 vs prior close ~$275 = ~-15% AH reaction → likely earnings miss/disappointment; SEPA C7 still fails (>25% below 52w high $590)
-- OXY: ask $0 / bid $57.25 — earnings AHC TONIGHT (May 5) → blackout, do not enter
-- AVGO: ask $0 / bid $396.45 — SEPA C4 still failing per yesterday's analysis (MA50 < MA150)
+**Pre-open snapshot (~8:53 AM ET):**
+- NVDA: last AH quote bid $197.73 / ask $214.85 — stale closing spread; revalidated at open (see below)
+- POWL: AH bid ~$232.88 vs prior close ~$275 = ~-15% AH reaction → earnings miss confirmed; SEPA C7 hard fail; removed from watchlist
+- OXY: earnings AHC tonight → blackout
+- AVGO: SEPA C4 fail unresolved (MA50 < MA150)
 
-**Market-open gate results (no tickets created):**
-- POWL: REJECTED_BY_GATE — AH price action ~-15% confirms earnings miss/poor reaction; SEPA C7 hard fail unchanged; remove from active watchlist
-- OXY: REJECTED_BY_GATE — earnings blackout (reports AHC May 5)
-- AVGO: REJECTED_BY_GATE — SEPA C4 fail unresolved
-- NVDA: REJECTED_BY_GATE — no fresh catalyst, score still ~63-67/75 below 70 threshold; need confirmed base + VDU; pre-market quote stale, will reassess intraday only if score-improving setup emerges
+**Market-open gate results — live quotes at 9:35 AM ET (no tickets created):**
+- NVDA $198.95 ask / $194.82 bid (spread $4.13 = 2.08%): REJECTED_BY_GATE (>0.30% spread; at-open wide; no TradingAgents BUY signal); SEPA 8/8 valid; NVDA +5.8% open driven by AI chip China export easing catalyst
+- ETN $410.40 ask / $369.36 bid (spread $41.04 = 10%): REJECTED_BY_GATE (>0.30% spread + earnings blackout; reported BMO today beating estimates); reassess May 6 post-gap drift
+- OXY $59.35 ask / $59.32 bid (spread $0.03 = 0.05% ✓): REJECTED_BY_GATE (earnings blackout AHC tonight; no TradingAgents BUY signal); reassess May 6 post-AHC reaction
+- POWL: REJECTED_BY_GATE — earnings miss confirmed; SEPA C7 hard fail; removed from active watchlist
+- TradingAgents Run 1 (pre-market): 4x HOLD — AMZN, META, GOOGL, VRT (all above ideal zones; no BUY signals)
+- TradingAgents Run 2: FAILED (DEEPSEEK_API_KEY not set in environment)
 
-**Decision:** HOLD. No PENDING ticket created; no `trade_gate.py propose` invoked. All four watchlist names blocked. Macro week is binary-heavy: POWL earnings just resolved (negative); OXY earnings AHC tonight; potential FOMC May 6-7 (uncertain per pre-market research); NFP Fri May 8 (60K consensus vs 178K prior — sizable downside binary). Cash 100%, weekly cap 0/3 unused. Next high-conviction windows: OXY post-earnings May 6 reaction; AVGO if 50MA recrosses 150MA; NVDA only on $197-202 base + score ≥70. Gate discipline intact — week-2 day-2 flat is the correct outcome given binary-event density.
+**Decision:** HOLD. No PENDING ticket created; no `trade_gate.py propose` invoked. TradingAgents produced 0 BUY signals; all candidates blocked by spread, blackout, or score threshold. Binary-event density: JOLTS + ISM Services at 10 AM ET today; OXY AHC tonight; FOMC uncertainty through Wed May 7; NFP binary Fri May 8 (60K consensus vs 178K prior). Cash 100%, 0/3 weekly trades. Next windows: ETN and OXY post-earnings reaction May 6; NVDA if spread normalizes + score ≥70. Gate discipline intact.
