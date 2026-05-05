@@ -120,3 +120,24 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** First trading day of week 2 closes flat. No positions, no orders placed, 0 trades today, 0 trades this week (cap 3 unused). Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-05-01; no activity to roll over the weekend). Market-open gate ran a 4-name screen (NVDA, AVGO, OXY, POWL) and rejected all: NVDA on spread (0.75%) + signal score (<70) + distribution-volume flag; AVGO on spread (3.4%) + SEPA C4 fail; OXY on earnings blackout (AHC May 5); POWL on earnings blackout AHC tonight + SEPA C7 fail. Macro setup: VIX 16.78, S&P futures +0.07%, XLE/XLK leading sectors; only tier-1 macro this week is NFP Fri May 8 (60K consensus vs 178K prior) — sizable downside binary. Primary catalyst tonight = POWL earnings; potential FOMC meeting May 6-7 adds mid-week uncertainty. Plan tomorrow: pre-market routine, POWL post-reaction SEPA screen (May 5 if strong beat + gap held + spread normalizes), OXY screen post-AHC May 5, NVDA reassess only on consolidation above $197-202 with VDU. No forced deployment; gate discipline intact.
+
+### May 5 — Market-Open (Day 9, Week 2)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Pre-open snapshot (~8:53 AM ET, market opens 9:30 AM):**
+- NVDA: ask $214.85 / bid $197.73 (last quote 4:10 PM ET May 4) — wide AH/closing spread $17.12 (~8.7%); not a live pre-market quote, will revalidate after open
+- POWL: ask $310.46 / bid $232.88 (AH after earnings) — extreme spread; AH bid ~$232.88 vs prior close ~$275 = ~-15% AH reaction → likely earnings miss/disappointment; SEPA C7 still fails (>25% below 52w high $590)
+- OXY: ask $0 / bid $57.25 — earnings AHC TONIGHT (May 5) → blackout, do not enter
+- AVGO: ask $0 / bid $396.45 — SEPA C4 still failing per yesterday's analysis (MA50 < MA150)
+
+**Market-open gate results (no tickets created):**
+- POWL: REJECTED_BY_GATE — AH price action ~-15% confirms earnings miss/poor reaction; SEPA C7 hard fail unchanged; remove from active watchlist
+- OXY: REJECTED_BY_GATE — earnings blackout (reports AHC May 5)
+- AVGO: REJECTED_BY_GATE — SEPA C4 fail unresolved
+- NVDA: REJECTED_BY_GATE — no fresh catalyst, score still ~63-67/75 below 70 threshold; need confirmed base + VDU; pre-market quote stale, will reassess intraday only if score-improving setup emerges
+
+**Decision:** HOLD. No PENDING ticket created; no `trade_gate.py propose` invoked. All four watchlist names blocked. Macro week is binary-heavy: POWL earnings just resolved (negative); OXY earnings AHC tonight; potential FOMC May 6-7 (uncertain per pre-market research); NFP Fri May 8 (60K consensus vs 178K prior — sizable downside binary). Cash 100%, weekly cap 0/3 unused. Next high-conviction windows: OXY post-earnings May 6 reaction; AVGO if 50MA recrosses 150MA; NVDA only on $197-202 base + score ≥70. Gate discipline intact — week-2 day-2 flat is the correct outcome given binary-event density.
