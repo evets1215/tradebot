@@ -143,3 +143,12 @@ No positions yet. Bot launches tomorrow.
 - TradingAgents Run 2: FAILED (DEEPSEEK_API_KEY not set in environment)
 
 **Decision:** HOLD. No PENDING ticket created; no `trade_gate.py propose` invoked. TradingAgents produced 0 BUY signals; all candidates blocked by spread, blackout, or score threshold. Binary-event density: JOLTS + ISM Services at 10 AM ET today; OXY AHC tonight; FOMC uncertainty through Wed May 7; NFP binary Fri May 8 (60K consensus vs 178K prior). Cash 100%, 0/3 weekly trades. Next windows: ETN and OXY post-earnings reaction May 6; NVDA if spread normalizes + score ≥70. Gate discipline intact.
+
+### May 5 — EOD Snapshot (Day 9, Tuesday — Week 2)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Day-2 of week 2 closes flat. No positions, no orders, 0 trades today, 0 trades this week (cap 3 unused). Alpaca equity = last_equity = $2,500.00 (balance_asof 2026-05-04; no activity). Market-open gate rejected all four screened names: NVDA on at-open spread 2.08% (>0.30%) + 0 TradingAgents BUY signals; ETN on spread 10% + earnings-day blackout (BMO beat); OXY on earnings blackout (AHC tonight); POWL on earnings miss + SEPA C7 hard fail (removed from active watchlist). TradingAgents Run 1 returned 4x HOLD across AMZN/META/GOOGL/VRT; Run 2 failed on missing DEEPSEEK_API_KEY (infra item — not blocking entries today). Binary-event density: JOLTS + ISM Services 10 AM today, OXY AHC tonight, potential FOMC May 6-7, NFP Fri May 8 (60K consensus vs 178K prior — sizable downside binary). Plan tomorrow: pre-market routine, ETN and OXY post-earnings drift screen May 6 (if SEPA qualifies + spread normalizes), NVDA reassess only on tight spread + score ≥70 + confirmed base. Gate discipline intact — 9-for-9 days flat is the correct outcome given binary-event density and no candidate clearing all entry checklist gates.
