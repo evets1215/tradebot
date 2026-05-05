@@ -710,3 +710,78 @@ Advisory context from Run 1 (all entry zones are below current prices — not ac
 
 ### Decision
 **HOLD — no entry today.** TradingAgents Run 1: 4x Overweight/HOLD (no BUY). Run 2 failed (API key missing). Key updates: (1) NVDA at $210 is above ideal zone — do not chase; (2) ETN likely beat, in blackout today; POWL miss was company-specific — power-grid theme intact; (3) OXY AHC tonight still binary; (4) FOMC and NFP binary gauntlet through Friday. Cash 100%, 0/3 weekly trades. **Plan:** Market-open gate will screen ETN spread/SEPA on May 6; reassess OXY post-AHC reaction May 6; watch NVDA for pullback to $197-205; hold cash through midweek risk window.
+
+---
+
+## 2026-05-05 — Post-Market Addendum / May 6 Setup (late pre-market re-run, 6:41 PM ET)
+
+### Account Snapshot (post-market)
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (margin)
+- **Positions:** 0 | **Open Orders:** 0 | **Daytrade Count:** 0 (0/3)
+- **Trades this week:** 0/3 | **balance_asof:** 2026-05-04
+
+### Market Close Data (May 5)
+- **S&P 500:** 7,200.75 (-0.41%) — modest sell-off; Nasdaq 25,067.80 (-0.19%); Dow also lower
+- **VIX:** 17.55 (close), down 3.66% from 18.29 — still in moderate range; Apr avg 16.89
+- **WTI:** $103.92 (-2.35% from $106.42 May 4); intraday range $103.13-$105.34 — OPEC+ acceleration fears weighing
+
+### FOMC Correction (important)
+- **NO FOMC meeting May 6-7.** Confirmed. Last meeting was April 28-29 (held 3.50-3.75%). Next: June 16-17.
+- Prior research log entries cited May 6-7 FOMC risk — this was incorrect; remove from risk list.
+
+### Earnings Outcomes (EOD May 5)
+
+**ETN (Eaton) Q1 2026 — BMO May 5:**
+- Revenue: $7.45B vs $7.14B estimate (+4.4% beat; +16.8% YoY)
+- Adj EPS: $2.81 vs $2.74 estimate (+2.6% beat)
+- Raised FY2026 organic growth guidance to 10% midpoint (from 8%); EPS guidance $13.05-$13.50
+- Record Q1 FCF (+245% YoY); record segment profit $1.7B (22.7% margin)
+- **Stock reaction: -5.0%** (sell-the-news; stock was +32.6% YTD entering day; hit 52-week high $429.31 yesterday)
+- Advisory: Post-gap pullback with strong fundamentals may attract buyers on May 6. Need: spread ≤0.30%, SEPA screen, TradingAgents BUY. Setup category: post-earnings drift (mean reversion of overreaction).
+
+**OXY (Occidental Petroleum) Q1 2026 — AHC May 5:**
+- Adj EPS: $1.06 vs $0.62 estimate (+71% beat — very large)
+- Revenue: $5.11B vs $5.52B estimate (-7.5% miss; -11% YoY)
+- FCF: -$112M (negative; was +$466M Q1 2025) — significant cash burn reversal
+- Conference call: May 6 at 1 PM ET
+- Stock: ~$59.30-59.73, -0.90% on the day (pre-results; muted reaction expected)
+- Advisory: Mixed print — EPS beat is optical (WTI-driven pricing), but revenue miss + negative FCF is structurally concerning. OPEC+ production acceleration remains guidance headwind. Assess May 6 opening reaction before any consideration; do NOT initiate without TradingAgents BUY.
+
+**NVDA intraday story (May 5):**
+- Opened $209.93 (+5.8%) on AI chip China export easing news (BIS rule relaxation for H20/gaming chips rumored)
+- Faded the entire gap: closed $198.66 (+0.09% vs $198.48 May 4 close)
+- Intraday: high $210.30, low $198.70; back inside ideal zone $197-205
+- Critical read: Full gap fade on massive volume (~225M shares) = distribution. Sellers absorbed all buyers at $210 level.
+- Near-term: Back at ideal zone but gap-fade pattern is cautionary. Needs spread tightening + TradingAgents BUY + consolidation above $197 before entry.
+- SEPA: 8/8 still valid (no new disqualifications). Blackout begins ~May 18.
+
+### TradingAgents Status
+- **Run 1 (AM this session):** AMZN HOLD, META HOLD, GOOGL HOLD, VRT HOLD
+- **Run 2 (this late run):** TIMED OUT — DeepSeek API non-responsive (>10 min on NVDA alone); killed. No BUY signals generated.
+- **Actionable BUY ideas: 0**
+- Infra note: DeepSeek API slowness persists across runs today. May need fallback model for tomorrow's pre-market.
+
+### May 6 Watchlist & Setup Intelligence
+
+| Ticker | Setup | Key Gate | Risk |
+|--------|-------|----------|------|
+| ETN | Post-earnings drift (mean reversion) | Spread ≤0.30%, SEPA screen, TradingAgents BUY | Stock already -5%; further selling possible; spread wide at open |
+| OXY | Post-earnings gap assessment | TradingAgents BUY; FCF quality review | FCF negative; revenue miss; OPEC+ guidance risk |
+| NVDA | Pullback-to-zone | Spread ≤0.30%, TradingAgents BUY, no gap-fade repeat | Distribution day; needs consolidation above $197 |
+
+### Economic Calendar May 6
+- **10:00 AM ET: State Employment & Unemployment (March 2026)** — low-tier; minor impact
+- **12:30 PM ET: Gov. Michael Barr discussion** — Fed speech; monitor for rate signals
+- **1:00 PM ET: OXY earnings call** — listen for FCF guidance + OPEC+ commentary
+- **No FOMC meeting** (confirmed)
+- **NFP Friday May 8 (8:30 AM ET): 60K consensus vs 178K prior** — biggest weekly binary; hold tight through weekend
+
+### Risk Factors (updated)
+- **NVDA gap-fade:** Distribution signal; do not chase if spread wide at open
+- **OXY FCF negative:** Optical EPS beat; underlying cash generation deteriorated
+- **ETN sell-the-news:** May continue to drift lower before buyers return
+- **NFP May 8 (60K vs 178K):** Sizable downside binary; no new entries Tuesday+Wednesday unless thesis is very strong
+- **DeepSeek API slowness:** TradingAgents unable to produce BUY signals; may need model fallback
+
+### Decision
+**HOLD — no entry.** No TradingAgents BUY signals (timed out). Three candidates for May 6 assessment: ETN (post-earnings drift), OXY (post-AHC gap), NVDA (pullback to zone). All require spread normalization + TradingAgents BUY at market-open before any ticket is proposed. NFP Friday binary argues for extreme selectivity through week-end. Cash 100%, 0/3 weekly trades remaining. Patience > activity.
