@@ -638,3 +638,75 @@ NVDA is the only fully SEPA-qualified name but R:R is marginal at $209. Need pul
 - **KTOS:** Earnings May 6 AHC; price ~$62 (-54% from $134 52w high) → SEPA C7 FAIL; blackout; skip.
 - **POWL SEPA disqualification:** Stock declined ~52% from Mar high ~$590 to ~$275 May 1 close. C7 FAIL (>25% below 52w high). Remove from active watchlist regardless of tonight's earnings result.
 - **OXY as new watchlist candidate (post-May 5 AHC):** Macro/commodity-linked; XLE sector leading; assess May 6 gap quality. Full SEPA screen needed May 6.
+
+---
+
+## 2026-05-05 — Pre-market Research (Week 2, Day 2)
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (margin)
+- **Positions:** 0 | **Open Orders:** 0 | **Daytrade Count:** 0 (0/3)
+- **Phase P&L:** $0.00 (0.00%) | **Trades this week:** 0/3 | **balance_asof:** 2026-05-04
+
+### Market Context
+- **Oil:** WTI $104.31/bbl (-1.98% from $105.13 May 4 close); OPEC+ discussing accelerating production increases — bearish pressure on XLE; Iran/Hormuz de-escalation talks ongoing ("Project Freedom")
+- **Indices:** S&P 500 futures rising on US-Iran ceasefire monitoring; SPY closed May 4 at $718.07 (-0.36%); S&P broke >7,200 in late April (5-week streak). NVDA opened $209.93 today (+5.8% vs $198.48 May 4 close) on AI chip China export restriction easing.
+- **VIX:** 18.51 close May 4 (+8.95% from $16.99); May futures 19.45; slightly elevated vs April avg 16.89 but still moderate
+- **FOMC:** Held 3.50-3.75% at Apr 28-29 meeting; potential May 6-7 meeting uncertain — treat as binary risk through Wed
+- **Economic Calendar today (May 5):**
+  - **10:00 AM ET: JOLTS March 2026** (forecast 6.860M vs prev 6.882M; slight labor softening expected)
+  - **10:00 AM ET: ISM Services PMI** (business conditions + employment sub-index watched for inflation signal)
+  - **ETN Q1 2026 BMO today** (consensus $2.73-$2.75 EPS, $7.10-$7.14B rev; reports before open)
+  - Fri **May 8 8:30 AM ET NFP** (consensus 60K vs 178K prior) — largest binary event of week
+- **Earnings AHC tonight: OXY** (Q1 EPS consensus $0.59-$0.65, revenue $5.5-$5.74B; 5-quarter beat streak; WTI $104 supportive)
+
+### Sector Momentum (May 4 close / May 5 early session)
+| ETF | YTD% | Signal | Notes |
+|-----|------|--------|-------|
+| XLK | +12.32 | STRONG today | NVDA +5.8% open; AI chip China export catalyst; tech leading |
+| XLI | +11.81 | STRONG today | ETN BMO beat likely; +2.57% hitting 52w high $429.31 |
+| XLE | +32.49 | YTD leader | WTI -1.98% + OPEC+ risk = headwind; OXY blackout |
+| XLB | +13.73 | mixed | Materials solid |
+| XLU | +9.80 | defensive | Stable |
+| XLP | +8.96 | defensive | Stable |
+| XLV | -5.84 | weak | Healthcare worst YTD; avoid |
+
+**Sector leaders today:** XLK (NVDA catalyst) > XLI (ETN beat) | **YTD leader still XLE** | **Laggards:** XLV
+
+### Sentiment on Held Tickers
+- No positions. N/A.
+
+### Earnings Reactions / Watch
+- **ETN Q1 2026 (BMO today May 5):** Consensus $2.73-$2.75 EPS / $7.10-$7.14B rev. Data suggests ETN +2.57% intraday hitting 52-week high $429.31 — beat likely. **In earnings blackout today**; reassess post-earnings drift setup May 6 if gap holds, spread normalizes, and SEPA qualifies.
+- **POWL Q2 2026 (reported May 4 AHC):** MISS — EPS $1.25 vs $1.34; revenue $296.6M vs $304M. AH -5.26% to $255.75. SEPA C7 FAIL (>25% below 52w high). **Removed from watchlist.** Key observation: ETN hitting 52-week highs = POWL miss was idiosyncratic, NOT power-grid theme breakdown.
+- **OXY (tonight AHC):** Earnings blackout; reassess May 6 post-reaction. WTI $104 supportive; 5-quarter beat streak. OPEC+ acceleration is a risk to guidance.
+- **NVDA:** Opened $209.93 today, high $210.30, vol ~225M shares — ABOVE old ideal zone $196-205. Catalyst: AI chip China export restriction easing + Q4 FY2026 results ($68.13B, +73% YoY) still lifting sentiment. **At $210, now above ideal R:R zone; do not chase.** Wait for pullback to $197-205 range. SEPA blackout begins ~May 18.
+- **KTOS:** May 6 AHC; SEPA C7 fail; skip.
+
+### TradingAgents Primary Picker
+**Run 1 (earlier this morning):** 4 candidates — AMZN, META, GOOGL, VRT
+- AMZN HOLD (Overweight) | META HOLD (Overweight) | GOOGL HOLD (Overweight) | VRT HOLD (Overweight)
+
+**Run 2 (this run):** Candidates NVDA, GEV, XOM — **FAILED: DEEPSEEK_API_KEY not set in environment**
+
+**Actionable BUY ideas: 0**
+
+Advisory context from Run 1 (all entry zones are below current prices — not actionable today):
+- **AMZN** — Overweight; ideal zone $245-255; current ~$271 = above zone; stop $234.50; target $300; 12-18mo
+- **META** — Overweight; needs $600-605 hold or $670-680 breakout; stop $575; target $688; 6-12mo
+- **GOOGL** — Overweight; ideal $355-360; current ~$383 = above zone; stop $310; target $450; 12-18mo
+- **VRT** — Overweight; deploy new capital only at $305-315 or $277-290 pullback; current ~$330; target $350
+
+### Risk Factors
+- **OXY earnings tonight AHC:** Binary; OPEC+ acceleration risk could weigh on guidance
+- **OPEC+ production acceleration:** Structural headwind for XLE/WTI; Iran premium at risk
+- **NVDA at $210 — above ideal zone:** Chasing here = poor R:R; wait for pullback
+- **ETN in blackout today:** Cannot initiate; earliest is May 6 post-earnings drift assessment
+- **FOMC May 6-7 uncertainty:** Binary risk through midweek
+- **NFP Fri May 8 (60K consensus vs 178K prior):** Largest binary of week; substantial downside risk
+- **VIX 18.51 → May futures 19.45:** Still elevated vs April avg; macro uncertainty persists
+- **NVDA SEPA blackout begins ~May 18:** Shrinking entry window
+- **TradingAgents Run 2 unavailable:** DEEPSEEK_API_KEY missing; no new BUY signals possible this session
+
+### Decision
+**HOLD — no entry today.** TradingAgents Run 1: 4x Overweight/HOLD (no BUY). Run 2 failed (API key missing). Key updates: (1) NVDA at $210 is above ideal zone — do not chase; (2) ETN likely beat, in blackout today; POWL miss was company-specific — power-grid theme intact; (3) OXY AHC tonight still binary; (4) FOMC and NFP binary gauntlet through Friday. Cash 100%, 0/3 weekly trades. **Plan:** Market-open gate will screen ETN spread/SEPA on May 6; reassess OXY post-AHC reaction May 6; watch NVDA for pullback to $197-205; hold cash through midweek risk window.
