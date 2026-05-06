@@ -785,3 +785,99 @@ Advisory context from Run 1 (all entry zones are below current prices — not ac
 
 ### Decision
 **HOLD — no entry.** No TradingAgents BUY signals (timed out). Three candidates for May 6 assessment: ETN (post-earnings drift), OXY (post-AHC gap), NVDA (pullback to zone). All require spread normalization + TradingAgents BUY at market-open before any ticket is proposed. NFP Friday binary argues for extreme selectivity through week-end. Cash 100%, 0/3 weekly trades remaining. Patience > activity.
+
+---
+## 2026-05-06 — Pre-market Research (Week 2, Day 3)
+
+*Note: Perplexity API returned 401; all macro data via WebSearch fallback.*
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (margin)
+- **Positions:** 0 | **Open Orders:** 0 | **Daytrade Count:** 0 (0/3)
+- **Phase P&L:** $0.00 (0.00%) | **Trades this week:** 0/3 | **balance_asof:** 2026-05-05
+
+### Market Context
+- **Oil:** WTI ~$100.60/bbl (↓5%+ from mid-week highs near $106); Brent ~$112/bbl — Hormuz de-escalation talks reducing war premium; OPEC+ supply increase headwind
+- **Indices:** S&P 500 futures +0.25% (~7,305.25) — renewed Iran deal optimism + AMD blowout earnings driving risk-on bid
+- **VIX:** ~17.45 (May 5 close, -4.59%); declining from 18.51; constructive; moderating macro fear
+- **FOMC:** NO meeting today; confirmed next is June 16-17; Apr 28-29 held 3.50-3.75%
+- **Economic Calendar:**
+  - **Fri May 8 8:30 AM ET: April NFP** — consensus 60K vs 178K prior; largest binary of week; substantial downside risk if miss
+  - No tier-1 macro today (May 6)
+- **Key Overnight Catalysts:**
+  - **AMD Q1 2026 AHC beat (May 5):** EPS $1.37 vs $1.10 est (+25%); Revenue $10.3B vs $9.9B (+4%); Data center $5.8B (+57% YoY, beat $5.6B est); Q2 guide $11.2B (beats). Stock +18% premarket → largest semi catalyst in weeks; XLK sector leader amplified
+  - **OXY Q1 2026 AHC beat (May 5):** Adj EPS $1.06 vs $0.62 est (+71% beat — inflated by OxyChem sale gain; net income $3.2B); Revenue $5.11B vs $5.44B est (miss -6%); Stock reaction negative AH (revenue miss + one-time gain inflating EPS); reassess at open
+  - **ETN Q1 2026 (May 5 BMO):** Sales +17% to $7.45B; adj EPS $2.81 vs $2.77 (beat); raised guidance to 9-11% organic growth; but margin compression (Electrical Americas margins -440bps to 25.6%) → stock -5.86% premarket; avoid
+
+### Sector Momentum (as of May 5 close)
+| ETF | 1W% | 1M% | Signal |
+|-----|-----|-----|--------|
+| XLK | +4.93 | +21.09 | DOMINANT LEADER — AMD/semis driving |
+| XLE | +3.02 | -0.39 | YTD strong; 1M flat; oil easing |
+| XLY | +0.91 | +8.28 | Solid |
+| XLRE | +0.59 | +5.77 | Solid |
+| XLI | +0.84 | +4.74 | Healthy; ETN drag today |
+| XLF | -0.50 | +3.43 | Mild lag |
+| XLB | +0.25 | +2.61 | Neutral |
+| XLP | +1.18 | +1.69 | Defensive bid |
+| XLU | +0.26 | +0.43 | Flat/defensive |
+| XLV | +1.02 | -0.67 | LAGGARD — avoid |
+| SPY | +1.70 | +9.84 | Benchmark |
+
+**Regime:** Tech/Semis bull. XLK +21% 1M is dominant. AMD catalyst today amplifies XLK leadership. XLE YTD leader but 1M flat as oil pulls back. XLV weakest 1M — avoid healthcare.
+
+### Sentiment on Held Tickers
+- No positions. N/A.
+
+### SEPA Screens
+
+**1. AMD — $355.26 close May 5 | Premarket May 6: ~$419 (+18%) | Sector: XLK**
+
+**Trend Template (8/8 PASS — Stage 2 confirmed):**
+| # | Condition | Status | Values |
+|---|-----------|--------|--------|
+| 1 | Price > MA150 & MA200 | ✅ PASS | $355.26 > $229.22 > $213.28 |
+| 2 | MA150 > MA200 | ✅ PASS | $229.22 > $213.28 |
+| 3 | MA200 trending up ≥1 month | ✅ PASS | +8.07%/mo slope |
+| 4 | MA50 > MA150 & MA200 | ✅ PASS | $241.38 > $229.22 > $213.28 |
+| 5 | Price > MA50 | ✅ PASS | $355.26 >> $241.38 |
+| 6 | ≥30% above 52W low | ✅ PASS | +266.7% above $96.88 |
+| 7 | Within 25% of 52W high | ✅ PASS | -2.1% from $362.79 |
+| 8 | RS | ✅ PASS | +18% premarket to new ATH — elite RS |
+
+**Catalyst:** Post-earnings momentum. Data center +57% YoY; MI300X gaining server share; Q2 guidance $11.2B beat. Morgan Stanley raised PT to $360. Structural AI chip demand.
+
+**Pattern:** Post-earnings gap-up breakout to new ATH. No VCP yet — gap IS the event. At ~$419 premarket, stock is +18% above prior close. Entry into the gap = chasing:
+- At $419 entry: stop $387 (-7.6%) → risk $32/share; max risk $25 → 0.78 shares → 1 share; notional $419 = 16.8% ✓
+- Target: ~$460-480 (next major resistance); reward ~$45-60; R:R ~1.4-1.9:1 → BELOW 2:1 threshold
+- **Verdict: Do NOT enter today.** Gap too extended; R:R fails 2:1 minimum. Wait for post-earnings consolidation (flat base or VCP) to form over 3-10 trading days. Monitor for pivot setup at $410-420 range once volume dries up. SEPA 8/8 = watchlist priority #1.
+
+**2. OXY — $59.34 close May 5 | Post-earnings reaction TBD | Sector: XLE**
+
+**Trend Template (7/7 conditions ex-RS — PASS):**
+- C1-C7 all pass: Price $59.34 > MA50 $57.95 > MA150 $47.71 > MA200 $46.97; 200MA slope +3.41%/mo; +56.6% above 52W low $37.90; -12.0% from 52W high $67.45
+- RS: Positive (XLE YTD leader) — likely PASS but below elite level
+
+**Fundamental concern:** EPS beat inflated by $3.2B OxyChem divestiture gain (one-time); adj EPS $1.06 vs $0.62 est but recurring earnings power unclear without OxyChem; revenue miss -6%. Stock reacted negatively AH. Assess open price action — if opens BELOW $58.50 (May 5 low = $59.17), thesis is broken. If holds $59-60, could be buyable.
+
+- Entry plan if positive open: ~$59.50 limit; stop $55.00 (-7.6%); risk $4.50/share; max risk $25 → 5 shares; notional $297.50 = 11.9% ✓; target $67.45 (52W high) = +13.4%; R:R ~1.8:1 (marginal)
+- **Verdict: WATCHLIST — assess open reaction. Revenue miss + OxyChem-inflated beat reduces conviction. Only enter on clearly positive open with tight spread; otherwise HOLD.**
+
+**3. NVDA — $196.50 close May 5 | Premarket: ~$199.68 (+1.6%) | Sector: XLK**
+
+- SEPA 7/7 PASS: MA50 $187.42 > MA150 $186.54 > MA200 $184.09 (C4 margin: $0.88, tight); 200MA slope +2.29%/mo; +77.4% above 52W low; -9.4% from 52W high $216.83
+- Pattern: Post-breakout consolidation $196-202 (6 sessions). AMD catalyst adds tailwind but no NVDA-specific catalyst today.
+- Signal score: ~63-67/75 — STILL BELOW 70 threshold; volume contracting (111M May 5 vs 147M avg) — constructive VDU developing
+- Potential pivot: ~$202 (prior consolidation range high). If AMD lifts semis and NVDA breaks $202 on volume ≥1.5x avg (≥220M), would run trade_gate.py. Until then: WATCHLIST.
+
+### Risk Factors
+- **NFP Fri May 8 (60K consensus vs 178K prior):** Single largest binary event of week; substantial downside if miss → hold cash or accept binary risk on any new position entered today
+- **AMD gap chase risk:** Opening into +18% gap = poor R:R; if gap doesn't hold, immediate reversal possible
+- **OXY revenue miss:** One-time gain inflated EPS; recurring earnings quality uncertain; OPEC+ supply headwind for WTI
+- **ETN margin compression:** XLI headwind; -5.86% premarket despite beat; avoid
+- **Oil WTI $100.60 pulling back:** Hormuz risk premium unwinding; XLE tailwind fading
+- **NVDA C4 margin only $0.88 (MA50-MA150):** Any multi-day selloff could flip to FAIL and degrade Stage 2
+- **Micro account ($2,500):** 1-share sizing on AMD at $419 = 16.8% notional; concentrate only on highest-conviction
+
+### Decision
+**HOLD — no entry today.** AMD is the highest-conviction SEPA name (8/8 pass, Grade A fundamentals, massive catalyst) but the +18% premarket gap fails the R:R test (<2:1) and entering into a gap is not a SEPA entry — it is chasing. OXY post-earnings reaction unclear; revenue miss reduces conviction. NVDA score below 70 threshold. NFP binary Friday is a further reason to preserve cash. **Primary watch for week:** AMD post-gap consolidation — if it forms a flat base at $410-425 with volume dry-up, that is the highest-priority entry candidate for next week. Patience > activity.
