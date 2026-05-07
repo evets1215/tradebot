@@ -881,3 +881,62 @@ Advisory context from Run 1 (all entry zones are below current prices — not ac
 
 ### Decision
 **HOLD — no entry today.** AMD is the highest-conviction SEPA name (8/8 pass, Grade A fundamentals, massive catalyst) but the +18% premarket gap fails the R:R test (<2:1) and entering into a gap is not a SEPA entry — it is chasing. OXY post-earnings reaction unclear; revenue miss reduces conviction. NVDA score below 70 threshold. NFP binary Friday is a further reason to preserve cash. **Primary watch for week:** AMD post-gap consolidation — if it forms a flat base at $410-425 with volume dry-up, that is the highest-priority entry candidate for next week. Patience > activity.
+
+---
+
+## 2026-05-07 — Pre-market Research
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (margin)
+- **Positions:** 0 | **Open Orders:** 0 | **Daytrade Count:** 0 (0/3)
+- **Trades this week:** 0/3 | **balance_asof:** 2026-05-06
+
+### Market Context
+- **WTI:** ~$93 (down ~7% from $103.92 on May 5 close); Brent intraday low $96.75 — driven by US-Iran de-escalation progress (framework deal nearing, 48-hr response window; supply normalization 6-8 week lag). Very negative for energy sector.
+- **S&P 500:** Record high today (+0.81%); Nasdaq +1.03%; Dow +0.73%. Industrials +2.66%. Broad-based risk-on rally; 9 sectors positive.
+- **S&P Futures (prior close):** ESM26 7,379.50 (-0.14%)
+- **VIX:** 17.44 (spot May 7, +0.29% from 17.38 May 5 close) — moderate, stable
+- **Economic Calendar May 7:** No major releases (no CPI, PPI, FOMC, jobs data)
+- **Key Release Tomorrow — NFP (May 8 8:30 AM ET):** April consensus ~60K vs 178K March prior. ADP for April released yesterday (May 6): 109K jobs added (beat 99K estimate, up from 61K March) — significantly above consensus, suggesting NFP upside risk
+- **Sector Momentum:** XLK leading (AI narrative); XLI strong (+2.66%); XLE under severe pressure (WTI -7%); XLU recovering
+
+### Stock Updates Since Last Log
+- **NVDA:** May 6 close $207.83 (+5.79%). May 7 premarket ~$213. Above ideal zone $197-205. UBS projects $350-400B data center revenue in 2027. May 5 distribution day (full gap fade on ~225M volume) remains concern.
+- **AMD:** May 6 close +14% to ~$406-412 on Q1 beat. Revenue $10.25B (+38% YoY, +$360M beat); Data Center +57% to $5.8B; Q2 guide $11.2B midpoint (+46% YoY); Goldman $450 PT. Strong post-earnings momentum setup but parabolic run +65% from $247 mid-April.
+- **ETN:** May 6 close $418.84 (+1.94% recovery from -5% May 5 reaction). Q1: EPS $2.81 beat ($2.73E), Revenue $7.45B beat ($7.14B). FY guidance raised to 10% organic growth midpoint. Power infrastructure theme intact.
+- **OXY:** May 6 close $55.12 (down from $60.13 May 4 = -8.3% in 2 days). EPS optical beat ($1.06 vs $0.62E) but revenue miss (-7.5%), FCF controversy, CEO transition (Hollub → Jackson), WTI crash = compound headwinds. **Removed from actionable watchlist.**
+- **VRT:** ~$358 (+5.25% 1D); data center infrastructure, YTD +53.42%. In strong uptrend.
+- **MU:** $666.80 May 6 (+4.15%) — exceeds 20% notional cap for account; advisory context only.
+- **GEV:** ~$1,080 — far exceeds 20% cap; excluded.
+- **POWL:** Removed from watchlist (earnings miss Q1 2026, SEPA C7 hard fail).
+
+### Sentiment on Held Tickers
+- No positions held. N/A.
+
+### TradingAgents Summary
+- **Run 1 (deepseek-v4-pro for both deep+quick):** TIMED OUT — NVDA analysis stalled at 615+ seconds; killed. 0 BUY signals.
+- **Run 2 (deepseek-v4-pro deep + deepseek-v4-flash quick):** TIMED OUT — NVDA analysis stalled at 285 seconds (faster than Run 1 but not sufficient); killed. 0 BUY signals.
+- **3rd consecutive day of DeepSeek API slowness** (May 5, 6, 7). Root cause: deepseek-v4-pro as deep_think_llm emits reasoning tokens on every call; compounded across multi-agent debate rounds. Flash model for quick improved speed but pro model remains the bottleneck.
+- **Infra action needed:** Evaluate replacing deepseek-v4-pro with claude-sonnet-4-6 or another faster provider for deep_think_llm to restore picker functionality.
+- **Candidates analyzed: 0 (all timed out). BUY decisions: 0. HOLD/SELL decisions: 0.**
+
+### Actionable Ideas (Pending TradingAgents BUY — Advisory Only)
+
+| Ticker | Setup | Catalyst | Sector/Theme | Sector ETF | Catalyst Score | Entry Zone | ATR Stop | Target | Holding |
+|--------|-------|----------|--------------|------------|----------------|------------|----------|--------|---------|
+| AMD | Post-earnings drift | Q1 beat + Q2 guide raise; Data Center +57% YoY | AI Compute | XLK | ~16/20 | $395-410 (post-pullback) | $380 (~$25-30 risk/share) | $450 (Goldman PT) | 2-4 wks |
+| NVDA | Sector breakout resumption | China chip easing + AI narrative; UBS $350-400B 2027 DC forecast | AI Compute | XLK | ~15/20 | $205-213 | $197 (~$10-16 risk/share) | $250 | 4-8 wks |
+| ETN | Post-earnings mean reversion | Q1 beat + FY guidance raise; power infrastructure backlog | Power Grid | XLI | ~13/20 | $410-420 | $390 (below May 5 low) | $450 | 2-3 wks |
+
+**Note:** None of these ideas are actionable without TradingAgents BUY. No PENDING tickets to create. Sizing advisory only (AMD: 1 share max at 20% cap; NVDA: 2 shares; ETN: 1 share).
+
+### Risk Factors
+- **DeepSeek API failure (3rd day):** TradingAgents cannot produce BUY signals; no entries possible under strategy rules
+- **NFP May 8 (8:30 AM ET):** Binary event; ADP 109K vs consensus 60K suggests upside, but ADP/NFP divergence risk remains
+- **NVDA above ideal zone ($213 vs $197-205):** Entry here is lower R:R; preferable to wait for pullback
+- **AMD parabolic extension:** +65% in 3 weeks; at current prices R:R is ~1.5x (Goldman $450 target); not ideal
+- **WTI crash (-7%):** Energy sector under severe pressure; OXY de-listed from watchlist; XLE tailwind for broader market reversed
+- **US-Iran deal uncertainty:** Supply normalization 6-8 week lag; deal could fall through
+
+### Decision
+**HOLD — no entry.** TradingAgents produced 0 BUY signals for the 3rd consecutive day (DeepSeek API timeouts; deepseek-v4-pro too slow as deep_think_llm). Strategy rule requires TradingAgents BUY → no entry possible today. Market at record highs (S&P +0.81%) with strong AI/tech momentum; AMD and NVDA are top advisory candidates but both above optimal entry zones. NFP binary tomorrow (May 8) argues for cash preservation regardless. Cash 100%, 0/3 weekly trades. **Post-NFP window (Monday May 11): Re-run TradingAgents with faster model; screen AMD pullback to $390-400, NVDA to $203-210, ETN consolidation above $410 — if TradingAgents gives BUY and R:R ≥ 3:1, initiate with limit order.**
