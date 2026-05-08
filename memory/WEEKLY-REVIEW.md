@@ -100,3 +100,82 @@ Template for each entry:
 
 ### Overall Grade: C+
 Disciplined HOLD through a genuinely difficult macro week (5 binary events, 3 earnings blackouts). Gate integrity was perfect — no rules broken, no sloppy entries. Grade is C+ rather than B because the watchlist is too narrow (3 names → 0 opportunities) and the account earned 0% vs benchmark +0.9% in its first live week. Process quality: A. Output quality: C. The combination earns a C+.
+
+---
+
+## Week ending 2026-05-08
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $2,500.00 (Mon May 4 AM equity) |
+| Ending portfolio | $2,500.00 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | +2.34% (SPY May 1→May 8: $720.65→$737.53) |
+| Bot vs S&P | -2.34% |
+| Trades | 0 (W:0 / L:0 / open:0) |
+| Win rate | N/A |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | No trades placed this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+|--------|-------|-------|------------|------|
+| — | — | — | — | — |
+
+### What Worked
+- Risk-off on POWL: removed from watchlist immediately after earnings miss + SEPA C7 fail (May 5). No anchoring.
+- OXY de-risk: cut from actionable watchlist after WTI -7% + FCF/CEO transition compounded May 6-7. Avoided the post-earnings drawdown.
+- Spread filter held: NVDA at-open spread 2.08% (May 5) and 0.75% (May 4) correctly blocked despite tempting setups.
+- ETN earnings reaction read: noted -5% May 5 → +1.94% May 6 recovery; correctly flagged as mean-reversion candidate without forcing entry.
+- Cash preservation through NFP binary May 8 (consensus 60K vs ADP 109K beat) — no entry under uncertainty was the right call.
+
+### What Didn't Work
+- 0% return vs S&P +2.34% — the largest weekly underperformance gap so far; SPY made fresh highs Wed-Fri while bot sat in cash.
+- TradingAgents picker offline 3 consecutive days (May 5/6/7) due to DeepSeek API timeouts — `deepseek-v4-pro` as deep_think_llm emits reasoning tokens on every call, compounded across multi-agent debate. Strategy rule requires TradingAgents BUY → no entries possible regardless of setup quality.
+- Watchlist candidates all above ideal zones: NVDA $213 vs $197-205 entry, AMD parabolic (+65% in 3 weeks), MU $666+ exceeds 20% notional cap, GEV/MU/AMD too expensive for 1-share sizing math.
+- Recordkeeping gap: May 6 EOD snapshot and May 8 pre-market/market-open never committed (Alpaca confirms no trades, so it's logging hygiene only — but it's the second time in two weeks).
+- Watchlist narrowing (POWL out, OXY out) without offsetting additions — week 3 starts with thinner pipeline than week 2 began.
+
+### Key Lessons
+1. **Infrastructure dependency is now the binding constraint, not setup quality.** The strategy hard-rule "TradingAgents BUY required" means a broken picker = 0 trades, period. With no entry possible, market quality is irrelevant. Fix the picker before anything else next week.
+2. **The S&P running away matters more in week 2.** Week 1 gap was 0.9%; week 2 gap was 2.34%. Cumulative gap is now ~3.25% behind in 2 weeks of a $2,500 account. Discipline is correct, but the cost of missing fresh-high tape with AI/industrial leadership is real.
+3. **Above-zone is a real exit, not just a wait.** NVDA $213, AMD $455, MU $746 — all SEPA 7/7 but all above the planned entry zones. Chasing fresh highs at 1-share sizing means $5-10 of slippage immediately erodes the 1% risk budget. Either widen zones (with worse R:R) or accept that breakouts may pass.
+4. **Sector rotation into XLI/XLU was telegraphed and missed.** Industrials +2.66% on May 7 alone; ETN was on the watchlist post-earnings recovery and got no further screen because the picker was down. Manual gate-only path for advisory candidates is worth considering.
+5. **Two consecutive flat weeks in fresh-high tape is a yellow flag.** Process is intact but output is worsening. If week 3 also finishes at 0/3 trades while SPY climbs, the issue stops being patience and starts being structural.
+
+### Adjustments for Next Week (May 11–15)
+- **Day-1 priority: fix the TradingAgents picker.** Replace `deepseek-v4-pro` deep_think_llm with `claude-sonnet-4-6` (or `gpt-4.1`) before pre-market Mon. Dry-run end-to-end on a 2-name watchlist before live use. Until fixed, no entries possible.
+- **Monitor list (post-NFP digest, Mon AM):**
+  - **AMD:** post-earnings drift; wait for pullback to $390-410 zone (currently $455, parabolic). Sizing: 1 share max at 20% cap.
+  - **NVDA:** wait for re-entry to $203-210 with score ≥70 + spread ≤0.30%. Sizing: 2 shares.
+  - **ETN:** post-earnings mean reversion; consolidation above $400 ideal entry $400-410. Sizing: 1 share.
+  - **VRT:** data center infrastructure; SEPA 7/7; ~$340. Add as 5th name to broaden watchlist.
+  - **NEW: scan for 2 sub-$200 SEPA passes in XLI/XLF** to fix sizing-cap problem (current candidates >$200 each consume 8-18% notional per share). Goal: have at least 2 names where 2-3 share sizing fits the 1% risk budget cleanly.
+- **Watchlist size target: 6 actionable names** (vs 3-4 currently). Include at least 2 from non-XLK sectors.
+- **CPI release Tue May 13 (8:30 AM ET):** binary event; gate may withhold tickets through Tue close depending on consensus vs print divergence.
+- **FOMC minutes Wed May 14:** secondary catalyst; less binary than CPI.
+- **Recordkeeping discipline:** commit EOD snapshot every trading day, including no-trade days. Two missed commits in two weeks is sloppy.
+
+### Next Week Watchlist (SEPA 7/7 verified May 8 close)
+| Ticker | Close | MA50 | 52wH | SEPA | Status | Catalyst | Entry zone | Sizing fit |
+|--------|-------|------|------|------|--------|----------|------------|-------------|
+| AMD | $455.19 | $254.51 | $455.19 (=high) | 7/7 ✓ | EXTENDED | Q1 beat + Q2 raise; Goldman $450 PT met | $390-410 (pullback) | 1 share = 18% cap |
+| NVDA | $215.22 | $188.65 | $216.61 | 7/7 ✓ | EXTENDED | China chip easing; UBS $350-400B 2027 DC | $203-210 | 2 shares = 17% cap |
+| ETN | $401.71 | $382.84 | $433.01 | 7/7 ✓ | ACTIONABLE | Q1 beat + FY raise; power infra backlog | $400-410 | 1 share = 16% cap |
+| VRT | $339.91 | $284.75 | $358.92 | 7/7 ✓ | ACTIONABLE | Data center infra; YTD +53% | $325-340 | 1 share = 14% cap |
+| MU | $746.79 | $448.89 | $746.79 (=high) | 7/7 ✓ | OUT — SIZE | HBM demand; Q3 print pending | n/a | exceeds 20% cap |
+
+POWL/OXY both removed. Gate-pass priority order Mon AM (post-picker-fix): ETN > VRT > NVDA > AMD.
+
+### Adjustments to TRADING-STRATEGY.md
+None. Strategy held under stress; rules behaved as designed. The binding issue is infrastructure (picker), not strategy. No rule change yet — revisit if 3rd consecutive flat week occurs.
+
+### Overall Grade: C
+Process discipline still intact (gate integrity perfect, no rules broken, correct removals of POWL/OXY), but output worsened materially: -2.34% vs S&P, picker offline 3 days unaddressed, watchlist narrowed without replacement. Two weeks flat against a +3.25% cumulative SPY rally is the limit of "patience > activity" before it tips into "infrastructure debt." Process: B+. Output: D. Combined: C. If week 3 doesn't fix the picker AND doesn't open ≥1 trade with a clean setup, downgrade further.
