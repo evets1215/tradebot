@@ -170,3 +170,27 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Twelfth consecutive flat day; week 2 closes 0-for-5, mirroring week 1. No positions, no orders, 0 trades today, 0 trades this week (cap 3/3 unused). Alpaca equity $2,500.00 = last_equity (balance_asof 2026-05-07; no activity rolled). No May 8 pre-market or market-open log was committed — recordkeeping gap only; Alpaca confirms no orders/fills. Carryover blocker from May 5-7: TradingAgents picker has produced 0 BUY signals for 3 consecutive days (DeepSeek API timeouts; deepseek-v4-pro too slow as deep_think_llm) — strategy rule requires TradingAgents BUY → no entry possible until infra fix. NFP binary (consensus 60K vs prior 178K, ADP 109K beat) was the dominant event today; with TradingAgents offline and watchlist names (AMD parabolic, NVDA above ideal zone $213 vs $197-205, ETN sector headwind, OXY de-listed) lacking a clean setup, cash preservation was the correct outcome regardless. Phase scorecard through 12 trading days: $2,500 → $2,500 (flat); 0 trades; 100% cash; gate discipline intact. Weekend action: weekly review (Fri/Sat); evaluate replacing deepseek-v4-pro with claude-sonnet-4-6 or another faster provider for deep_think_llm to restore picker functionality. Week 3 plan (Mon May 11): re-run TradingAgents with faster model post-NFP digest; screen AMD pullback to $390-400, NVDA to $203-210, ETN consolidation above $410; if TradingAgents BUY + R:R ≥ 3:1 + spread ≤0.30%, initiate single ticket ≤$500 with ≤1% account risk via limit order. Patience > activity.
+
+### May 11 — Market-Open (Day 13, Monday — Week 3 open)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Market-open gate results — live quotes ~9:46 AM ET (no tickets created):**
+- NVDA $219.35 ask / $219.27 bid (spread $0.08 = 0.036% ✓): REJECTED_BY_GATE — no PENDING ticket from `trade_gate.py`, no Slack approval, no TradingAgents BUY (picker still offline since May 5), no today's RESEARCH-LOG catalyst documented, price above ideal entry zone $203-210 (extended ~+4-8%). SEPA structure intact but R:R compressed at this level.
+- AMD $458.47 ask / $456.39 bid (spread $2.08 = 0.45%): REJECTED_BY_GATE — spread >0.30% threshold; also no PENDING ticket, no TradingAgents BUY, price above ideal zone $395-410 (extended ~+12-16%).
+- ETN $416.75 ask / $400.80 bid (spread $15.95 = 3.83%): REJECTED_BY_GATE — wide at-open spread; also no PENDING ticket, no TradingAgents BUY.
+- No pre-market research entry for 2026-05-11; TradingAgents picker not invoked (infra blocker since May 5 — deepseek-v4-pro timeouts); no `trade_gate.py propose` calls; PENDING-ORDERS.jsonl empty.
+
+**Decision:** HOLD. No order placed. Strategy hard-rule: new buys require PENDING ticket + Slack approval — neither exists. Day 13 carries forward the flat streak (now 13 trading days). Account flat at $2,500 (last_equity matches; balance_asof 2026-05-08 — no weekend activity rolled). Week 3 begins 0/3 weekly trades. Next windows: pre-market research today/tomorrow should resolve TradingAgents infra (swap deep_think_llm to claude-sonnet-4-6 or alt provider); re-screen NVDA on pullback to $203-210, AMD on pullback to $395-410, ETN on tight-spread consolidation above $410. Gate discipline intact — patience > activity.
+
+### May 11 — EOD Snapshot (Day 13, Monday — Week 3 open)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Thirteenth consecutive flat day; week 3 opens 0-for-1, mirroring weeks 1-2. No positions, no orders, 0 trades today, 0 trades this week (cap 3/3 unused). Alpaca equity $2,500.00 = last_equity (balance_asof 2026-05-08; no activity rolled). Market-open gate rejected all three screened names: NVDA at $219.35 with tight spread (0.036%) but extended ~+4-8% above ideal zone $203-210 and no TradingAgents BUY signal (picker still offline since May 5); AMD at $458.47 spread 0.45% (>0.30%) and extended ~+12-16% above ideal $395-410; ETN at $416.75 spread 3.83%. Carryover infra blocker: TradingAgents deep_think_llm (deepseek-v4-pro) timing out for 4 consecutive trading days — strategy hard-rule requires BUY signal, so no entry possible until picker restored. Phase scorecard through 13 trading days: $2,500 → $2,500 (flat); 0 trades; 100% cash; gate discipline intact. Tomorrow plan: pre-market research must resolve TradingAgents picker (swap to claude-sonnet-4-6 or alt provider); re-screen NVDA pullback to $203-210, AMD pullback to $395-410, ETN tight-spread consolidation; if BUY signal returns + R:R ≥ 3:1 + spread ≤0.30%, gate may approve single ticket ≤$500 with ≤1% account risk via limit order. Patience > activity.
