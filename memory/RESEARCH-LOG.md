@@ -940,3 +940,90 @@ Advisory context from Run 1 (all entry zones are below current prices — not ac
 
 ### Decision
 **HOLD — no entry.** TradingAgents produced 0 BUY signals for the 3rd consecutive day (DeepSeek API timeouts; deepseek-v4-pro too slow as deep_think_llm). Strategy rule requires TradingAgents BUY → no entry possible today. Market at record highs (S&P +0.81%) with strong AI/tech momentum; AMD and NVDA are top advisory candidates but both above optimal entry zones. NFP binary tomorrow (May 8) argues for cash preservation regardless. Cash 100%, 0/3 weekly trades. **Post-NFP window (Monday May 11): Re-run TradingAgents with faster model; screen AMD pullback to $390-400, NVDA to $203-210, ETN consolidation above $410 — if TradingAgents gives BUY and R:R ≥ 3:1, initiate with limit order.**
+
+---
+
+## 2026-05-11 — Pre-market Research (Week 3, Day 1)
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (margin)
+- **Positions:** 0 | **Open Orders:** 0 | **Daytrade Count:** 0 (0/3)
+- **Trades this week:** 0/3 | **balance_asof:** 2026-05-08
+- **Note:** Perplexity API returned 401 (invalid key) — all macro queries via WebSearch fallback.
+
+### Market Context
+- **WTI:** ~$95.42 (+3.08% premarket); **Brent:** ~$104.49 (+3.16%) — Iran deal collapsed over weekend; Trump rejected Tehran's proposal; Netanyahu warned conflict "not over." Oil bouncing sharply from last week's $93-97 range.
+- **S&P 500 Futures:** ESM26 ~7,415, -0.05% (essentially flat, slight risk-off tilt). S&P + Nasdaq each rallied 6 consecutive weeks through May 8.
+- **VIX:** 17.19 (May 8 close) — moderate, stable. No spike yet on geopolitical re-escalation.
+- **Geopolitical Risk:** ELEVATED — US-Iran ceasefire window closed; Hormuz disruption risk re-priced into oil. Stocks steady but futures slightly negative.
+- **Polymarket May 11 open probability:** 38% "Up" (down 12 pp on weekend Iran breakdown).
+
+### Economic Calendar — HEAVY WEEK
+| Date | Release | Expected |
+|------|---------|---------|
+| **Tue May 12** | **CPI April (8:30 AM ET) ← CRITICAL** | Headline +3.7% YoY / +0.6% MoM; Core +2.7% / +0.3% |
+| Mid-week | PPI April | TBD |
+| Mid-week | Retail Sales April | TBD |
+| Mid-week | Empire Manufacturing, Industrial Production | TBD |
+- CPI at 3.7% YoY vs Fed's 2% target = significant overshoot; hot print → risk-off; cool print → rally. Dominant binary for the week.
+
+### Sector Momentum (1W / 1M returns as of May 8 close)
+| ETF | Sector | 1W | 1M |
+|-----|--------|----|----|
+| XLK | Technology | **+9.36%** | **+21.70%** ← dominant |
+| SPY | S&P 500 | +2.88% | +7.67% |
+| XLB | Materials | +2.69% | -0.34% |
+| XLI | Industrials | +1.36% | +0.33% |
+| XLRE | Real Estate | +1.32% | +3.81% |
+| XLY | Cons. Disc. | +1.29% | +4.67% |
+| XLP | Cons. Staples | -0.20% | +2.24% |
+| XLV | Healthcare | -0.20% | -2.39% |
+| XLF | Financials | -0.81% | -0.97% |
+| XLU | Utilities | -3.14% | -3.18% |
+| XLE | Energy | **-5.24%** | -1.45% ← worst |
+- XLK overwhelmingly dominant; AI/semi momentum intact. XLE severely lagging on Iran oil-price swings (now partially reversing). Energy sector avoided — 2+ consecutive failed signals.
+
+### Sentiment on Held Tickers
+- No positions held. N/A.
+
+### SEPA Screen — Watchlist Candidates
+
+| Ticker | Price | 1W | 1M | MA50 | MA150 | MA200 | 200↑? | %Below52Hi | 1Y RS | SEPA |
+|--------|-------|----|----|------|-------|-------|-------|-----------|-------|------|
+| AMD | $459.25 | +34.5% | +87.4% | 259.69 | 236.45 | 218.84 | YES | 0.0% | 346.6% | 5/5 PASS |
+| NVDA | $219.88 | +10.8% | +16.6% | 189.50 | 187.24 | 184.95 | YES | 0.0% | 88.5% | 5/5 PASS |
+| VRT | $352.14 | +6.4% | +19.3% | 286.69 | 218.74 | 198.38 | YES | 1.9% | 274.8% | 5/5 PASS |
+| ETN | $401.42 | -4.7% | -0.1% | 382.35 | 361.74 | 361.36 | YES | 7.0% | 31.0% | 5/5 PASS* |
+
+*ETN: 1Y RS 31% fails RS ≥ 70 Minervini threshold. Remove from active list.
+
+### Actionable Trade Ideas
+
+| Ticker | Setup | Catalyst | Entry Zone | ATR Stop | Target | R:R | Catalyst Score | Status |
+|--------|-------|---------|-----------|---------|--------|-----|----------------|--------|
+| AMD | Post-earnings drift / base build | Q1 beat +38% YoY; Data Center; Q2 guide $11.2B; Goldman PT $450 | $420-440 (after consolidation) | $405 (~$20-35 risk) | $500 | ~2:1 | 16/20 | NO ENTRY — at 52w high, +87% in 1 month; chasing |
+| NVDA | Sector breakout resumption | China chip easing; AI capex cycle; UBS $350-400B 2027 DC | $210-218 | $200 (~$10-20 risk) | $260+ | ~3:1 | 15/20 | BORDERLINE — at 52w high; CPI binary tomorrow; wait |
+| VRT | Sector breakout / infrastructure play | Data center power; YTD +53%; near 52w high | $340-355 | $325 (~$15-25 risk) | $420 | ~3:1 | 13/20 | NEW CANDIDATE — 5/5 SEPA, strong RS 275%; but at highs, needs post-CPI assessment |
+
+**Week 3 plan from last log vs reality:**
+- AMD $390-400 pullback target: NO — AMD rallied to $459 (+34.5% last week); no pullback materialized
+- NVDA $203-210 pullback target: NO — NVDA at $219.88; slightly above ideal zone
+- ETN above $410: NO — ETN dipped to $401; RS 31% fails Minervini → removed from actionable list
+
+### Risk Factors
+- **CPI April (May 12 8:30 AM ET):** Hot print (+3.7%+ YoY) → risk-off selloff; cool print → rally extension. Dominant binary for entire week. Do NOT enter today.
+- **Iran geopolitical re-escalation:** Trump rejected peace deal; oil up 3%; Hormuz risk re-priced. Uncertain path for energy sector and broad market sentiment.
+- **AMD overextension:** +87% in 1 month, +346% in 1 year — at 52w high; entering here is momentum chasing, not a SEPA base entry
+- **NVDA at all-time high:** $219.88 with no base formation; entry now = buying strength without cushion
+- **Perplexity API failure:** Key invalid (401); using WebSearch fallback for all macro data — noted as infra issue to resolve
+- **TradingAgents:** Not run today (DeepSeek API issues unresolved from last week); strategy requires TradingAgents BUY signal
+
+### Decision
+**HOLD — no entry.** Multiple compounding reasons:
+1. CPI April releases TOMORROW May 12 at 8:30 AM ET — largest inflation print in weeks; +3.7% YoY expected. Binary event precludes new entries today.
+2. Iran deal collapsed → oil +3% premarket → geopolitical uncertainty elevated; S&P futures barely flat.
+3. All three SEPA candidates (AMD, NVDA, VRT) are at or within 2% of 52-week highs — no base formed, no safe entry zone.
+4. AMD post-earnings pullback to $390-400 (week 3 plan) did NOT occur; stock extended further to $459 — do not chase.
+5. ETN removed from actionable list (RS 31% < 70 Minervini threshold, -4.7% last week).
+6. TradingAgents not functional (DeepSeek API).
+**Post-CPI plan (May 12 onwards):** If CPI cool → assess NVDA pullback to $210-215 or VRT base; if CPI hot → stay cash, reassess mid-week. Cash 100%, 0/3 weekly trades. Patience > activity.
