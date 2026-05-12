@@ -1027,3 +1027,75 @@ Advisory context from Run 1 (all entry zones are below current prices — not ac
 5. ETN removed from actionable list (RS 31% < 70 Minervini threshold, -4.7% last week).
 6. TradingAgents not functional (DeepSeek API).
 **Post-CPI plan (May 12 onwards):** If CPI cool → assess NVDA pullback to $210-215 or VRT base; if CPI hot → stay cash, reassess mid-week. Cash 100%, 0/3 weekly trades. Patience > activity.
+
+---
+
+## 2026-05-12 — Pre-Market Research (Day 14, Tuesday — Week 3)
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (2x margin, unused)
+- **Positions:** 0 | **Open Orders:** 0 | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+- **balance_asof:** 2026-05-11 (no activity rolled)
+
+### Market Context
+- **Oil:** WTI ~$98/bbl | Brent ~$104.97/bbl — elevated on Hormuz closure (US-Iran tensions; Trump rejected Iran peace deal May 5); oil near 2026 high
+- **S&P 500 Futures:** -0.4% premarket (as of ~4 AM ET) | Nasdaq -0.7% | Dow -0.2% — broad caution ahead of CPI
+- **VIX:** 18.11 (+5.35% premarket, opening range 16.82-17.53) — elevated vs last week's 16.78; uncertainty rising
+- **CPI April (8:30 AM ET TODAY):** Not yet released at time of research. Consensus: +3.7% YoY / +0.6% MoM; Core CPI +0.3% MoM. Hot print (≥3.7%) → no rate cuts 2026, risk-off selloff likely; Cool print (≤3.5%) → rally extension, Nasdaq outperforms +1.5-2.5%
+- **Trump-Xi Summit:** May 14-15 in Beijing — tariff talks, potential managed-trade Board of Trade (~$30B purchase commitments), 500 Boeing aircraft deal possible; outcome uncertain; upside for AI/tech if US-China chip export restrictions ease further
+- **NVDA Earnings:** May 20, 2026 (BMO) — 8 days away; consensus $78.8B rev / $1.77 EPS; BLACKOUT window for new NVDA buys from now until post-reaction
+- **BoJ Summary of Opinions:** Released today (Asia session) — limited direct US market impact
+
+### Sector Momentum (as of May 11 close)
+| ETF | Sector | 1W | 1M |
+|-----|--------|----|----|
+| XLK | Technology | **+9.77%** | **+24.72%** ← dominant |
+| XLB | Materials | +3.18% | +0.58% |
+| SPY | S&P 500 | +2.97% | +8.81% |
+| XLI | Industrials | +2.37% | +2.05% |
+| XLY | Cons. Disc. | +1.40% | +5.74% |
+| XLRE | Real Estate | +1.11% | +4.09% |
+| XLP | Cons. Staples | -0.20% | +1.21% |
+| XLF | Financials | -0.78% | +0.81% |
+| XLV | Healthcare | -1.17% | -2.90% |
+| XLU | Utilities | -2.65% | -3.88% |
+| XLE | Energy | **-3.74%** | +0.40% ← worst |
+- XLK still overwhelmingly dominant (AI/semi momentum intact). XLE worst 1W despite high oil prices — market pricing demand-destruction risk from elevated energy costs. Healthcare and Utilities lagging.
+
+### Sentiment on Held Tickers
+- No positions held. N/A.
+
+### SEPA Screen — Watchlist Candidates
+
+| Ticker | Price | 52w Hi | %Below Hi | MA50 | MA150 | MA200 | 200↑? | 1W | 1M | 1Y RS | SEPA |
+|--------|-------|--------|-----------|------|-------|-------|-------|----|----|-------|------|
+| AMD | $458.79 | $458.79 | 0.0% | $259.68 | $236.44 | $218.84 | YES | +34.3% | +87.2% | +324% | **7/7 PASS** |
+| NVDA | $219.44 | $219.44 | 0.0% | $189.49 | $187.24 | $184.95 | YES | +10.6% | +16.3% | +78% | **7/7 PASS** |
+| VRT | $367.92 | $367.92 | 0.0% | $287.01 | $218.85 | $198.46 | YES | +11.2% | +24.7% | +265% | **7/7 PASS** |
+
+All three pass Minervini trend template (Stage 2: price > MA50 > MA150 > MA200, 200MA trending up, RS >> 70). All at 52-week highs with no base formation.
+
+### Actionable Trade Ideas
+
+| Ticker | Setup | Catalyst | Entry Zone | ATR Stop | Target | R:R | Status |
+|--------|-------|----------|-----------|---------|--------|-----|--------|
+| NVDA | Sector breakout / post-earnings drift | Q1 FY27 earnings May 20 expected $78.8B rev; AI capex supercycle; China summit chip easing optionality | POST-EARNINGS only (May 21+); if pullback to $215-220 after print | $205 | $265+ | ~3:1 | BLACKOUT — 8 days to earnings; no entry until post-reaction |
+| VRT | Infrastructure breakout | Data center power demand; +11.2% 1W driven by AI hyperscaler capex; no near-term earnings binary | Post-CPI only: $355-365 on intraday dip if CPI cool | $340 (~$20-25 risk) | $430 | ~3:1 | CANDIDATE — post-CPI cool print only; at 52w high, no base |
+| AMD | Post-earnings drift | Q1 beat +38% YoY, Data Center +57%; MI450 launch; Intel x86 AI partnership | Pullback only: $415-435 after consolidation | $400 (~$20-35 risk) | $530 | ~2.5:1 | NO ENTRY — at 52w high, +87% in 1M; parabolic; wait for base |
+
+### Risk Factors
+- **CPI April binary (TODAY 8:30 AM ET):** Hot ≥3.7% = no rate cuts 2026, risk-off selloff, VIX spike — stay cash. Cool ≤3.5% = potential VRT limit order if spread ≤0.30% + intraday dip setup.
+- **NVDA earnings blackout (May 20):** Strategy hard rule — no entry until post-reaction; earnings binary too large.
+- **All candidates at 52w highs:** No base formation on AMD, NVDA, or VRT — buying here is momentum chasing, not SEPA base entry.
+- **Trump-Xi summit May 14-15:** Outcome binary — deal progress → AI/chip rally; breakdown → sell-off; creates mid-week uncertainty.
+- **Hormuz / oil elevated:** Broad macro headwind if oil stays $98-105+; weighs on consumer discretionary and transportation costs.
+- **Perplexity API:** Still 401 (key invalid) — using WebSearch fallback for all macro data; noted infra issue.
+- **TradingAgents:** Not run (DeepSeek API unresolved from May 5); strategy requires BUY signal — no entry possible until picker restored.
+
+### Decision
+**HOLD — no entry.** Compounding blockers:
+1. CPI binary TODAY at 8:30 AM ET — do not enter before print; S&P futures -0.4% confirms market caution.
+2. NVDA earnings blackout May 20 (8 days) — cannot buy NVDA now; all other XLK names elevated.
+3. No base formation on any candidate — all three at 52w highs; SEPA 7/7 structure intact but entry now = chasing, not base-buying.
+4. TradingAgents picker still offline; strategy hard rule requires BUY signal.
+**Post-CPI trigger plan:** If CPI ≤3.5% (cool) → reassess VRT intraday dip to $355-365, confirm spread ≤0.30%, run signal score; if ≥70 → propose trade_gate.py ticket for Slack approval; size ≤$500 / ≤1% account risk. If CPI ≥3.7% (hot) → stay cash through week; reassess post-Trump-Xi summit May 15. Cash 100%, 0/3 weekly trades. Patience > activity.
