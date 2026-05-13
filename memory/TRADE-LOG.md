@@ -194,3 +194,51 @@ No positions yet. Bot launches tomorrow.
 | —      | —      | —     | —     | —       | —              | —    |
 
 **Notes:** Thirteenth consecutive flat day; week 3 opens 0-for-1, mirroring weeks 1-2. No positions, no orders, 0 trades today, 0 trades this week (cap 3/3 unused). Alpaca equity $2,500.00 = last_equity (balance_asof 2026-05-08; no activity rolled). Market-open gate rejected all three screened names: NVDA at $219.35 with tight spread (0.036%) but extended ~+4-8% above ideal zone $203-210 and no TradingAgents BUY signal (picker still offline since May 5); AMD at $458.47 spread 0.45% (>0.30%) and extended ~+12-16% above ideal $395-410; ETN at $416.75 spread 3.83%. Carryover infra blocker: TradingAgents deep_think_llm (deepseek-v4-pro) timing out for 4 consecutive trading days — strategy hard-rule requires BUY signal, so no entry possible until picker restored. Phase scorecard through 13 trading days: $2,500 → $2,500 (flat); 0 trades; 100% cash; gate discipline intact. Tomorrow plan: pre-market research must resolve TradingAgents picker (swap to claude-sonnet-4-6 or alt provider); re-screen NVDA pullback to $203-210, AMD pullback to $395-410, ETN tight-spread consolidation; if BUY signal returns + R:R ≥ 3:1 + spread ≤0.30%, gate may approve single ticket ≤$500 with ≤1% account risk via limit order. Patience > activity.
+
+### May 12 — Market-Open (Day 14, Tuesday — Week 3)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Market-open gate results — pre-CPI quotes (no tickets created):**
+- NVDA $218.91 bid (last close): REJECTED_BY_GATE — **EARNINGS BLACKOUT** (Q1 FY27 May 20, 8 days); no PENDING ticket; no Slack approval; no TradingAgents BUY (picker offline since May 5); SEPA 7/7 but at 52w high, no base.
+- VRT $347.92 bid (last close): REJECTED_BY_GATE — at 52w high $367.92, no base formation; post-CPI conditional only ($355-365 intraday dip + cool print); no PENDING ticket; no TradingAgents BUY.
+- AMD $485.52 ask / $438.14 bid (stale closing spread $47.38 = 10.8%): REJECTED_BY_GATE — extended +87% 1M, no base, parabolic; spread will likely tighten post-open but structure remains chasing; no PENDING ticket; no TradingAgents BUY.
+
+**Decision:** HOLD. No order placed. Compounding blockers from today's RESEARCH-LOG: (1) CPI April binary at 8:30 AM ET TODAY — S&P futures -0.4%, Nasdaq -0.7%, VIX +5.35% premarket = market caution; (2) NVDA earnings blackout May 20 (8 days); (3) no base on AMD/NVDA/VRT — all at 52w highs; (4) TradingAgents picker still offline (5th consecutive trading day) — strategy hard rule requires BUY signal; (5) no `trade_gate.py propose` ticket, no Slack approval. Account flat at $2,500 (last_equity matches; balance_asof 2026-05-11). Week 3: 0/3 weekly trades. Post-CPI trigger: if ≤3.5% (cool) → reassess VRT intraday dip to $355-365 with spread ≤0.30%; if ≥3.7% (hot) → stay cash through Trump-Xi summit May 14-15. Gate discipline intact — patience > activity.
+
+### May 12 — EOD Snapshot (Day 14, Tuesday — Week 3)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Fourteenth consecutive flat day; week 3 sits 0-for-2. No positions, no orders, 0 trades today, 0 trades this week (cap 3/3 unused). Alpaca equity $2,500.00 = last_equity (balance_asof 2026-05-11; no activity rolled). Market-open gate rejected all three screened names per the May 12 market-open log: NVDA on earnings blackout (Q1 FY27 May 20, 8 days) despite tight setup; VRT at 52w high with no base (post-CPI conditional only); AMD on stale 10.8% spread and parabolic structure (+87% 1M, no base). Compounding blockers persisted intraday: (1) CPI April binary delivered market caution (S&P futures -0.4%, Nasdaq -0.7%, VIX +5.35% premarket); (2) NVDA earnings blackout active through May 20; (3) all primary watchlist names extended at/near 52w highs without bases; (4) TradingAgents picker offline for 5th consecutive trading day (deepseek-v4-pro timeouts) — strategy hard rule requires BUY signal, so no entry possible until infra fix; (5) no `trade_gate.py propose` ticket, no Slack approval. Phase scorecard through 14 trading days: $2,500 → $2,500 (flat); 0 trades; 100% cash; gate discipline intact. Tomorrow plan (Wed May 13): pre-market research priority is TradingAgents picker repair (swap deep_think_llm to claude-sonnet-4-6 or alt provider); reassess NVDA only post-earnings (May 20+); screen VRT for base formation pullback to $325-345 with spread ≤0.30%; AMD requires meaningful retracement to $395-410 zone before reconsidering; monitor Trump-Xi summit May 14-15 binary risk. If TradingAgents BUY + R:R ≥ 3:1 + spread ≤0.30% + clean base, gate may approve single ticket ≤$500 with ≤1% account risk via limit order. Patience > activity.
+
+### May 13 — Market-Open (Day 15, Wednesday — Week 3)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Run note:** Scheduled market-open routine fired post-close (~4:56 PM ET local; Alpaca quote timestamps ~20:00–20:56 UTC). Live RTH execution window was not available; all quotes are stale closing/after-hours snapshots. Recordkeeping run only — no live execution attempted.
+
+**Market-open gate results — stale post-close quotes (no tickets created):**
+- NVDA $227.80 ask / $225.50 bid (spread $2.30 = 1.01%): REJECTED_BY_GATE — **EARNINGS BLACKOUT** (Q1 FY27 May 20, 7 days); spread >0.30%; no PENDING ticket; no Slack approval; no TradingAgents BUY (picker offline since May 5).
+- VRT $387.45 ask / $354.92 bid (stale AH spread $32.53 = 8.40%): REJECTED_BY_GATE — wide post-close spread; new 52w high $387.45 = extended further above $355-365 conditional zone; no base formation; no PENDING ticket; no TradingAgents BUY.
+- AMD $471.47 ask / $425.34 bid (stale post-close spread $46.13 = 9.79%): REJECTED_BY_GATE — extended above ideal $395-410 zone; no base; no PENDING ticket; no TradingAgents BUY.
+
+**Decision:** HOLD. No order placed. Compounding blockers carried from May 12 plus today's specifics: (1) NO RESEARCH-LOG entry for 2026-05-13 — strategy hard rule "Catalyst documented in today's RESEARCH-LOG" fails; (2) NVDA earnings blackout active through May 20 (7 days); (3) all watchlist names extended at/above 52w highs without bases (VRT printed fresh ATH); (4) TradingAgents picker offline for 6th consecutive trading day — strategy hard rule requires BUY signal; (5) no `trade_gate.py propose` ticket, no Slack approval; (6) scheduled run fired post-close — no live execution window even if a setup qualified. Account flat at $2,500 (last_equity matches; balance_asof 2026-05-12). Week 3: 0/3 weekly trades; 6/9 PDT slot room intact. Plan tomorrow (Thu May 14): pre-market research must run live at 7-8 AM ET to (a) attempt TradingAgents picker repair (swap to claude-sonnet-4-6), (b) capture Trump-Xi summit May 14-15 read-through (binary: deal progress → AI/chip rally; breakdown → sell-off), (c) re-screen VRT for any intraday pullback toward $355-365 with live spread ≤0.30%, (d) reassess AMD only on retrace to $395-410. NVDA stays in blackout. Gate discipline intact — patience > activity.
+
+### May 13 — EOD Snapshot (Day 15, Wednesday — Week 3)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Notes:** Fifteenth consecutive flat day; week 3 sits 0-for-3 with two trading days left. No positions, no orders, 0 trades today, 0 trades this week (cap 3/3 unused). Alpaca equity $2,500.00 = last_equity (balance_asof 2026-05-12; no activity rolled). Market-open routine fired post-close (~4:56 PM ET local) — recordkeeping run only, no live RTH execution window; all quotes were stale post-close/AH snapshots and all three screened names (NVDA, VRT, AMD) were rejected by gate. Compounding blockers persist: (1) no RESEARCH-LOG entry for 2026-05-13 — catalyst documentation hard rule fails; (2) NVDA earnings blackout active through May 20 (7 days); (3) VRT printed fresh 52w high $387.45 — further extended, no base; (4) AMD remains parabolic above $395-410 ideal zone; (5) TradingAgents picker offline for 6th consecutive trading day (deepseek-v4-pro timeouts) — strategy hard rule requires BUY signal; (6) no `trade_gate.py propose` ticket, no Slack approval. Phase scorecard through 15 trading days: $2,500 → $2,500 (flat); 0 trades; 100% cash; gate discipline intact. Tomorrow plan (Thu May 14): pre-market research at 7-8 AM ET must (a) attempt TradingAgents picker repair (swap deep_think_llm to claude-sonnet-4-6 or alt provider), (b) capture Trump-Xi summit May 14-15 read-through (binary: deal progress → AI/chip tailwind; breakdown → risk-off), (c) re-screen VRT only on intraday pullback toward $355-365 with live spread ≤0.30%, (d) reassess AMD only on retrace to $395-410, (e) NVDA remains in blackout. If TradingAgents BUY + R:R ≥ 3:1 + spread ≤0.30% + clean base + Slack approval, gate may approve single ticket ≤$500 with ≤1% account risk via limit order. Patience > activity.
