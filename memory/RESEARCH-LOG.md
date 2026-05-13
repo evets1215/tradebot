@@ -1099,3 +1099,79 @@ All three pass Minervini trend template (Stage 2: price > MA50 > MA150 > MA200, 
 3. No base formation on any candidate — all three at 52w highs; SEPA 7/7 structure intact but entry now = chasing, not base-buying.
 4. TradingAgents picker still offline; strategy hard rule requires BUY signal.
 **Post-CPI trigger plan:** If CPI ≤3.5% (cool) → reassess VRT intraday dip to $355-365, confirm spread ≤0.30%, run signal score; if ≥70 → propose trade_gate.py ticket for Slack approval; size ≤$500 / ≤1% account risk. If CPI ≥3.7% (hot) → stay cash through week; reassess post-Trump-Xi summit May 15. Cash 100%, 0/3 weekly trades. Patience > activity.
+
+---
+
+## 2026-05-13 — Pre-Market Research (Day 15, Wednesday — Week 3)
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (2x margin, unused)
+- **Positions:** 0 | **Open Orders:** 0 | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+- **balance_asof:** 2026-05-12 (no activity rolled)
+
+### Market Context (May 13 close)
+- **WTI Crude:** $101.00 (-1.15%) | **Brent:** $105.55 (-2.06%) — elevated on Hormuz/Iran tensions, slightly pulling back from recent highs
+- **S&P 500:** 7,444.25 (+0.58%, record high) | **Nasdaq:** 26,402.34 (+1.20%, record high) | **Dow:** 49,693.20 (-0.14%) | **Russell 2000:** 2,843.93 (+0.04%)
+- **VIX:** 17.87 (-0.67%) — moderate; fell despite hot PPI; markets absorbed inflation news
+- **10-Yr Treasury:** 4.481% (+0.40%) | **30-Yr:** 5.05% — yields rising on hot inflation
+- **Gold:** $4,697.10 (+0.22%)
+- **PPI April (released today):** +6.0% YoY (est. 4.8%) / +5.2% ex-food&energy (est. 4.3%) — VERY HOT; largest surprise in months. Yet Nasdaq +1.20% shrugged it off — tech/AI momentum > inflation fear.
+- **CPI April (released May 12):** +3.8% YoY — hot; driven by energy costs (Hormuz closure premium)
+- **Kevin Warsh confirmed as new Fed Chair** (Senate 54-45). Warsh has hawkish reputation; markets initially flat on news.
+- **Trump-Xi Summit:** May 14-15 in Beijing — Trump traveling with CEO delegation (Musk, Cook). BABA +8.18% today pricing in optimism; possible tariff de-escalation, AI/chip easing, Boeing deal (~500 aircraft).
+- **NVDA Earnings:** May 20 (BMO) — blackout active through post-reaction. NVDA $225.83 +2.29% today at new 52w high.
+- **Economic calendar today (May 13):** Primarily European releases (EU GDP Q1 flash 0.8% YoY, EU Industrial Production). No tier-1 US data today. Tomorrow (May 14): 87 events, Trump-Xi summit begins.
+
+### Sector Momentum (as of May 13 close)
+| ETF | Sector | 1W | 1M |
+|-----|--------|----|----|
+| XLK | Technology | **+4.01%** | **+21.45%** ← dominant |
+| XLE | Energy | +1.11% | +0.91% ← recovering |
+| XLV | Healthcare | +0.90% | -0.85% |
+| XLP | Cons. Staples | +0.57% | +3.89% |
+| SPY | S&P 500 | +1.16% | +8.19% |
+| XLB | Materials | -0.67% | -0.25% |
+| XLY | Cons. Disc. | -0.96% | +4.21% |
+| XLRE | Real Estate | -1.18% | +2.77% |
+| XLF | Financials | -1.64% | -1.30% |
+| XLI | Industrials | -1.84% | +0.52% |
+| XLU | Utilities | -2.28% | -3.71% |
+- XLK still dominant despite hot PPI. XLE swung from -3.74% last week to +1.11% 1W (oil elevated). XLF and XLI lagging on rate fears. XLU worst — rising yields hurt rate-sensitives.
+
+### Sentiment on Held Tickers
+- No positions held. N/A.
+
+### SEPA Screen — Watchlist Candidates
+
+| Ticker | Price | 52wHi | %BelowHi | 52wLo | %AboveLo | MA50 | MA150 | MA200 | 200↑? | 1Y RS | SEPA |
+|--------|-------|-------|----------|-------|---------|------|-------|-------|-------|-------|------|
+| VRT | $369.99 | $377.75 | 2.1% | $100.78 | +267% | $291.71 | $221.62 | $200.75 | YES (+60% 1Y slope) | +250.9% | **8/8 PASS** |
+| CSCO | $101.87 | $102.01 | 0.1% | $59.48 | +71.3% | $84.28 | $78.35 | $75.52 | YES (+16% 1Y slope) | +68.7% | **8/8 PASS** |
+
+**VRT detail:** Price $369.99 > MA50 $291.71 > MA150 $221.62 > MA200 $200.75 (all staircase ✓); 200MA trending steeply up (now $200.75 vs 1mo ago $179.73 vs 5mo ago $125.40); RS +250.9% 1Y (top decile); Stage 2, base ~3. Extended 27% above MA50 — no VCP formed at this level. Volume: 4.44M today vs 5.87M 20d avg (below average — no VDU signal yet).
+
+**CSCO detail:** Price $101.87 > MA50 $84.28 > MA150 $78.35 > MA200 $75.52 (all staircase ✓); 200MA trending up; RS +68.7% 1Y (above 70th percentile); Q1 CY2026 beat: EPS $0.80 vs $0.72 prior (+11.1% QoQ), Rev $15,349M vs $14,883M prior (+3.1% QoQ), stock +12.3% today; **breakout volume 40.21M = 2.0x 20d avg of 20.35M** — strong institutional participation. At 52w high ($102.01). EPS trend: $0.63→$0.71→$0.72→$0.80 (4 consecutive quarters of acceleration). Fundamentals B+.
+
+### Actionable Trade Ideas
+
+| Ticker | Setup | Catalyst | Entry Zone | Stop | Target | R:R | Status |
+|--------|-------|----------|-----------|------|--------|-----|--------|
+| CSCO | Post-earnings breakout / flat base candidate | Q1 CY2026 beat +12.3%, AI data center networking (Hypershield, Splunk integrations); 2x volume breakout today | Wait for flat base/handle: $97-102 after 1-2 week consolidation; pivot at $102-103 | $93-94 (~7%) | $118-125 (~18-25%) | ~2.5-3:1 | **WATCHLIST** — extended today; no base yet; monitor next 1-2 weeks |
+| VRT | Sector breakout continuation | AI data center power/cooling infrastructure; CSCO beat confirms hyperscaler capex thesis; +250.9% RS; no near-term earnings binary | Pullback to $340-355 + VCP formation (≥3 contractions) | $325-330 (~5-7% from entry zone) | $430-450 | ~3:1 | **WATCHLIST** — extended 27% above MA50; wait for meaningful retracement + base |
+
+### Risk Factors
+- **PPI very hot (today):** +6.0% YoY (est. 4.8%) — inflation reaccelerating; 10-yr yield 4.481% and rising; if yields spike to 4.7%+, growth stocks reprice lower.
+- **Kevin Warsh as Fed Chair:** Hawkish reputation; market hasn't fully priced new rate path yet — risk of hawkish surprise in coming weeks.
+- **Trump-Xi Summit binary (May 14-15):** Deal optimism already priced into BABA (+8.18%), tech names. Breakdown or non-outcome = giveback rally.
+- **NVDA earnings blackout (May 20):** Dominant sector name offline; XLK momentum intact but earnings reaction will reset sector.
+- **No base on either candidate:** VRT and CSCO both at/near 52w highs without proper VCP — buying here is momentum chasing, not SEPA base entry.
+- **TradingAgents picker offline:** 6th consecutive trading day; strategy hard rule requires BUY signal — no entry possible until infra fix.
+- **Perplexity API 401:** Using WebSearch/browse fallback for macro; noted infra issue (non-blocking).
+
+### Decision
+**HOLD — no entry.** Compounding blockers:
+1. PPI +6% YoY (very hot) — inflation reaccelerating; strategy rule requires ≥80 signal score in bad regimes; no signal at all (TradingAgents offline).
+2. Trump-Xi summit binary tomorrow — do not enter day before binary.
+3. No base on CSCO or VRT — both at/near 52w highs post-catalyst; SEPA 8/8 structure valid but entry now = chasing, not base-buying.
+4. No PENDING ticket, no Slack approval, no TradingAgents BUY signal.
+**Post-summit trigger plan (May 15+):** If summit produces deal (tariff/chip easing) → assess CSCO consolidation $97-102 for flat base entry (spread, volume, signal score ≥70); VRT pullback to $340-355. If summit disappoints → stay cash; watch for VIX spike and pullback on both names. Cash 100%, 0/3 weekly trades. Patience > activity.
