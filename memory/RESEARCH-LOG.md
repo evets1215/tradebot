@@ -1102,6 +1102,88 @@ All three pass Minervini trend template (Stage 2: price > MA50 > MA150 > MA200, 
 
 ---
 
+## 2026-05-15 — Pre-Market Research (Day 17, Friday — Week 3 close)
+
+### Account Snapshot
+- **Equity:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Buying Power:** $5,000 (2x margin, unused)
+- **Positions:** 0 | **Open Orders:** 0 | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+- **balance_asof:** 2026-05-13 (no activity rolled)
+
+### Market Context (May 15 pre-market)
+- **WTI Crude:** $103.37 (+2.17%) | **Brent:** $107.49 (+1.67%) — elevated; Trump announced China agreed to buy U.S. crude following Xi summit
+- **S&P 500 Futures:** -0.60% (7,480 vs ~7,526 prior close) — slight digest after breaching 7,500 on May 13-14
+- **VIX:** 17.26 (-3.41% on May 14 close) — below 20, risk-on environment intact
+- **10-Yr Treasury:** 4.518% | **30-Yr:** 5.062% — yields firm; stagflation risk (~40% priced by bond market)
+- **Gold:** $4,619 (-1.41%) — risk-on rotation out of gold
+- **Economic calendar today:** No tier-1 releases. Retail Sales released May 14. No CPI/PPI/FOMC today.
+- **Trump-Xi Summit Day 2 (KEY):** Constructive outcomes: (1) China buying U.S. crude oil; (2) China ordering ~200 Boeing jets; (3) **NVIDIA H200 chips cleared for China sales** — single largest AI/chip catalyst this week; (4) China to help reopen Strait of Hormuz (behind-the-scenes); (5) Xi Taiwan warning (tail risk). Characterized as extended truce, not formal tariff rollback.
+- **Kevin Warsh confirmed as Fed Chair** — hawkish reputation; bond market pricing Fed behind the curve
+- **Cerebras IPO +68%** on Nasdaq debut (~$95B mkt cap) — AI chipmaker demand wave confirmed
+- **Perplexity API:** 401 (ongoing) — using WebSearch fallback; noted in log
+
+### Sector Momentum (as of May 15 pre-market / May 14 close data)
+| ETF | Sector | Price | 1D% | 5D% | 1Mo% |
+|-----|--------|-------|-----|-----|------|
+| XLK | Technology | $179.50 | +1.50% | +5.78% | **+19.43%** ← dominant |
+| SPY | S&P 500 | $748.17 | +0.79% | +2.27% | +6.89% |
+| XLP | Cons. Staples | $84.98 | +0.31% | +1.19% | +4.84% |
+| XLE | Energy | $58.07 | +0.76% | **+3.79%** | +4.14% ← recovering |
+| XLI | Industrials | $174.51 | +0.51% | +0.29% | +1.95% |
+| XLRE | Real Estate | $43.91 | -0.68% | -1.10% | +1.15% |
+| XLB | Materials | $51.67 | -0.75% | +0.53% | +0.56% |
+| XLY | Cons. Disc. | $118.67 | -0.04% | -1.01% | +0.41% |
+| XLV | Healthcare | $146.63 | -0.05% | +1.32% | -0.77% |
+| XLF | Financials | $51.29 | +0.59% | -0.50% | -1.69% |
+| XLU | Utilities | $44.90 | +0.51% | -0.49% | **-2.43%** |
+- XLK +19.43% 1Mo — entirely dominant; H200/China clearance + CSCO earnings breakout amplifying. XLE 5D +3.79% recovering on China oil demand. XLU/XLF lagging on rising yields.
+
+### Sentiment on Held Tickers
+- No positions held. N/A.
+
+### SEPA Screen — Watchlist Candidates
+
+| Ticker | Price | 52wHi | %BelowHi | MA50 | MA150 | MA200 | 200↑? | RS(1Y) | Vol Ratio | SEPA |
+|--------|-------|-------|----------|------|-------|-------|-------|--------|-----------|------|
+| CSCO | $115.53 | $115.53 | 0.0% | $84.98 | $78.66 | $75.76 | YES | +83.9% | **3.44x** | **Stage2 ✓** |
+| VRT | $376.23 | $376.23 | 0.0% | $294.21 | $223.01 | $201.92 | YES | +257.5% | 0.61x | **Stage2 ✓** |
+| AMD | $449.70 | $458.79 | -2.0% | $274.72 | $241.06 | $222.97 | YES | +291.1% | 0.53x | **Stage2 ✓** |
+| NVDA | $235.74 | $235.74 | 0.0% | $192.23 | $188.05 | $185.73 | YES | +74.9% | 1.19x | **BLACKOUT** |
+
+**CSCO detail:** Second consecutive explosive day (+13.41%, 3.44x volume) following May 13 earnings beat (+12.3%). Now $115.53 — 36% above MA50 ($84.98). Catalyst today: H200/China AI infrastructure demand + Trump-Xi summit tailwind amplifying AI networking thesis (Cisco Hypershield + Splunk = AI data center play). Stage 2 confirmed, RS +83.9% 1Y. PROBLEM: Extended 36% above MA50 — no base formation, parabolic on day 2 of post-earnings run. NOT a SEPA entry today; watchlist for flat base at $107-116.
+
+**VRT detail:** $376.23 at new 52w high. Stage 2, RS +257.5%, 200MA strongly trending. 28% above MA50 ($294.21) — very extended. No VCP. Below-average volume (0.61x). Watchlist only — wait for pullback to $340-355.
+
+**AMD detail:** $449.70, -2% from 52w high. Stage 2, RS +291.1%. H200 China clearance indirectly bullish (China chip demand narrative). Still 64% above MA50 ($274.72) — parabolic structure from $110 lows. No clean base. Wait for meaningful retracement to $395-410.
+
+**NVDA detail:** $235.74 at new 52w high, +4.39% today on H200 China clearance. Earnings blackout through May 20 (5 days). Volume 1.19x (above average, institutional accumulation). CANNOT TRADE until post-earnings reaction settles.
+
+### Actionable Trade Ideas
+
+| Ticker | Setup | Catalyst | Entry Zone | Stop | Target | R:R | Status |
+|--------|-------|----------|-----------|------|--------|-----|--------|
+| CSCO | Post-earnings breakout — wait for flat base | H200 China clearance + AI networking thesis (Hypershield, Splunk); 2x consecutive volume breakout days | Flat base pivot: $112-116 after 1-2 wk consolidation; buy on tight-range breakout day w/ volume | $104-106 (~8%) | $135-145 (~20-25%) | ~2.5-3:1 | **WATCHLIST** — 36% above MA50; no base yet; monitor week 4 |
+| VRT | Sector breakout continuation — wait for VCP | AI data center power/cooling; dominant RS +257%; no near-term earnings binary | Pullback to $340-355 + 3-contraction VCP; pivot above $360 | $325-330 (~5-7%) | $430-450 | ~3:1 | **WATCHLIST** — extended; wait for meaningful retracement |
+| AMD | China chip demand — wait for base at ideal zone | H200 clearance → China demand revival; AMD China exposure; RS +291% | Retracement to $395-415 + base formation | $370-380 (~5-7%) | $475-500 | ~3:1 | **WATCHLIST** — still extended; requires -12% pullback from here |
+
+### Risk Factors
+- **NVDA earnings May 20 (5 days):** Dominant XLK name; earnings reaction will reset sector tone. H200 clearance raises bar for earnings reaction (buy the rumor, sell the news risk).
+- **Stagflation (~40% probability priced):** WTI $103, CPI +3.8%, PPI +6.0%, Warsh hawkish Fed — if yields spike to 4.7%+, XLK reprices lower.
+- **Oil VIX at 68.92:** Hormuz closure tail risk still elevated. Energy sector reactive.
+- **Xi Taiwan warning:** Tail risk; breakdown in summit tone could trigger risk-off quickly.
+- **All watchlist names parabolic / extended:** CSCO +25% in 2 days, NVDA at 52w high, VRT at 52w high, AMD near 52w high — zero bases available for SEPA entry.
+- **TradingAgents picker offline:** 8th consecutive trading day (deepseek-v4-pro timeouts) — strategy hard rule requires BUY signal; no entry possible until infra fix.
+- **S&P futures -0.60%:** Pre-market digest; not alarming but direction uncertain into close.
+
+### Decision
+**HOLD — no entry.** Compounding blockers:
+1. TradingAgents picker offline (8th consecutive day) — strategy hard rule requires BUY signal before any buy order; infra fix remains highest-priority unforced error.
+2. All four candidates parabolic / no base: CSCO +25% in 2 days (36% above MA50); VRT 28% above MA50; AMD 64% above MA50; NVDA in earnings blackout.
+3. No PENDING ticket from `trade_gate.py`, no Slack approval.
+4. Week 3 closes flat (0/3 weekly trades); PDT slots 3/3 intact.
+**Week 4 trigger plan (Mon May 18+):** Priority 1: Restore TradingAgents picker (swap deep_think_llm to claude-sonnet-4-6 — 8 days blocked is unacceptable); Priority 2: Post-NVDA earnings (May 20) — watch reaction for clean entry on pullback if blackout lifts cleanly; Priority 3: CSCO flat base at $107-116 (1-2 wk consolidation needed post-2-day parabolic); Priority 4: VRT pullback to $340-355; AMD to $395-415. Cash 100%, 0/3 weekly trades. Patience > activity.
+
+---
+
 ## 2026-05-13 — Pre-Market Research (Day 15, Wednesday — Week 3)
 
 ### Account Snapshot
