@@ -1257,3 +1257,72 @@ All three pass Minervini trend template (Stage 2: price > MA50 > MA150 > MA200, 
 3. No base on CSCO or VRT — both at/near 52w highs post-catalyst; SEPA 8/8 structure valid but entry now = chasing, not base-buying.
 4. No PENDING ticket, no Slack approval, no TradingAgents BUY signal.
 **Post-summit trigger plan (May 15+):** If summit produces deal (tariff/chip easing) → assess CSCO consolidation $97-102 for flat base entry (spread, volume, signal score ≥70); VRT pullback to $340-355. If summit disappoints → stay cash; watch for VIX spike and pullback on both names. Cash 100%, 0/3 weekly trades. Patience > activity.
+
+---
+
+### 2026-05-20 — Pre-Market Research (Day 20, Wednesday — Week 4)
+
+**Account Snapshot**
+- Equity: $2,500.00 | Cash: $2,500.00 (100%) | Buying Power: $5,000 (2x)
+- Positions: 0 | Open Orders: 0 | Daytrade count: 0/3
+- Trades this week: 0/3 | Phase P&L: $0.00 (flat, 20 consecutive days)
+
+**Market Context** *(Perplexity 401 fallback: WebSearch/yfinance used; noted)*
+- **Oil:** WTI ~$103/bbl, Brent ~$110/bbl — Hormuz closure premium persists (US-Iran conflict); EIA projects WTI $102-104 Q2 avg
+- **Futures (premarket):** S&P 500 -0.4%, Nasdaq 100 -0.78%, Dow -0.31%, Russell -0.62% — risk-off; NVDA earnings overhang and tech selling the open
+- **VIX:** ~18.17 (prior close 17.82); 30-day range 16.18-21.56; moderate — not elevated, but ticking up on NVDA uncertainty
+- **Economic calendar:** No tier-1 US macro releases today (May 20). NVDA Q1 FY27 earnings AMC (~4:20 PM ET) is the market-moving event.
+- **Sector momentum (as of May 19 close):**
+
+| ETF | Sector | Price | 1D % | 1W % | 1M % |
+|-----|--------|-------|------|------|------|
+| XLE | Energy | $61.29 | +1.17% | **+6.46%** | **+11.29%** ← leader |
+| XLP | Cons. Staples | $86.09 | +0.22% | +1.95% | +4.49% |
+| XLV | Healthcare | $147.32 | +1.10% | +1.01% | -0.07% |
+| SPY | S&P 500 | $733.73 | -0.67% | -0.60% | +3.53% |
+| XLF | Financials | $51.10 | -1.24% | -0.93% | -2.91% |
+| XLK | Technology | $173.24 | -0.64% | -1.12% | +12.09% |
+| XLRE | Real Estate | $43.94 | +0.43% | -1.44% | -1.57% |
+| XLU | Utilities | $44.34 | +0.91% | -1.88% | -3.08% |
+| XLY | Cons. Disc. | $115.03 | -1.11% | -2.76% | -4.04% |
+| XLI | Industrials | $168.74 | -1.18% | -3.22% | -2.97% |
+| XLB | Materials | $49.04 | -2.35% | **-5.95%** | **-6.11%** ← laggard |
+
+- **Rotation:** XLE has overtaken XLK as weekly sector leader. XLK still strong 1M (+12.09%) but under pressure near-term (-1.12% 1W) ahead of NVDA print. XLB/XLI weakest. Energy + defensive staples/healthcare are the week's leaders.
+- **NVDA earnings setup:** Consensus EPS $1.77, Revenue ~$78.8B, Data Center >$65B, non-GAAP margin >74%. Options pricing 5-10% post-earnings move. Q2 guidance + Blackwell/Rubin supply comments are the tell. This is the single most important print of the quarter — sector direction resets tonight.
+
+**Sentiment on Held Tickers**
+- No positions held. N/A.
+
+**SEPA Screen — 2026-05-20**
+
+| Ticker | Price | 52W Hi | % from Hi | MA50 | MA150 | MA200 | 200MA↑ | RS vs SPY (1Y) | Stage 2 | Volume vs 20d |
+|--------|-------|--------|-----------|------|-------|-------|--------|----------------|---------|---------------|
+| CSCO | $115.38 | $118.88 | -2.9% | $87.36 | $79.66 | $76.52 | YES | **+48.7%** | **PASS** | 1.28x (above avg) |
+| XOM | $162.55 | $170.31 | -4.6% | $154.41 | $135.24 | $128.60 | YES | **+27.7%** | **PASS** | 1.22x (above avg) |
+
+**CSCO detail:** Q3 FY26 catalyst confirmed (revenue $15.8B +12% YoY, AI hyperscaler orders raised from $5B → $9B; HSBC PT $137). Staircase MAs ✓; 200MA trending steeply up. Stock has consolidated tight ($114.5-$118.9, ~4% range) for 5 trading days post-May 13 gap-up. ATH = $118.88 (May 18). Extended 32% above MA50 — not a VCP entry; entry only on clean pivot breakout above ATH ($119+) on volume ≥30M. Spread check required at open.
+
+**XOM detail:** Energy sector leader. Staircase MAs ✓; 200MA trending up (124.29 → 128.60). RS +27.7% 1Y vs SPY. Only 5% above MA50 — reasonable extension. Oil at $103/bbl Hormuz premium supports energy earnings. No near-term earnings binary. Volume modestly elevated. Entry on pullback to $155-160 (near MA50 support) or breakout above $170 ATH.
+
+**Actionable Trade Ideas**
+
+| Ticker | Setup | Catalyst | Entry Zone | Stop | Target | R:R | Status |
+|--------|-------|----------|-----------|------|--------|-----|--------|
+| CSCO | Flat-base breakout above ATH | Q3 FY26 beat; AI orders $9B; HSBC PT $137; 5-day tight consolidation $114-119 | Pivot above $118.88 on volume ≥30M; entry $119-121 | $113-114 (below consolidation low, ~5%) | $135-137 | ~3:1 | **WATCHLIST** — monitor post-NVDA; if tech rallies, CSCO ATH breakout is primary candidate |
+| XOM | Energy sector momentum / near-ATH | Hormuz-elevated oil ($103 WTI); XLE 14-week win streak; Stage 2; no earnings binary | Pullback to $155-160 (near MA50) | $150-151 (below MA50, ~3%) | $178-185 | ~3.5:1 | **WATCHLIST** — watch for energy sector continuation; not chasing here |
+
+**Risk Factors**
+- **NVDA earnings AMC (tonight):** 5-10% post-market swing expected. If miss/weak guide → tech sector selloff, CSCO and AI-linked names pull back; XOM/XLE may benefit from rotation. If beat → tech rallies, CSCO breakout window opens.
+- **Premarket risk-off (-0.78% Nasdaq):** Markets entering NVDA print with defensive positioning. Do not buy into weakness before a binary.
+- **Oil elevated ($103-110/bbl):** Supports XOM/XLE thesis but also drives inflation fears (CPI April was already +3.8% YoY); risk of Fed hawkishness re-pricing.
+- **TradingAgents picker OFFLINE:** 11th consecutive day (deepseek-v4-pro timeouts). Strategy hard rule requires BUY signal — no entry without repair. This remains the single biggest unforced error blocking execution.
+- **No PENDING ticket, no Slack approval.**
+- **Spreads unknown at open:** Will be wide pre-open; must verify ≤0.30% in RTH before any gate proposal.
+
+**Decision: HOLD — no entry today.**
+1. NVDA earnings AMC is an unavoidable binary — entering any AI/tech or sector name today is premature until direction is confirmed tomorrow.
+2. Premarket Nasdaq -0.78% — risk-off into the print.
+3. TradingAgents picker offline (day 11) — strategy hard rule blocks entry.
+4. No PENDING ticket, no Slack approval.
+**Tomorrow plan (Thu May 21 — NVDA post-earnings day):** (a) Pre-market research must capture NVDA reaction and sector read-through (AMD, AVGO, MU sympathy moves); (b) if NVDA beats and tech rallies → re-evaluate CSCO for ATH pivot breakout above $118.88 with spread ≤0.30% and volume ≥30M (repair TradingAgents or use manual signal score ≥70); (c) if NVDA disappoints → stay cash, watch XOM/XLE for energy rotation continuation on pullback to $155-160; (d) VRT remains extended — no new look without pullback to $340-355; (e) attempt TradingAgents picker repair (swap to claude-sonnet-4-6) as pre-condition for any gate submission. Patience > activity.
