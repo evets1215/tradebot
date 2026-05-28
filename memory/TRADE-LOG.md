@@ -378,6 +378,25 @@ Week 5 sits 0/3 weekly trades used; 6/9 PDT slots intact. Phase scorecard throug
 
 **Plan today (Wed May 27, RTH 9:30 ET — 16:00 ET):** pre-market research MUST run live at 7-9 AM ET to (a) repair TradingAgents picker (swap deep_think_llm to claude-sonnet-4-6 — 14-day infra blocker is THE single biggest unforced error of the phase; this MUST land today), (b) document NVDA Q1 FY27 print result retroactively (EPS/rev actual vs $1.77/$78.8B consensus, Data Center beat/miss, Q2 guide, Blackwell/Rubin commentary) + observed May 21/22/26 RTH reaction and current tape, (c) capture sector read-through to AMD/AVGO/MU/CSCO and XLK regime shift post-print, (d) reconcile missing May 22 recordkeeping (market-open + EOD + weekly review backfills) and add a real May 26 + May 27 RESEARCH-LOG entry, (e) re-screen CSCO only on base-building toward $114-119 with live spread ≤0.30% AND post-NVDA tech tape support, (f) XOM on pullback to MA50 (~$154) only on energy continuation, (g) never chase NVDA post-print — wait for first-day base / clean re-entry. If TradingAgents BUY + R:R ≥ 3:1 + spread ≤0.30% + clean base + RESEARCH-LOG catalyst + Slack approval, gate may approve single ticket ≤$500 with ≤1% account risk via limit order at midday or post-close as appropriate. Patience > activity.
 
+### May 28 — Market-Open (Day 26, Thursday — Week 5 day 4, pre-RTH recordkeeping)
+**Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Trades this week:** 0/3 | **Daytrade count:** 0/3
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| —      | —      | —     | —     | —       | —              | —    |
+
+**Run note:** Scheduled market-open routine fired pre-RTH (~3:03 AM ET local; Alpaca clock `is_open: false`, next_open 2026-05-28 09:30 ET, ~6.5 hrs ahead). Live RTH execution window not available — recordkeeping run only, no live execution attempted. Pre-market RESEARCH-LOG for 2026-05-28 IS committed (commit b756164) with full SEPA screens on CSCO and AMZN and an explicit HOLD decision; this market-open run defers to that decision.
+
+**Account snapshot:** Alpaca confirms equity $2,500.00 = last_equity (balance_asof 2026-05-27; no May 27 RTH fills rolled). Cash 100%, no positions, no open orders, daytrade_count 0/3, PDT false, multiplier 2 (non-margin path). PENDING-ORDERS.jsonl absent (no pending tickets).
+
+**Watchlist quotes (stale closing/AH cross — pre-RTH; not actionable):** CSCO ask $124.22 / bid $114.10 (spread $10.12 = 8.1%, REJECTED_BY_GATE >0.30%); AMZN ask $285.06 / bid $258.23 (spread $26.83 = 9.4%, REJECTED_BY_GATE >0.30%). Both spreads are pre-RTH artifacts and will tighten at 9:30 ET; revalidation must happen live in RTH.
+
+**Decision:** HOLD. No order placed — market closed pre-RTH. Hard-rule blockers also present even if execution window were live: (1) Pre-market RESEARCH-LOG already locked in **HOLD — no trade today** on five independent grounds (PCE+GDP binary today, signal scores CSCO 61 / AMZN 59 both <70 threshold, TradingAgents picker offline 15+ days, neither pivot broken, patience > activity); (2) TradingAgents picker offline 15+ consecutive trading day (deepseek-v4-pro timeouts) — strategy hard rule requires BUY signal, no entry possible until infra fix; (3) no `scripts/trade_gate.py propose` ticket, no Slack approval; (4) PENDING-ORDERS.jsonl absent; (5) PCE + Core PCE + Q1 GDP second reading + Initial Claims all release 8:30 AM ET today — never enter into a live macro data release; (6) at-open spreads on watchlist names (CSCO, AMZN) will be wide and must be revalidated in RTH if a setup ever materializes; (7) scheduled run fired pre-RTH at ~3:03 AM ET local — no live execution window even if a setup qualified.
+
+Week 5 sits 0/3 weekly trades used; 6/9 PDT slots intact. Phase scorecard through 26 trading days (counting Memorial Day holiday recordkeeping day): $2,500 → $2,500 (flat); 0 trades; 100% cash; gate discipline intact.
+
+**Plan today (Thu May 28, RTH 9:30 ET — 16:00 ET):** (a) DO NOT enter any position before 8:30 AM ET PCE + GDP releases clear and the tape digests; (b) post-8:30 reaction tree — if Core PCE < 3.3% y/y (dovish surprise), re-screen CSCO breakout above $120.41 pivot on vol ≥40M and AMZN breakout above $274.99 on vol ≥65M with live spread ≤0.30%; if Core PCE > 3.3% (hawkish miss), hold cash and wait for reset; (c) repair TradingAgents picker — 15-day infra blocker (swap deep_think_llm to claude-sonnet-4-6) is THE single biggest unforced error of the phase and MUST land today; (d) do not chase — both CSCO (31% above MA50, late-stage base) and AMZN (condition 6 marginal at 36.8% above 52w low) carry extension risk; (e) any qualifying setup must still produce a `trade_gate.py propose` PENDING ticket + Slack approval + R:R ≥ 3:1 + live spread ≤0.30% + ≤$500 notional + ≤1% account risk + limit order before any execution. Patience > activity.
+
 ### May 27 — EOD Snapshot (Day 25, Wednesday — Week 5 mid)
 **Portfolio:** $2,500.00 | **Cash:** $2,500.00 (100%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** $0.00 (0.00%)
 
