@@ -1326,3 +1326,146 @@ All three pass Minervini trend template (Stage 2: price > MA50 > MA150 > MA200, 
 3. TradingAgents picker offline (day 11) — strategy hard rule blocks entry.
 4. No PENDING ticket, no Slack approval.
 **Tomorrow plan (Thu May 21 — NVDA post-earnings day):** (a) Pre-market research must capture NVDA reaction and sector read-through (AMD, AVGO, MU sympathy moves); (b) if NVDA beats and tech rallies → re-evaluate CSCO for ATH pivot breakout above $118.88 with spread ≤0.30% and volume ≥30M (repair TradingAgents or use manual signal score ≥70); (c) if NVDA disappoints → stay cash, watch XOM/XLE for energy rotation continuation on pullback to $155-160; (d) VRT remains extended — no new look without pullback to $340-355; (e) attempt TradingAgents picker repair (swap to claude-sonnet-4-6) as pre-condition for any gate submission. Patience > activity.
+
+---
+
+## 2026-05-28 — Pre-market Research (Day 26, Thursday — Week 5 day 4)
+
+### Account
+- Equity: $2,500.00
+- Cash: $2,500.00 (100%)
+- Buying power: $5,000.00 (2× margin, non-PDT path)
+- Daytrade count: 0/3
+- Open positions: 0 | Open orders: 0
+- Trades this week: 0/3
+
+### Market Context
+- **WTI:** ~$88.39/bbl (lowest since April 2026; second straight weekly decline on Hormuz peace hopes — US-Iran deal reportedly close, US Navy restarting Strait escort)
+- **Brent:** ~$96.30/bbl (+2.13% today) *(note: WTI/Brent spread widening)*
+- **S&P 500 futures (premarket):** ES ~7,538.50 — roughly flat; "rally gathers steam on chip strength, peace hopes" (Schwab); S&P on 8th consecutive weekly win, multiple new record highs this week
+- **VIX:** ~17.26 — moderate, drifting down with the rally
+- **Earnings before open:** None on watchlist
+- **Economic calendar (HIGH IMPORTANCE):**
+  - **PCE + Core PCE** (Fed preferred inflation gauge): BofA forecast +0.4% m/m headline (3.8% y/y), Core +0.3% m/m (3.3% y/y) — well above Fed 2% target; hawkish miss risk
+  - **Q1 GDP second reading**: Also releasing today — potential revision to the tariff-driven -0.3% Q1 print
+  - **Initial Jobless Claims**: ~209K recent reading (next reading also today)
+- **Sector momentum (as of May 27 close):**
+
+| ETF | Sector | Price | 1D % | 1W % | 1M % |
+|-----|--------|-------|------|------|------|
+| XLK | Technology | $184.43 | -0.38% | **+6.46%** | **+14.86%** ← leader |
+| XLY | Cons. Disc. | $121.55 | +1.76% | +5.67% | +3.15% |
+| IWM | Small Caps | $290.37 | -0.05% | **+6.36%** | +4.77% |
+| XLI | Industrials | $174.30 | 0.00% | +3.30% | +1.04% |
+| XLB | Materials | $51.18 | +0.37% | +4.36% | -1.16% |
+| XLP | Cons. Staples | $84.58 | +1.14% | -1.75% | +2.72% |
+| XLV | Healthcare | $148.79 | +0.19% | +1.00% | +3.72% |
+| XLRE | Real Estate | $44.63 | -0.18% | +1.57% | +2.62% |
+| XLU | Utilities | $45.14 | -0.42% | +1.80% | -2.27% |
+| XLF | Financials | $51.42 | -0.83% | +0.63% | -0.75% |
+| XLE | Energy | $56.99 | -1.49% | **-7.02%** | +0.39% ← laggard |
+| SPY | S&P 500 | $750.46 | -0.02% | +2.28% | +4.93% |
+| QQQ | Nasdaq 100 | $729.45 | -0.11% | +3.98% | +9.82% |
+
+- **Regime:** Strong bull. Tech (XLK) dominant 1M +14.86%, small caps participating (IWM +6.36% 1W). Energy has completely reversed — XLE -7.02% 1W as Hormuz peace hopes crush the risk premium. XOM now BELOW MA50 ($147.90 vs MA50 $154.46) — energy thesis broken.
+
+### NVDA Q1 FY27 Retroactive Documentation (May 20, 2026 AMC)
+*(documenting the 8-calendar-day gap — last RESEARCH-LOG entry was May 20)*
+- **Revenue:** $81.6B actual vs $78.8B consensus (+3.6% beat); +85% YoY, +20% QoQ; record quarter
+- **Non-GAAP EPS:** $1.87 actual vs $1.77 consensus; GAAP EPS $2.39
+- **Data Center:** $75.2B (+92% YoY) — record; Blackwell/Rubin supply commentary positive
+- **Gross margins:** 74.9% GAAP / 75.0% non-GAAP ✅
+- **Q2 FY27 guide:** $91.0B ±2% — above consensus ~$88.5B
+- **Capital return:** $80B additional buyback authorization; dividend $0.01 → $0.25/share (+2400%)
+- **Stock reaction:** +1.37% AH to $223.63, then "sell the news" — NVDA had run +13.7% into print; current $212.60 (-9.8% from 52W high $235.74). Still above all MAs (MA50 $198.09).
+- **AI read-through:** MU +76.99% 1M (parabolic); AVGO +0.88% 1M (consolidating); AMD and tech sector broadly ripping (XLK +14.86% 1M). NVDA beat validated the AI infrastructure cycle continues.
+
+### Sentiment on Held Tickers
+- No positions held. N/A.
+
+### SEPA Screen — 2026-05-28
+
+#### CSCO — Trend Template
+| # | Condition | Status | Value |
+|---|---|---|---|
+| 1 | Price > 150MA & 200MA | PASS | $119.67 > $81.30 & $77.77 |
+| 2 | 150MA > 200MA | PASS | $81.30 > $77.77 |
+| 3 | 200MA trending up ≥1 month | PASS | $77.77 now vs $75.72 (1mo ago) vs $67.27 (4mo ago) |
+| 4 | 50MA > 150MA & 200MA | PASS | $91.41 > $81.30 & $77.77 |
+| 5 | Price > 50MA | PASS | $119.67 > $91.41 |
+| 6 | Price ≥ 30% above 52W low | PASS | +94.2% above 52W low $61.62 |
+| 7 | Price within 25% of 52W high | PASS | -0.6% from $120.41 ATH |
+| 8 | RS > 70th percentile | PASS (est.) | ~+94% 1Y vs SPY est. ~+25% → RS ~92+ |
+
+**Stage 2 ✅ | All 8 conditions PASS**
+
+Pattern: Post-earnings **flat base** forming (May 14–present). Range: $114.35–$120.41 (depth ~5%). Volume drying up (0.8x–1.0x 20D avg on consolidation days). Pivot: $120.41.
+
+- Entry: Breakout above $120.41 on volume ≥ 40.5M (1.5× avg)
+- Stop: $114.00 (below base low; 5.4% risk from pivot)
+- Position size: $25 risk ÷ $6.41/share = 3 shares; notional $361 (14.5% of account)
+- Target 2:1 R:R: $133.20 | Target 3:1 R:R: $139.60
+- **R:R concern:** Analyst consensus PT $124.45 only gives 0.6:1 R:R — inadequate. Extended target $135+ required for 2:1; street PT must expand or stock must re-rate to justify entry.
+- Extension warning: Price is 31% above MA50 price average — very late-stage, higher failure risk
+- **Signal score (manual, TradingAgents offline):** RS 18 + Vol 8 + Catalyst 16 + Earnings 12 + Technical 10 − Valuation 3 − Liquidity 0 = **61/70** — BELOW 70 threshold
+
+**CSCO: WATCHLIST — trend template passes, but not actionable (below signal threshold, pivot unbroken, R:R to street PT inadequate, extended)**
+
+#### AMZN — Trend Template
+| # | Condition | Status | Value |
+|---|---|---|---|
+| 1 | Price > 150MA & 200MA | PASS | $271.85 > $232.88 & $231.01 |
+| 2 | 150MA > 200MA | PASS | $232.88 > $231.01 (narrow; watch) |
+| 3 | 200MA trending up ≥1 month | PASS | $231.01 now vs $226.74 (1mo ago) vs $218.99 (4mo ago) |
+| 4 | 50MA > 150MA & 200MA | PASS | $244.28 > $232.88 & $231.01 |
+| 5 | Price > 50MA | PASS | $271.85 > $244.28 |
+| 6 | Price ≥ 30% above 52W low | PASS | +36.8% above 52W low $198.79 (barely clears 30%) |
+| 7 | Price within 25% of 52W high | PASS | -1.1% from $274.99 ATH |
+| 8 | RS > 70th percentile | MARGINAL | 1Y est. +36.8% vs SPY est. ~+25% → modest outperformance; RS ~72 |
+
+**Stage 2 ✅ | All 8 conditions PASS (condition 8 marginal)**
+
+Fundamentals: EPS growth +74.8% YoY (A grade); Revenue growth +16.6% (>15% ✅); Gross margin 50.6%; Forward P/E 27.6× (reasonable for 75% earnings growth). Catalyst: AWS AI infrastructure spend, advertising unit expansion, retail margin improvement.
+
+Pattern: Flat base forming (May 13–present). Range: $259.34–$274.99 (depth ~6%). Volume has been declining to 0.6x–0.9x 20D avg on consolidation = volume dry-up signal ✅. Pivot: $274.99.
+
+- Entry: Breakout above $274.99 on volume ≥ 65M (1.5× avg 43.4M)
+- Stop: $258.50 (below base low $259.34; 6.0% risk from pivot)
+- Position size: $25 risk ÷ $16.49/share = 1.5 → 1 share; notional $275 (11.0% of account)
+- Target 2:1 R:R: $308.00 | Target 3:1 R:R: $324.50
+- **R:R assessment:** 2:1 at $308 is plausible given AWS AI growth trajectory; 3:1 at $324 is achievable over a longer hold.
+- Condition 6 marginal warning: Only 6.8% above the 30% minimum — if stock pulls back to $258.50 stop, we would be testing the Stage 2 floor.
+- **Signal score (manual):** RS 14 + Vol 7 + Catalyst 14 + Earnings 14 + Technical 13 − Valuation 3 − Liquidity 0 = **59/70** — BELOW 70 threshold
+
+**AMZN: WATCHLIST — better R:R than CSCO, strong fundamentals, but signal score below threshold and pivot unbroken**
+
+### Trade Ideas
+
+| Ticker | Setup | Catalyst | Entry | Stop | Target | R:R | Sig Score | Status |
+|--------|-------|----------|-------|------|--------|-----|-----------|--------|
+| CSCO | Post-earnings flat base | Q3 FY26 AI orders $9B, beat; HSBC PT $137 | Above $120.41 pivot, vol ≥40M | $114.00 | $133-140 | 2-3:1 | 61 | WATCHLIST |
+| AMZN | Flat base near ATH | AWS AI growth, EPS +75% YoY | Above $274.99 pivot, vol ≥65M | $258.50 | $308-325 | 2-3:1 | 59 | WATCHLIST |
+
+### Risk Factors
+- **PCE + GDP today (MAJOR):** Core PCE forecast 3.3% y/y is well above Fed's 2% target. Hawkish print → rate-hike fears re-price → market selloff. Do NOT enter any position before this data clears.
+- **Market at all-time highs after 8-week rally:** Late-cycle risk; breakouts from extended bases have higher failure rates. Regime is still bull but breadth must be monitored.
+- **Hormuz peace deal uncertainty:** Hopes are priced in (XLE -7% 1W, WTI $88). If talks collapse → oil spikes, rotation out of tech.
+- **NVDA "sell the news" pattern:** NVDA -9.8% from ATH post-print despite beat; risk of broader semiconductor consolidation (MU parabolic, AVGO consolidating).
+- **TradingAgents picker OFFLINE:** Day 15+ (deepseek-v4-pro timeouts). Strategy hard rule: BUY signal required before any trade. No signal = no entry regardless of setup quality. This is THE single biggest unforced error of the phase; must be resolved by user.
+- **Signal scores below 70:** Both CSCO and AMZN score ~59-61 manually. Gate requires ≥70.
+- **No PENDING ticket, no Slack approval.**
+- **CSCO extension:** 31% above MA50 average price — late-stage base, higher failure probability.
+
+### Decision: **HOLD — no trade today**
+1. PCE + GDP releases are binary macro events; never enter into a live data release
+2. Signal scores (CSCO 61, AMZN 59) both below the 70 minimum threshold
+3. TradingAgents offline (day 15+) — strategy hard rule requires BUY signal
+4. Neither CSCO nor AMZN has broken out above its pivot point
+5. Patience > activity
+
+**Watch for tomorrow (Fri May 29 — Week 5 close + weekly review):**
+- (a) PCE/GDP reaction: if core PCE < 3.3% (dovish surprise) → risk-on, CSCO/AMZN breakout risk increases; if > 3.3% → hold cash, wait for reset
+- (b) CSCO: watch for breakout above $120.41 with vol ≥40M; only valid in RTH after PCE settles
+- (c) AMZN: watch for breakout above $274.99 with vol ≥65M; preferred candidate if RS > 70 confirmed
+- (d) TradingAgents repair MUST be user-actioned — 15 days offline is unacceptable; user must swap `deep_think_llm` config to `claude-sonnet-4-6`
+- (e) Weekly review due Friday afternoon — document Week 5 performance (0 trades, 5 opportunities screened)
